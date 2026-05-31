@@ -69,9 +69,26 @@ GitHub then serves everything in `docs/` at `https://sharjeel45557.github.io/dru
 If you publish from a different branch/folder, update `feedURL` in
 `PharmaPulse/Services/FeedService.swift` to match.
 
-## Later: full automation (optional)
+## Automated weekly job (built — keeps your review gate)
 
-To make this hands-off, move the generation prompt into a GitHub Actions
-cron workflow that calls the Anthropic API + a web-search API (Brave/SerpAPI),
-writes `docs/feed.json`, and opens a PR for you to approve (keeps your review
-gate). Ping Claude to scaffold `.github/workflows/weekly-feed.yml` when ready.
+`.github/workflows/weekly-feed.yml` runs every **Monday 13:00 UTC** (and on
+demand via *Actions → Weekly PharmaPulse feed → Run workflow*). It:
+
+1. runs `pipeline/generate_feed.py`, which calls the **Claude API** with the
+   built-in **web_search** tool — Claude does the Citeline searches itself,
+   classifies, writes impact analysis, dedupes against the current feed, and
+   returns the updated `docs/feed.json`;
+2. validates it against `pipeline/feed.schema.json` and enforces ids/ordering
+   and the insights.citeline.com-only rule;
+3. opens a **pull request** — nothing publishes until *you* review and merge.
+
+### One-time setup to activate it
+1. Add the API key: **Settings → Secrets and variables → Actions → New
+   repository secret**, name `ANTHROPIC_API_KEY`.
+2. **Merge this branch into `main`.** GitHub only runs *scheduled* workflows
+   from the default branch, and Pages serves from `main`/`docs`.
+3. (Optional) test immediately with *Run workflow*; review the PR it opens.
+
+No web-search API subscription is needed — search is handled server-side by the
+Claude API. The semi-manual prompt above still works any time you prefer to
+drive it yourself.
