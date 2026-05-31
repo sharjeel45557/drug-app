@@ -1,88 +1,11 @@
 {
   "schemaVersion": 1,
   "generatedAt": "2026-05-31T00:00:00Z",
-  "weekRange": "May 25 – May 31, 2026",
+  "weekRange": "2026 Year-to-Date (Jan – May 2026)",
   "source": "PharmaPulse Weekly Briefing",
   "articles": [
     {
       "id": 1,
-      "category": "Phase III / Approvals",
-      "catClass": "cat-phase3",
-      "borderClass": "border-phase3",
-      "headline": "Pipeline Watch: Thirteen Approvals And Three Phase III Readouts",
-      "details": "A weekly late-stage snapshot logged thirteen new approvals and three Phase III readouts across oncology, immunology and cardiometabolic disease for the week ending May 26, 2026.",
-      "drugs": "Multiple late-stage assets across oncology, immunology and cardiometabolic indications; large-cap and biotech sponsors reporting at medical conferences and in company releases.",
-      "impact": "A heavy approval week signals continued regulatory throughput despite agency upheaval, supporting near-term launch revenue for sponsors. Three positive Phase III readouts de-risk pipelines and can move small/mid-cap valuations sharply. Investors watch for label breadth and competitive overlap in crowded I-O and obesity markets.",
-      "date": "2026-05-26"
-    },
-    {
-      "id": 2,
-      "category": "Phase III / Approvals",
-      "catClass": "cat-phase3",
-      "borderClass": "border-phase3",
-      "headline": "Pipeline Watch: Eleven Approvals And One Phase III Readout",
-      "details": "The prior week's Pipeline Watch tallied eleven approvals and a single Phase III readout, reflecting a front-loaded approval cadence early in the month.",
-      "drugs": "Late-stage candidates spanning rare disease, oncology and CNS; sponsors disclosing at conferences and in financial presentations.",
-      "impact": "Consistent double-digit approval counts week over week underscore a productive 2026 launch environment. A thin readout slate shifts catalyst attention to upcoming data drops. Commercial teams should track which approvals open new therapeutic categories versus add to me-too competition.",
-      "date": "2026-05-18"
-    },
-    {
-      "id": 3,
-      "category": "Complete Response Letter",
-      "catClass": "cat-crl",
-      "borderClass": "border-crl",
-      "headline": "Breaking: US FDA's Bitopertin CRL Shows CNPV Cannot Overcome Surrogate Endpoint Woes",
-      "details": "The FDA issued a complete response letter for Disc Medicine's bitopertin, signaling that a Commissioner's National Priority Voucher could not compensate for reliance on a surrogate endpoint.",
-      "drugs": "Bitopertin (Disc Medicine) for erythropoietic protoporphyria; surrogate-endpoint–dependent rare-disease programs broadly.",
-      "impact": "The CRL is a cautionary marker for sponsors banking on surrogate endpoints and expedited vouchers, and pressured Disc Medicine's near-term outlook. It tightens the evidentiary bar for rare-disease filings, raising development cost and timeline risk. Competitors with clinical-outcome data gain relative positioning.",
-      "date": "2026-05-20"
-    },
-    {
-      "id": 4,
-      "category": "Complete Response Letter",
-      "catClass": "cat-crl",
-      "borderClass": "border-crl",
-      "headline": "US FDA Defends Review Consistency In Second CRL For Replimune's RP1",
-      "details": "Replimune's resubmitted BLA for RP1 drew a second complete response letter, with the FDA defending the consistency of its review standards.",
-      "drugs": "RP1 / vusolimogene oderparepvec (Replimune) in advanced melanoma; oncolytic immunotherapy and accelerated-approval candidates.",
-      "impact": "A second CRL is a severe setback that resets Replimune's regulatory timeline and weighed heavily on the stock. The decision carries a warning for accelerated-approval programs that the agency will hold firm on confirmatory evidence. Melanoma combination-therapy rivals benefit from the delay.",
-      "date": "2026-05-14"
-    },
-    {
-      "id": 5,
-      "category": "Complete Response Letter",
-      "catClass": "cat-crl",
-      "borderClass": "border-crl",
-      "headline": "US FDA Emphasizes Primary Endpoint Primacy In Vatiquinone, Lytenava CRLs",
-      "details": "Recent CRLs for vatiquinone and Lytenava show the FDA stressing the primacy of pre-specified primary endpoints over supportive secondary analyses.",
-      "drugs": "Vatiquinone (PTC Therapeutics) for Friedreich's ataxia; Lytenava / bevacizumab-gamma (Outlook Therapeutics) for wet AMD.",
-      "impact": "The agency's emphasis on primary-endpoint success raises the bar for programs leaning on secondary or post hoc data, affecting rare-disease and ophthalmology sponsors. PTC and Outlook face additional studies and cash burn. The signal reinforces disciplined trial design as a competitive and capital-efficiency differentiator.",
-      "date": "2026-05-12"
-    },
-    {
-      "id": 6,
-      "category": "Biosimilar",
-      "catClass": "cat-biosimilar",
-      "borderClass": "border-biosimilar",
-      "headline": "FDA Approval Sets Stage For Accord's 2026 Denosumab Biosimilars Rollout",
-      "details": "Accord secured FDA approval for its denosumab biosimilars, positioning the company for a 2026 US commercial rollout against the Prolia/Xgeva franchise.",
-      "drugs": "Denosumab biosimilars (Accord) referencing Amgen's Prolia and Xgeva; the multibillion-dollar bone-health and oncology supportive-care market.",
-      "impact": "New denosumab entrants intensify price competition against Amgen's franchise, accelerating erosion as multiple biosimilars converge in 2026. Payers gain leverage for formulary discounts, pressuring originator revenue. Accord's launch readiness and contracting will determine share capture in a fast-commoditizing class.",
-      "date": "2026-05-22"
-    },
-    {
-      "id": 7,
-      "category": "Biosimilar",
-      "catClass": "cat-biosimilar",
-      "borderClass": "border-biosimilar",
-      "headline": "Henlius-Organon Wins EU's First Perjeta Biosimilar Approval",
-      "details": "Henlius and Organon obtained the EU's first biosimilar approval referencing Perjeta (pertuzumab), branded Poherdy, with approvals landing on two continents on May 1, 2026.",
-      "drugs": "Poherdy (pertuzumab biosimilar; Henlius/Organon) referencing Roche's Perjeta; HER2-positive breast cancer market.",
-      "impact": "The first Perjeta biosimilar opens biosimilar competition in HER2+ breast cancer, threatening Roche's pertuzumab revenue as exclusivity lapses in Europe. Organon's commercial reach could speed uptake and pricing pressure. Roche's Phesgo subcutaneous combination becomes a key defensive lever to retain share.",
-      "date": "2026-05-01"
-    },
-    {
-      "id": 8,
       "category": "FDA Biosimilar Policy",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -93,18 +16,62 @@
       "date": "2026-05-28"
     },
     {
-      "id": 9,
+      "id": 2,
+      "category": "Phase III / Approvals",
+      "catClass": "cat-phase3",
+      "borderClass": "border-phase3",
+      "headline": "Pipeline Watch: Thirteen Approvals And Three Phase III Readouts",
+      "details": "A weekly late-stage snapshot logged thirteen new approvals and three Phase III readouts across oncology, immunology and cardiometabolic disease for the week ending May 26, 2026.",
+      "drugs": "Multiple late-stage assets across oncology, immunology and cardiometabolic indications; large-cap and biotech sponsors reporting at medical conferences and in company releases.",
+      "impact": "A heavy approval week signals continued regulatory throughput despite agency upheaval, supporting near-term launch revenue for sponsors. Three positive Phase III readouts de-risk pipelines and can move small/mid-cap valuations sharply. Investors watch for label breadth and competitive overlap in crowded I-O and obesity markets.",
+      "date": "2026-05-26"
+    },
+    {
+      "id": 3,
+      "category": "Biosimilar",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "FDA Approval Sets Stage For Accord's 2026 Denosumab Biosimilars Rollout",
+      "details": "Accord secured FDA approval for its denosumab biosimilars, positioning the company for a 2026 US commercial rollout against the Prolia/Xgeva franchise.",
+      "drugs": "Denosumab biosimilars (Accord) referencing Amgen's Prolia and Xgeva; the multibillion-dollar bone-health and oncology supportive-care market.",
+      "impact": "New denosumab entrants intensify price competition against Amgen's franchise, accelerating erosion as multiple biosimilars converge in 2026. Payers gain leverage for formulary discounts, pressuring originator revenue. Accord's launch readiness and contracting will determine share capture in a fast-commoditizing class.",
+      "date": "2026-05-22"
+    },
+    {
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
-      "headline": "Challenges Abound To Sustain European Biosimilars 'Advantage'",
-      "details": "As Europe marked 20 years since its first biosimilar approval, stakeholders warned that sustaining the region's biosimilar lead will require smarter regulation and sustainable competition.",
-      "drugs": "European biosimilar portfolios across TNF inhibitors, oncology and ophthalmology; manufacturers competing on tender-based markets.",
-      "impact": "Race-to-the-bottom tender pricing threatens supply sustainability and could deter future biosimilar investment in Europe. Policy reforms on interchangeability and procurement will shape long-term competition and savings. Manufacturers must balance volume share against margin viability to remain in the market.",
-      "date": "2026-05-07"
+      "headline": "Semaglutide For MASH Among Five New Products Awaiting EMA Verdict",
+      "details": "The EMA's CHMP was set to opine on five new products, including semaglutide for non-cirrhotic MASH and therapies for serious liver and ultra-rare mitochondrial disorders.",
+      "drugs": "Semaglutide for MASH (Novo Nordisk); plus orphan therapies for liver disease and a rare mitochondrial disorder; EU metabolic and rare-disease markets.",
+      "impact": "An EU nod for semaglutide in MASH would extend Novo Nordisk's GLP-1 franchise into a large, newly addressable liver-disease market. Positive opinions for orphan drugs open premium-priced EU niches. CHMP outcomes set the cadence for European launches and reimbursement talks.",
+      "date": "2026-05-22",
+      "id": 4
     },
     {
-      "id": 10,
+      "category": "EU Regulatory",
+      "catClass": "cat-eu",
+      "borderClass": "border-eu",
+      "headline": "After US Stumble, AbbVie Wins EU Backing For Botox Primer",
+      "details": "AbbVie secured a positive CHMP opinion for its fast-acting neurotoxin (a Botox successor/primer) following an earlier US setback.",
+      "drugs": "AbbVie's fast-acting botulinum neurotoxin; complements/extends the Botox franchise; aesthetics and therapeutic neurotoxin market.",
+      "impact": "EU backing salvages momentum for AbbVie's next-generation neurotoxin after a US stumble, protecting its leadership in a lucrative aesthetics market. A faster-onset profile could differentiate against rivals like Daxxify. The US path remains the key swing factor for the franchise.",
+      "date": "2026-05-22",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "Breaking: US FDA's Bitopertin CRL Shows CNPV Cannot Overcome Surrogate Endpoint Woes",
+      "details": "The FDA issued a complete response letter for Disc Medicine's bitopertin, signaling that a Commissioner's National Priority Voucher could not compensate for reliance on a surrogate endpoint.",
+      "drugs": "Bitopertin (Disc Medicine) for erythropoietic protoporphyria; surrogate-endpoint–dependent rare-disease programs broadly.",
+      "impact": "The CRL is a cautionary marker for sponsors banking on surrogate endpoints and expedited vouchers, and pressured Disc Medicine's near-term outlook. It tightens the evidentiary bar for rare-disease filings, raising development cost and timeline risk. Competitors with clinical-outcome data gain relative positioning.",
+      "date": "2026-05-20"
+    },
+    {
+      "id": 7,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -115,7 +82,73 @@
       "date": "2026-05-19"
     },
     {
-      "id": 11,
+      "id": 8,
+      "category": "Phase III / Approvals",
+      "catClass": "cat-phase3",
+      "borderClass": "border-phase3",
+      "headline": "Pipeline Watch: Eleven Approvals And One Phase III Readout",
+      "details": "The prior week's Pipeline Watch tallied eleven approvals and a single Phase III readout, reflecting a front-loaded approval cadence early in the month.",
+      "drugs": "Late-stage candidates spanning rare disease, oncology and CNS; sponsors disclosing at conferences and in financial presentations.",
+      "impact": "Consistent double-digit approval counts week over week underscore a productive 2026 launch environment. A thin readout slate shifts catalyst attention to upcoming data drops. Commercial teams should track which approvals open new therapeutic categories versus add to me-too competition.",
+      "date": "2026-05-18"
+    },
+    {
+      "id": 9,
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "US FDA Defends Review Consistency In Second CRL For Replimune's RP1",
+      "details": "Replimune's resubmitted BLA for RP1 drew a second complete response letter, with the FDA defending the consistency of its review standards.",
+      "drugs": "RP1 / vusolimogene oderparepvec (Replimune) in advanced melanoma; oncolytic immunotherapy and accelerated-approval candidates.",
+      "impact": "A second CRL is a severe setback that resets Replimune's regulatory timeline and weighed heavily on the stock. The decision carries a warning for accelerated-approval programs that the agency will hold firm on confirmatory evidence. Melanoma combination-therapy rivals benefit from the delay.",
+      "date": "2026-05-14"
+    },
+    {
+      "id": 10,
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "US FDA Emphasizes Primary Endpoint Primacy In Vatiquinone, Lytenava CRLs",
+      "details": "Recent CRLs for vatiquinone and Lytenava show the FDA stressing the primacy of pre-specified primary endpoints over supportive secondary analyses.",
+      "drugs": "Vatiquinone (PTC Therapeutics) for Friedreich's ataxia; Lytenava / bevacizumab-gamma (Outlook Therapeutics) for wet AMD.",
+      "impact": "The agency's emphasis on primary-endpoint success raises the bar for programs leaning on secondary or post hoc data, affecting rare-disease and ophthalmology sponsors. PTC and Outlook face additional studies and cash burn. The signal reinforces disciplined trial design as a competitive and capital-efficiency differentiator.",
+      "date": "2026-05-12"
+    },
+    {
+      "category": "FDA Regulatory",
+      "catClass": "cat-regulatory",
+      "borderClass": "border-regulatory",
+      "headline": "With Unapproved Drug Complete Response Letters Now Public, Are Action Packages Next?",
+      "details": "Following the FDA's move to publish CRLs for unapproved drugs, industry analysis examined whether fuller review action packages could be disclosed next.",
+      "drugs": "Sponsors across all therapeutic areas with pending or rejected applications; transparency-sensitive development programs.",
+      "impact": "Greater CRL transparency reshapes how sponsors manage disclosure, investor communication and competitive intelligence. Rivals gain visibility into deficiencies, while investors get earlier risk signals. It raises the bar on data quality and regulatory strategy ahead of filings.",
+      "date": "2026-05-10",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "category": "Industry Outlook",
+      "catClass": "cat-outlook",
+      "borderClass": "border-outlook",
+      "headline": "US FDA's 2026 Lineup Of Novel Approval Candidates",
+      "details": "An industry analysis mapped the 2026 slate of novel approval candidates, with at least 55 novel agents seeking FDA clearance across the year.",
+      "drugs": "55+ novel agents under review spanning obesity, oncology, immunology, neurology and vaccines; major and emerging biopharma sponsors.",
+      "impact": "A deep 2026 candidate pipeline frames the year's catalyst calendar and competitive launch sequencing, especially in obesity and oncology. Approval clustering in hot categories will sharpen pricing and share battles. Investors should prioritize assets with differentiated profiles and first/best-in-class positioning.",
+      "date": "2026-05-09"
+    },
+    {
+      "id": 13,
+      "category": "EU Regulatory",
+      "catClass": "cat-eu",
+      "borderClass": "border-eu",
+      "headline": "Challenges Abound To Sustain European Biosimilars 'Advantage'",
+      "details": "As Europe marked 20 years since its first biosimilar approval, stakeholders warned that sustaining the region's biosimilar lead will require smarter regulation and sustainable competition.",
+      "drugs": "European biosimilar portfolios across TNF inhibitors, oncology and ophthalmology; manufacturers competing on tender-based markets.",
+      "impact": "Race-to-the-bottom tender pricing threatens supply sustainability and could deter future biosimilar investment in Europe. Policy reforms on interchangeability and procurement will shape long-term competition and savings. Manufacturers must balance volume share against margin viability to remain in the market.",
+      "date": "2026-05-07"
+    },
+    {
+      "id": 14,
       "category": "Accelerated Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -126,7 +159,7 @@
       "date": "2026-05-05"
     },
     {
-      "id": 12,
+      "id": 15,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -137,15 +170,213 @@
       "date": "2026-05-03"
     },
     {
-      "id": 13,
+      "id": 16,
+      "category": "Biosimilar",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "Henlius-Organon Wins EU's First Perjeta Biosimilar Approval",
+      "details": "Henlius and Organon obtained the EU's first biosimilar approval referencing Perjeta (pertuzumab), branded Poherdy, with approvals landing on two continents on May 1, 2026.",
+      "drugs": "Poherdy (pertuzumab biosimilar; Henlius/Organon) referencing Roche's Perjeta; HER2-positive breast cancer market.",
+      "impact": "The first Perjeta biosimilar opens biosimilar competition in HER2+ breast cancer, threatening Roche's pertuzumab revenue as exclusivity lapses in Europe. Organon's commercial reach could speed uptake and pricing pressure. Roche's Phesgo subcutaneous combination becomes a key defensive lever to retain share.",
+      "date": "2026-05-01"
+    },
+    {
+      "category": "EU Regulatory",
+      "catClass": "cat-eu",
+      "borderClass": "border-eu",
+      "headline": "Imdylltra & Zepzelca For Small Cell Lung Cancer Among Five Drugs To Get EMA Nod",
+      "details": "The CHMP recommended five medicines for EU approval, including Imdylltra and Zepzelca for small cell lung cancer, alongside orphan drugs for lung cancer and a rare immunodeficiency.",
+      "drugs": "Imdylltra / tarlatamab (Amgen) and Zepzelca / lurbinectedin (Jazz) in SCLC; plus orphan oncology and immunodeficiency therapies.",
+      "impact": "EU backing in small cell lung cancer expands access for two differentiated mechanisms in a high-unmet-need tumor. It strengthens Amgen's and Jazz's European oncology positions and competitive footprint. Reimbursement negotiations will shape the pace of uptake.",
+      "date": "2026-04-24",
+      "id": 17
+    },
+    {
+      "category": "Biosimilar",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "FDA Says Yes To Dr Reddy's Orencia Biosimilar Review",
+      "details": "The FDA accepted Dr Reddy's BLA for its proposed abatacept biosimilar to Orencia, keeping it on track for a potential late-2026 US approval.",
+      "drugs": "Abatacept biosimilar (Dr Reddy's) referencing Bristol Myers Squibb's Orencia; rheumatoid arthritis and immunology market.",
+      "impact": "A first abatacept biosimilar would open competition against BMS's Orencia franchise and create new payer savings leverage in immunology. Acceptance de-risks Dr Reddy's biosimilar roadmap and US ambitions. Approval timing versus exclusivity will determine launch economics.",
+      "date": "2026-04-20",
+      "id": 18
+    },
+    {
+      "category": "Phase III / Approvals",
+      "catClass": "cat-phase3",
+      "borderClass": "border-phase3",
+      "headline": "Pipeline Watch: One Approval And Seventeen Phase III Readouts",
+      "details": "A late-stage snapshot recorded just one approval against seventeen Phase III readouts, a readout-dominated week.",
+      "drugs": "Late-stage assets across oncology, immunology and metabolic disease disclosed at conferences and in company updates.",
+      "impact": "A readout-heavy, approval-light week shifts near-term value drivers to clinical data rather than launches. Seventeen reads create clustered volatility for affected names. Positive surprises can rapidly re-rate small/mid-cap developers.",
+      "date": "2026-04-13",
+      "id": 19
+    },
+    {
+      "category": "M&A / Deals",
+      "catClass": "cat-deals",
+      "borderClass": "border-deals",
+      "headline": "Dealmaking Quarterly Statistics, Q1 2026: $54bn In M&A Value",
+      "details": "Biopharma M&A deal value reached $54bn in Q1 2026 across 41 announced deals, with alliances drawing $88.7bn in potential value, capped by a late-March run of multibillion-dollar bids.",
+      "drugs": "Sector-wide; acquirers targeting approved products, late-stage assets and precision-medicine platforms amid looming patent cliffs.",
+      "impact": "A strong Q1 confirms reacquelerating dealmaking driven by patent-cliff urgency and cash-rich large caps. Premiums concentrate on de-risked, proven assets, lifting valuations for late-stage biotechs. Smaller platform companies become acquisition targets, supporting sector sentiment.",
+      "date": "2026-04-10",
+      "id": 20
+    },
+    {
+      "category": "FDA Regulatory",
+      "catClass": "cat-regulatory",
+      "borderClass": "border-regulatory",
+      "headline": "March Mildness: Familiar Faces And Standard Reviews On US FDA's Scorecard",
+      "details": "A regulatory performance tracker found March's FDA decisions were dominated by repeat review cycles and standard reviews rather than breakthrough first-time approvals.",
+      "drugs": "Novel candidates in crowded areas (hemophilia, heart disease, urinary tract infections) plus first potential therapies for a rare eye disease and hyperphagia.",
+      "impact": "A 'mild' month of standard reviews signals cautious early-2026 approval momentum and fewer near-term blockbuster launches. Repeat cycles raise development costs and delay revenue for affected sponsors. Investors should recalibrate catalyst timing toward later in the year.",
+      "date": "2026-04-03",
+      "id": 21
+    },
+    {
+      "category": "FDA Drug Approval",
+      "catClass": "cat-approval",
+      "borderClass": "border-approval",
+      "headline": "Oral Obesity Battle Begins As FDA Approves Lilly's Foundayo (Orforglipron)",
+      "details": "The FDA approved Eli Lilly's oral GLP-1 orforglipron (Foundayo) for obesity, with shipping starting in early April 2026 and direct competition against Novo Nordisk's oral semaglutide.",
+      "drugs": "Orforglipron / Foundayo (Eli Lilly), oral GLP-1; competing with Novo Nordisk's Wegovy/oral semaglutide and Lilly's own injectable Zepbound; the multibillion-dollar obesity market.",
+      "impact": "As the first convenient once-daily oral GLP-1 pill, Foundayo could dramatically expand the obesity market beyond injectables and pressure Novo Nordisk's franchise. Lilly's manufacturing scale for a small-molecule oral gives it a cost and access edge over peptide rivals. Pricing, supply and payer coverage will determine how fast it converts the large treatment-naive population.",
+      "date": "2026-04-01",
+      "id": 22
+    },
+    {
+      "category": "Phase III / Approvals",
+      "catClass": "cat-phase3",
+      "borderClass": "border-phase3",
+      "headline": "Pipeline Watch: Thirteen Approvals And Eighteen Phase III Readouts",
+      "details": "A late-stage snapshot logged thirteen approvals and an unusually heavy eighteen Phase III readouts across multiple therapy areas.",
+      "drugs": "Broad late-stage set spanning oncology, immunology, cardiometabolic and rare disease; large-cap and biotech sponsors.",
+      "impact": "A dense readout week concentrates catalyst risk and can drive sharp single-stock moves on data outcomes. Eighteen Phase III reads materially update sector pipeline probabilities. Commercial teams watch which positive reads open new competitive fronts.",
+      "date": "2026-03-30",
+      "id": 23
+    },
+    {
+      "category": "M&A / Deals",
+      "catClass": "cat-deals",
+      "borderClass": "border-deals",
+      "headline": "Celltrion Settlement Provides US Date For Aflibercept Entry",
+      "details": "Celltrion reached a settlement with Regeneron clearing its Eydenzelt aflibercept biosimilar for a US launch from December 31, 2026.",
+      "drugs": "Eydenzelt (aflibercept biosimilar; Celltrion) referencing Regeneron's Eylea; wet AMD and retinal-disease market.",
+      "impact": "A dated entry adds another aflibercept biosimilar to an increasingly crowded field pressuring Regeneron's Eylea franchise. Defined timing aids payer negotiations and share modeling for 2027. Regeneron leans on Eylea HD and lifecycle defenses to protect the retinal market.",
+      "date": "2026-03-10",
+      "id": 24
+    },
+    {
+      "category": "FDA Regulatory",
+      "catClass": "cat-regulatory",
+      "borderClass": "border-regulatory",
+      "headline": "US FDA's March Approval Candidates Take Aim At Established Markets",
+      "details": "March's user-fee calendar featured nearly 20 goal dates, with many novel candidates targeting already-crowded therapeutic areas alongside a few rare-disease firsts.",
+      "drugs": "Candidates across hemophilia, cardiovascular disease and urinary tract infections; rare-disease first-in-class hopefuls in ophthalmology and hyperphagia.",
+      "impact": "A cluster of entrants into established markets intensifies competition and pricing pressure for incumbents. First-in-class rare-disease approvals, by contrast, could open premium-priced new categories. The mix favors differentiated assets over me-too entrants.",
+      "date": "2026-03-02",
+      "id": 25
+    },
+    {
+      "category": "EU Regulatory",
+      "catClass": "cat-eu",
+      "borderClass": "border-eu",
+      "headline": "Kygevvi And Kayshild Among Six Products To Get EMA Nod As Tavneos Faces Scrutiny",
+      "details": "The CHMP backed six new products including Kygevvi and Kayshild, while Tavneos faced data-integrity scrutiny, in early-2026 EU decisions.",
+      "drugs": "Kygevvi, Kayshild and four other newly recommended EU medicines; Tavneos / avacopan (data-integrity review).",
+      "impact": "Six positive opinions clear multiple EU launches and expand sponsors' European revenue runways. The Tavneos data-integrity scrutiny is a reminder that post-approval issues can threaten established products. Investors weigh launch upside against compliance risk.",
+      "date": "2026-02-27",
+      "id": 26
+    },
+    {
+      "category": "FDA Regulatory",
+      "catClass": "cat-regulatory",
+      "borderClass": "border-regulatory",
+      "headline": "US FDA Approval Output Still Not Showing Impact Of Departures",
+      "details": "Despite widespread staff departures, brand and generic drug approval volume remained resilient through early 2026, industry analysis found.",
+      "drugs": "Cross-class novel agents and generics; sponsors with 2026 PDUFA and GDUFA goal dates.",
+      "impact": "Stable throughput reassures investors that approval timelines are holding despite agency turmoil, supporting launch valuations. But sustained attrition raises medium-term risk of slower reviews and inconsistent decisions. Sponsors should build timeline buffers into 2026–2027 planning.",
+      "date": "2026-02-10",
+      "id": 27
+    },
+    {
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "FDA CRL For Aquestive's Anaphylm Comes With Clearer Path Forward",
+      "details": "The FDA issued a complete response letter for Aquestive's Anaphylm sublingual epinephrine film, citing human-factors validation and a supportive PK study; the company targets a Q3 2026 resubmission.",
+      "drugs": "Anaphylm / dibutepinephrine sublingual film (Aquestive) for Type I allergic reactions/anaphylaxis; competes with EpiPen and needle-free rival neffy (ARS Pharma).",
+      "impact": "A narrowly scoped CRL delays but does not derail the first sublingual epinephrine film, pushing launch into 2026+. The delay benefits incumbent autoinjectors and intranasal neffy in capturing the needle-free anaphylaxis market. A clear resubmission path limits the long-term competitive damage.",
+      "date": "2026-01-30",
+      "id": 28
+    },
+    {
+      "category": "FDA Regulatory",
+      "catClass": "cat-regulatory",
+      "borderClass": "border-regulatory",
+      "headline": "Senate HELP Report Maps US FDA Reform Agenda Ahead Of User Fee Reauthorizations",
+      "details": "A Senate HELP Committee report set out an FDA reform agenda heading into the upcoming user-fee (PDUFA/GDUFA/BsUFA) reauthorization cycle.",
+      "drugs": "Industry-wide; affects review timelines and fees across drugs, generics and biosimilars.",
+      "impact": "User-fee reauthorization shapes review capacity, timelines and costs for the entire industry through the next cycle. Reform proposals could alter accelerated-approval and biosimilar pathways. Sponsors and investors should track provisions affecting review predictability.",
+      "date": "2026-01-28",
+      "id": 29
+    },
+    {
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
-      "headline": "US FDA's 2026 Lineup Of Novel Approval Candidates",
-      "details": "An industry analysis mapped the 2026 slate of novel approval candidates, with at least 55 novel agents seeking FDA clearance across the year.",
-      "drugs": "55+ novel agents under review spanning obesity, oncology, immunology, neurology and vaccines; major and emerging biopharma sponsors.",
-      "impact": "A deep 2026 candidate pipeline frames the year's catalyst calendar and competitive launch sequencing, especially in obesity and oncology. Approval clustering in hot categories will sharpen pricing and share battles. Investors should prioritize assets with differentiated profiles and first/best-in-class positioning.",
-      "date": "2026-05-09"
+      "headline": "US FDA's Novel Neuroscience Approvals Plunged In 2025, But 2026 Candidates Are Coming",
+      "details": "Novel neuroscience approvals fell sharply in 2025, while a stronger slate of CNS candidates lines up for 2026 decisions.",
+      "drugs": "CNS pipeline across neurodegeneration, psychiatry and pain; sponsors with 2026 neuroscience PDUFA dates.",
+      "impact": "A 2026 rebound in CNS candidates could reopen a historically high-risk, high-reward category for investors. Success would validate renewed R&D bets in neurodegeneration and psychiatry. Approval outcomes will significantly move specialized neuroscience-focused biotechs.",
+      "date": "2026-01-22",
+      "id": 30
+    },
+    {
+      "category": "Generics / Value-Added",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "Epioxa's FDA Approval Marks New Era In Corneal Cross-Linking, Says Glaukos",
+      "details": "Glaukos won FDA approval for Epioxa, an epithelium-on (non-invasive) corneal cross-linking therapy for keratoconus under the 505(b)(2) pathway, set to launch in early 2026.",
+      "drugs": "Epioxa (riboflavin 5'-phosphate; Glaukos) for progressive keratoconus; succeeds the more invasive epi-off Photrexa franchise; ophthalmology / corneal disease market.",
+      "impact": "A less-invasive epi-on procedure lowers the treatment barrier and could expand the addressable keratoconus population and procedure volumes. It strengthens Glaukos' corneal-health franchise and lifecycle position against legacy cross-linking. Launch access programs and ophthalmologist adoption will pace uptake.",
+      "date": "2026-01-20",
+      "id": 31
+    },
+    {
+      "category": "Industry Outlook",
+      "catClass": "cat-outlook",
+      "borderClass": "border-outlook",
+      "headline": "Biopharma Deal Making In 2026: Confidence Returns, But On New Terms",
+      "details": "Analysis found dealmaking confidence rebounding for 2026, but with more selective capital favoring proven assets, novel biology and innovative financing.",
+      "drugs": "Cross-sector; executives from Novo Nordisk, Ipsen, Astellas, Acadia and Flagship Pioneering cited.",
+      "impact": "A more selective deal environment rewards companies with differentiated, de-risked assets and penalizes speculative early-stage stories. Patent cliffs push large caps toward bolt-on and platform acquisitions. Financing innovation widens options for cash-constrained biotechs.",
+      "date": "2026-01-12",
+      "id": 32
+    },
+    {
+      "category": "Industry Outlook",
+      "catClass": "cat-outlook",
+      "borderClass": "border-outlook",
+      "headline": "Investment Bankers Foresee Strong Biopharma M&A Deal Flow In 2026",
+      "details": "Investment bankers projected robust biopharma M&A through 2026, driven by patent-cliff urgency and large-cap firepower.",
+      "drugs": "Sector-wide; large-cap acquirers facing late-decade loss of exclusivity on major franchises.",
+      "impact": "Sustained deal flow supports biotech valuations and IPO/financing windows into 2026. Loss-of-exclusivity pressure makes revenue-generating and near-commercial assets the prime targets. Investors position around likely takeout candidates in oncology and immunology.",
+      "date": "2026-01-08",
+      "id": 33
+    },
+    {
+      "category": "Industry Outlook",
+      "catClass": "cat-outlook",
+      "borderClass": "border-outlook",
+      "headline": "Stock Watch: Biotech Acquisitions Drive Sector Momentum Going Into 2026",
+      "details": "A wave of biotech acquisitions was driving sector momentum and investor sentiment heading into 2026.",
+      "drugs": "Public biotech sector; M&A-sensitive small- and mid-cap names.",
+      "impact": "Acquisition momentum lifts the broader biotech tape and re-rates potential targets. It signals renewed large-cap appetite for external innovation amid thin internal pipelines. Sentiment gains can reopen capital markets for earlier-stage developers.",
+      "date": "2026-01-05",
+      "id": 34
     }
   ]
 }
