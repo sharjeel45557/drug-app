@@ -28,7 +28,7 @@
           "details": { "type": "string" },
           "drugs": { "type": "string" },
           "impact": { "type": "string" },
-          "url": { "type": "string", "format": "uri", "pattern": "insights\\.citeline\\.com" },
+          "url": { "type": "string", "format": "uri", "description": "Internal only; stripped from the public feed." },
           "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
         }
       }

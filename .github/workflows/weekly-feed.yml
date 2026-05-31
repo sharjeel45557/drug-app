@@ -1,10 +1,11 @@
 name: Weekly PharmaPulse feed
 
-# Refreshes docs/feed.json from Citeline Insights and opens a PR for review.
+# Refreshes docs/feed.json from the configured news source and opens a PR.
 # Runs every Monday 13:00 UTC, or on demand via the "Run workflow" button.
 #
-# Requires repo secret ANTHROPIC_API_KEY (Settings → Secrets and variables →
-# Actions). Scheduled runs only fire when this file is on the DEFAULT branch.
+# Requires repo secret ANTHROPIC_API_KEY and repo variable SOURCE_DOMAIN
+# (Settings → Secrets and variables → Actions). Scheduled runs only fire when
+# this file is on the DEFAULT branch.
 
 on:
   schedule:
@@ -36,6 +37,7 @@ jobs:
       - name: Generate feed
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SOURCE_DOMAIN: ${{ vars.SOURCE_DOMAIN }}
           FEED_MODEL: ${{ github.event.inputs.model || 'claude-sonnet-4-6' }}
         run: python3 pipeline/generate_feed.py
 
@@ -45,12 +47,12 @@ jobs:
       - name: Open pull request for review
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "chore(feed): weekly Citeline refresh"
+          commit-message: "chore(feed): weekly source refresh"
           branch: bot/weekly-feed
           delete-branch: true
           title: "Weekly PharmaPulse feed update"
           body: |
-            Automated weekly refresh of `docs/feed.json` from Citeline Insights.
+            Automated weekly refresh of `docs/feed.json` from the configured source.
 
             **Review before merging** (your review gate):
             - [ ] Headlines & impact analysis match the sources

@@ -1,17 +1,22 @@
 #!/usr/bin/env python3
-"""Regenerate docs/feed.json from Citeline Insights using the Claude API.
+"""Regenerate docs/feed.json from the configured news source using the Claude API.
 
-Used by the weekly GitHub Actions workflow. Claude runs the Citeline searches
+Used by the weekly GitHub Actions workflow. Claude runs the source searches
 itself via the server-side web_search tool, classifies each new article, writes
 the impact analysis, and returns the complete updated feed as JSON. We then
 validate, enforce id ordering, and write the file. The workflow opens a PR so a
-human still reviews before it goes live (the chosen "review gate").
+human still reviews before it goes live (the "review gate").
+
+The news source is configured privately so it is not hardcoded in this repo.
 
 Env:
   ANTHROPIC_API_KEY   required
+  SOURCE_DOMAIN       required, e.g. 'news.example.com' — the site the feed is
+                      built from. Injected into the prompt's `{source}` slots
+                      and used as a quality gate on the model's source URLs.
   FEED_MODEL          optional, default 'claude-sonnet-4-6'
 
-Run locally:  ANTHROPIC_API_KEY=... python3 pipeline/generate_feed.py
+Run locally:  ANTHROPIC_API_KEY=... SOURCE_DOMAIN=... python3 pipeline/generate_feed.py
 """
 import datetime as dt
 import json
@@ -28,6 +33,7 @@ SCHEMA_PATH = os.path.join(ROOT, "pipeline", "feed.schema.json")
 PROMPT_PATH = os.path.join(ROOT, "pipeline", "generation-prompt.md")
 
 MODEL = os.environ.get("FEED_MODEL", "claude-sonnet-4-6")
+SOURCE_DOMAIN = os.environ.get("SOURCE_DOMAIN", "").strip()
 MAX_AGE_DAYS = 56  # drop articles older than ~8 weeks
 
 
@@ -49,7 +55,7 @@ def extract_json_block(text):
 
 
 def build_prompt(current_feed, today):
-    instructions = read(PROMPT_PATH)
+    instructions = read(PROMPT_PATH).replace("{source}", SOURCE_DOMAIN)
     return (
         f"{instructions}\n\n"
         f"---\nToday's date is {today.isoformat()}.\n"
@@ -77,6 +83,8 @@ def normalize(feed, today):
 def main():
     if not os.environ.get("ANTHROPIC_API_KEY"):
         sys.exit("ANTHROPIC_API_KEY is not set.")
+    if not SOURCE_DOMAIN:
+        sys.exit("SOURCE_DOMAIN is not set (e.g. 'news.example.com').")
 
     today = dt.date.today()
     current = json.loads(read(FEED_PATH))
@@ -93,13 +101,13 @@ def main():
     text = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
     raw = extract_json_block(text)
 
-    # Quality gate: every article must be sourced from insights.citeline.com.
+    # Quality gate: every article must be sourced from the configured domain.
     # We check the model's URLs here, then strip them so the PUBLIC feed carries
-    # no source links / Citeline trace.
+    # no source links / provider trace.
     bad = [a.get("url", "") for a in raw.get("articles", [])
-           if "insights.citeline.com" not in a.get("url", "")]
+           if SOURCE_DOMAIN not in a.get("url", "")]
     if bad:
-        sys.exit(f"Articles not sourced from the expected provider, refusing to write: {bad}")
+        sys.exit(f"Articles not sourced from {SOURCE_DOMAIN}, refusing to write: {bad}")
     for a in raw.get("articles", []):
         a.pop("url", None)
 
