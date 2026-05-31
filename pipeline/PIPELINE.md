@@ -17,11 +17,11 @@ the page, and pushing** — no code changes.
    (or `main` once merged).
 
 2. **Paste the generation prompt** (see `generation-prompt.md` in this folder).
-   Claude will run the Citeline searches, classify each new article, write the
+   Claude will run the source searches, classify each new article, write the
    impact analysis, and produce an updated `docs/feed.json`.
 
-3. **Review the draft.** This is the human gate you chose:
-   - Confirm every `url` is on `insights.citeline.com`.
+3. **Review the draft.** This is the human gate:
+   - Confirm every `url` is on the configured source domain.
    - Sanity-check headlines and impact analysis against the snippets.
    - Fix any classification you disagree with.
    - Edit `weekRange` and `generatedAt`.
@@ -38,7 +38,7 @@ the page, and pushing** — no code changes.
 
 ## Rules the generator follows
 
-- Only `insights.citeline.com` articles.
+- Only articles from the configured source (`SOURCE_DOMAIN`).
 - Deduplicate against the existing `docs/feed.json` by `url` and `headline`.
 - Newest articles get the lowest `id`s after a full re-number (1…N).
 - `catClass` / `borderClass` must come from the enum in `feed.schema.json`.
@@ -71,19 +71,23 @@ Site title, author and links live at the top of `pipeline/build_web.py`.
 demand via *Actions → Weekly PharmaPulse feed → Run workflow*). It:
 
 1. runs `pipeline/generate_feed.py`, which calls the **Claude API** with the
-   built-in **web_search** tool — Claude does the Citeline searches itself,
+   built-in **web_search** tool — Claude searches the configured source itself,
    classifies, writes impact analysis, dedupes against the current feed, and
    returns the updated `docs/feed.json`;
-2. validates it against `pipeline/feed.schema.json` and enforces ids/ordering
-   and the insights.citeline.com-only rule;
-3. opens a **pull request** — nothing publishes until *you* review and merge.
+2. validates it against `pipeline/feed.schema.json`, enforces ids/ordering, and
+   requires every source URL to be on the configured domain (then strips them);
+3. rebuilds `docs/index.html` and opens a **pull request** — nothing publishes
+   until *you* review and merge.
 
 ### One-time setup to activate it
-1. Add the API key: **Settings → Secrets and variables → Actions → New
-   repository secret**, name `ANTHROPIC_API_KEY`.
-2. **Merge this branch into `main`.** GitHub only runs *scheduled* workflows
-   from the default branch, and Pages serves from `main`/`docs`.
-3. (Optional) test immediately with *Run workflow*; review the PR it opens.
+1. Add the API key: **Settings → Secrets and variables → Actions → Secrets →
+   New repository secret**, name `ANTHROPIC_API_KEY`.
+2. Add the source: **Settings → Secrets and variables → Actions → Variables →
+   New repository variable**, name `SOURCE_DOMAIN` (e.g. `news.example.com`).
+   Keeping it as a repo variable is what keeps the public repo source-neutral.
+3. **Merge to `main`.** GitHub only runs *scheduled* workflows from the default
+   branch, and Pages serves from `main`/`docs`.
+4. (Optional) test immediately with *Run workflow*; review the PR it opens.
 
 No web-search API subscription is needed — search is handled server-side by the
 Claude API. The semi-manual prompt above still works any time you prefer to

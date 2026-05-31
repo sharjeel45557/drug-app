@@ -1,27 +1,29 @@
 # Weekly generation prompt
 
 Paste the block below into a Claude Code session on the `drug-app` repo each week.
+`{source}` is the news-source domain — the automated job substitutes the
+`SOURCE_DOMAIN` value; if you run it by hand, replace `{source}` with that domain
+(e.g. `news.example.com`).
 
 ---
 
 You are updating the PharmaPulse pharma-news feed. Find the latest pharma/drug
-industry news from Citeline Insights (insights.citeline.com) for the most recent
-week and update `docs/feed.json`.
+industry news from `{source}` for the most recent week and update `docs/feed.json`.
 
 ## 1. Target period
 Determine today's date and the past week's range (e.g. "May 25 – May 31, 2026").
 Note the current month and year for the search queries.
 
 ## 2. Search (replace {month}/{year})
-- site:insights.citeline.com FDA drug approval {month} {year}
-- site:insights.citeline.com pipeline watch phase III {month} {year}
-- site:insights.citeline.com biosimilar approval {month} {year}
-- site:insights.citeline.com pharma regulatory {month} {year}
-- site:insights.citeline.com M&A deals pharma {month} {year}
-- site:insights.citeline.com complete response letter CRL {month} {year}
-- site:insights.citeline.com clinical trial readout {month} {year}
-- site:insights.citeline.com EU drug approval EMA {month} {year}
-- site:insights.citeline.com pharma industry outlook {month} {year}
+- site:{source} FDA drug approval {month} {year}
+- site:{source} pipeline watch phase III {month} {year}
+- site:{source} biosimilar approval {month} {year}
+- site:{source} pharma regulatory {month} {year}
+- site:{source} M&A deals pharma {month} {year}
+- site:{source} complete response letter CRL {month} {year}
+- site:{source} clinical trial readout {month} {year}
+- site:{source} EU drug approval EMA {month} {year}
+- site:{source} pharma industry outlook {month} {year}
 
 ## 3. For each NEW article, produce
 - category, catClass, borderClass (use pipeline/feed.schema.json enums + the map in PIPELINE.md)
@@ -29,7 +31,7 @@ Note the current month and year for the search queries.
 - details (1–2 sentence summary from the snippet)
 - drugs (specific drug names, companies, competing products, markets)
 - impact (2–3 sentences: market-share shifts, competitive dynamics, pricing, investor relevance)
-- url (must be on insights.citeline.com)
+- url (must be on `{source}`)
 - date ("yyyy-MM-dd")
 
 ## 4. Deduplicate
