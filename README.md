@@ -31,14 +31,19 @@ Store resubmission needed. The app only changes when the *code* changes.
 
 ## View it now (no Mac needed)
 
-`docs/index.html` is a **self-contained web version** of the app — same feed,
-same look. Use it to preview on your phone/desktop before compiling the native
-app:
+`docs/index.html` is a **web version** of the app — same feed, same look. Every
+story is rendered as **static HTML** (expandable via native `<details>`), so it
+works even in locked-down in-app file previews that block JavaScript. JS only
+adds search + category filtering on top.
 
-- **Locally:** double-click `docs/index.html` (it uses the embedded fallback feed).
+- **Locally:** double-click `docs/index.html` — the full feed shows immediately.
 - **Online:** once GitHub Pages is enabled, open
   `https://sharjeel45557.github.io/drug-app/` and tap *Share → Add to Home Screen*
-  on iPhone for an app-like icon. It fetches the live `feed.json` automatically.
+  on iPhone for an app-like icon.
+
+> `docs/index.html` is **generated** from `docs/feed.json` by
+> `pipeline/build_web.py` (the weekly workflow reruns it). Edit the feed, not the
+> HTML. The native iOS app reads `feed.json` directly and updates live.
 
 ## Run it (on a Mac)
 
