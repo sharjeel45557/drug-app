@@ -76,7 +76,7 @@ struct FeedView: View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
                 Image(systemName: "waveform.path.ecg")
-                Text("Citeline Pharma Intelligence")
+                Text("Pharma Intelligence")
                     .font(.subheadline.weight(.semibold))
                 Spacer()
             }

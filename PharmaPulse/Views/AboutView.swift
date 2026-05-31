@@ -34,7 +34,7 @@ struct AboutView: View {
                     VStack(alignment: .leading, spacing: 6) {
                         Text("PharmaPulse")
                             .font(.title2.weight(.bold))
-                        Text("Weekly pharma & drug-industry intelligence, curated from Citeline Insights with impact analysis.")
+                        Text("Weekly pharma & drug-industry intelligence with impact analysis.")
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                     }
@@ -50,7 +50,7 @@ struct AboutView: View {
                 }
 
                 Section("About the data") {
-                    Text("Headlines and source links come from Citeline Insights (insights.citeline.com). Full articles may require a Citeline subscription. Impact analysis is editorial summary, not investment advice.")
+                    Text("Headlines summarize publicly reported pharma and drug-industry developments. Impact analysis is editorial summary, not investment advice.")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                 }

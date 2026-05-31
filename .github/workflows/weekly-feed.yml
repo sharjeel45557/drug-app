@@ -53,8 +53,8 @@ jobs:
             Automated weekly refresh of `docs/feed.json` from Citeline Insights.
 
             **Review before merging** (your review gate):
-            - [ ] Every `url` is on `insights.citeline.com`
             - [ ] Headlines & impact analysis match the sources
+            - [ ] No source-provider name leaked into headlines/details
             - [ ] Categories look right
             - [ ] `weekRange` is correct
 

@@ -12,7 +12,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "category", "catClass", "borderClass", "headline", "details", "drugs", "impact", "url"],
+        "required": ["id", "category", "catClass", "borderClass", "headline", "details", "drugs", "impact"],
         "properties": {
           "id": { "type": "integer", "minimum": 1 },
           "category": { "type": "string" },

@@ -70,7 +70,7 @@ def normalize(feed, today):
     feed["articles"] = arts
     feed["schemaVersion"] = 1
     feed["generatedAt"] = today.strftime("%Y-%m-%dT00:00:00Z")
-    feed.setdefault("source", "Citeline Insights (insights.citeline.com)")
+    feed["source"] = "PharmaPulse Weekly Briefing"   # public-facing, no source brand
     return feed
 
 
@@ -91,14 +91,20 @@ def main():
     )
 
     text = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
-    feed = normalize(extract_json_block(text), today)
+    raw = extract_json_block(text)
 
-    validate(instance=feed, schema=schema)
-
-    # guard: only insights.citeline.com URLs survive
-    bad = [a["url"] for a in feed["articles"] if "insights.citeline.com" not in a["url"]]
+    # Quality gate: every article must be sourced from insights.citeline.com.
+    # We check the model's URLs here, then strip them so the PUBLIC feed carries
+    # no source links / Citeline trace.
+    bad = [a.get("url", "") for a in raw.get("articles", [])
+           if "insights.citeline.com" not in a.get("url", "")]
     if bad:
-        sys.exit(f"Non-Citeline URLs found, refusing to write: {bad}")
+        sys.exit(f"Articles not sourced from the expected provider, refusing to write: {bad}")
+    for a in raw.get("articles", []):
+        a.pop("url", None)
+
+    feed = normalize(raw, today)
+    validate(instance=feed, schema=schema)
 
     with open(FEED_PATH, "w", encoding="utf-8") as f:
         json.dump(feed, f, indent=2, ensure_ascii=False)

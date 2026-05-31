@@ -1,8 +1,8 @@
 import Foundation
 
 /// Top-level document the app downloads from GitHub Pages (docs/feed.json).
-/// The schema intentionally mirrors the original PharmaPulse HTML `DATA` objects
-/// so the weekly Citeline pipeline can keep producing the same shape.
+/// The schema mirrors the original PharmaPulse `DATA` objects so the weekly
+/// pipeline can keep producing the same shape.
 struct Feed: Codable, Equatable {
     let schemaVersion: Int
     let generatedAt: String
@@ -26,10 +26,7 @@ struct Article: Codable, Identifiable, Hashable {
     let details: String
     let drugs: String
     let impact: String
-    let url: String
     let date: String?
-
-    var sourceURL: URL? { URL(string: url) }
 
     /// `date` ("yyyy-MM-dd") parsed to a Date for display/sorting.
     var publishedDate: Date? {

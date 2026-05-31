@@ -66,11 +66,6 @@ def card_html(a):
     searchable = esc((a.get("headline", "") + " " + a.get("drugs", "") + " " +
                       a.get("category", "")).lower())
     pill = f'<span class="pill">{icon(path)}{esc(a.get("category",""))}</span>'
-    url = a.get("url", "")
-    cta = (f'<a class="cta" href="{esc(url)}" target="_blank" rel="noopener">'
-           f'Read on Citeline Insights ↗</a>'
-           f'<div class="fineprint">Full article may require a Citeline subscription.</div>'
-           ) if url else ""
     return f"""<details class="card" data-cat="{cc}" data-text="{searchable}" style="--c:{color};--tint:{tint(color)}">
   <summary>
     <div class="toprow">{pill}<span class="date">{fmt_date(a.get('date'))}</span></div>
@@ -81,7 +76,6 @@ def card_html(a):
   <div class="body">
     <div class="section"><div class="lbl">{icon("M10.5 20.5a5 5 0 0 1-7-7l6-6a5 5 0 0 1 7 7zM8 8l8 8")} Drugs &amp; Markets Affected</div><p>{esc(a.get('drugs',''))}</p></div>
     <div class="section"><div class="lbl">{icon("M3 3v18h18M7 14l3-3 3 3 5-6")} Industry Impact Analysis</div><p>{esc(a.get('impact',''))}</p></div>
-    {cta}
   </div>
 </details>"""
 
@@ -202,7 +196,7 @@ TEMPLATE = r"""<!doctype html>
 <header class="hero">
   <div class="brandrow">
     <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-7 4 14 2-9 1.5 4H21"/></svg>
-    Citeline Pharma Intelligence
+    Pharma Intelligence
   </div>
   <div class="kpi"><b>__COUNT__</b><span>stories this week</span></div>
   <div class="meta"><span>__WEEK__</span><span>__UPDATED__</span></div>
