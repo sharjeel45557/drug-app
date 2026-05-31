@@ -29,6 +29,17 @@ Store resubmission needed. The app only changes when the *code* changes.
 | `pipeline/` | weekly update runbook, JSON schema, reusable generation prompt |
 | `project.yml` | XcodeGen spec (only for regenerating the project) |
 
+## View it now (no Mac needed)
+
+`docs/index.html` is a **self-contained web version** of the app — same feed,
+same look. Use it to preview on your phone/desktop before compiling the native
+app:
+
+- **Locally:** double-click `docs/index.html` (it uses the embedded fallback feed).
+- **Online:** once GitHub Pages is enabled, open
+  `https://sharjeel45557.github.io/drug-app/` and tap *Share → Add to Home Screen*
+  on iPhone for an app-like icon. It fetches the live `feed.json` automatically.
+
 ## Run it (on a Mac)
 
 1. Open `PharmaPulse.xcodeproj` in **Xcode 16+**.

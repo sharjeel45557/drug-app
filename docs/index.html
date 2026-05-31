@@ -1,24 +1,409 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>PharmaPulse Feed</title>
-  <style>
-    body { font-family: -apple-system, system-ui, sans-serif; max-width: 640px;
-           margin: 8vh auto; padding: 0 20px; color: #0f172a; line-height: 1.5; }
-    .badge { display:inline-block; background:#1E3A8A; color:#fff; padding:4px 10px;
-             border-radius:999px; font-size:.8rem; font-weight:600; }
-    a { color:#2563EB; } code { background:#f1f5f9; padding:2px 6px; border-radius:6px; }
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>PharmaPulse</title>
+<meta name="theme-color" content="#1E3A8A" />
+<!-- Add-to-Home-Screen niceties for iPhone -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="PharmaPulse" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%231E3A8A'/%3E%3Cpath d='M14 60h14l8-26 12 40 10-30 6 16h22' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<style>
+  :root{
+    --accent:#1E3A8A; --accent2:#2563EB;
+    --bg:#f2f3f7; --card:#ffffff; --text:#0f172a; --muted:#64748b; --line:#e5e7eb;
+    --cat-approval:#16A34A; --cat-regulatory:#2563EB; --cat-phase3:#7C3AED;
+    --cat-biosimilar:#0D9488; --cat-crl:#DC2626; --cat-deals:#EA580C;
+    --cat-outlook:#4F46E5; --cat-eu:#0891B2; --cat-default:#64748b;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0b1020; --card:#151b2e; --text:#e7ebf3; --muted:#94a3b8; --line:#26304a; }
+  }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; }
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.45;
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .wrap{ max-width:720px; margin:0 auto; padding:0 14px 40px; }
+
+  /* Header / KPI card */
+  header.hero{
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+    color:#fff; border-radius:0 0 22px 22px; padding:calc(16px + env(safe-area-inset-top)) 18px 20px;
+  }
+  .hero .wrap{ padding:0; }
+  .brandrow{ display:flex; align-items:center; gap:8px; font-weight:600; font-size:.92rem; opacity:.95; }
+  .kpi{ display:flex; align-items:baseline; gap:8px; margin-top:8px; }
+  .kpi b{ font-size:2.6rem; font-weight:800; letter-spacing:-1px; }
+  .kpi span{ font-weight:600; opacity:.92; }
+  .meta{ margin-top:6px; font-size:.82rem; opacity:.9; display:flex; gap:14px; flex-wrap:wrap; }
+
+  /* Controls */
+  .controls{ position:sticky; top:0; z-index:5; background:var(--bg);
+             padding:12px 0 6px; }
+  .search{ display:flex; align-items:center; gap:8px; background:var(--card);
+           border:1px solid var(--line); border-radius:12px; padding:10px 12px; }
+  .search input{ border:0; outline:0; background:transparent; color:var(--text);
+                 font-size:1rem; width:100%; }
+  .chips{ display:flex; gap:8px; overflow-x:auto; padding:10px 0 4px; scrollbar-width:none; }
+  .chips::-webkit-scrollbar{ display:none; }
+  .chip{ flex:0 0 auto; border:0; cursor:pointer; font-size:.82rem; font-weight:600;
+         padding:7px 13px; border-radius:999px; display:inline-flex; align-items:center; gap:6px;
+         color:var(--c); background:color-mix(in srgb,var(--c) 13%, transparent); white-space:nowrap; }
+  .chip[aria-pressed="true"]{ color:#fff; background:var(--c); }
+
+  /* Feed */
+  .banner{ font-size:.82rem; color:var(--muted); background:var(--card);
+           border:1px solid var(--line); border-radius:12px; padding:10px 12px; margin:4px 0 10px; }
+  .card{ position:relative; background:var(--card); border:1px solid var(--line);
+         border-radius:14px; padding:14px 14px 14px 18px; margin-bottom:12px; cursor:pointer;
+         overflow:hidden; transition:transform .08s ease; }
+  .card:active{ transform:scale(.99); }
+  .card::before{ content:""; position:absolute; left:0; top:0; bottom:0; width:5px; background:var(--c); }
+  .pill{ display:inline-flex; align-items:center; gap:5px; font-size:.72rem; font-weight:700;
+         color:var(--c); background:color-mix(in srgb,var(--c) 13%, transparent);
+         padding:3px 9px; border-radius:999px; }
+  .toprow{ display:flex; align-items:center; justify-content:space-between; gap:8px; }
+  .date{ font-size:.74rem; color:var(--muted); }
+  .card h2{ font-size:1.05rem; margin:8px 0 6px; line-height:1.3; }
+  .card p{ margin:0; color:var(--muted); font-size:.92rem;
+           display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  .empty{ text-align:center; color:var(--muted); padding:50px 10px; }
+
+  /* Detail overlay */
+  .sheet{ position:fixed; inset:0; z-index:20; background:var(--bg);
+          transform:translateX(100%); transition:transform .25s ease; overflow-y:auto;
+          padding-bottom:40px; }
+  .sheet.open{ transform:translateX(0); }
+  .sheetbar{ position:sticky; top:0; background:color-mix(in srgb,var(--bg) 88%, transparent);
+             backdrop-filter:saturate(180%) blur(12px); padding:calc(10px + env(safe-area-inset-top)) 14px 10px;
+             display:flex; align-items:center; gap:10px; border-bottom:1px solid var(--line); }
+  .back{ border:0; background:transparent; color:var(--accent2); font-size:1rem; font-weight:600;
+         cursor:pointer; display:inline-flex; align-items:center; gap:4px; }
+  .sheetbar .cat{ font-weight:600; font-size:.95rem; color:var(--muted); }
+  .detail{ max-width:720px; margin:0 auto; padding:16px 16px; }
+  .detail h1{ font-size:1.4rem; line-height:1.3; margin:12px 0; }
+  .section{ background:var(--card); border:1px solid var(--line); border-radius:14px;
+            padding:14px; margin:14px 0; }
+  .section .lbl{ font-weight:700; font-size:.82rem; margin-bottom:6px; color:var(--c); display:flex; gap:6px; }
+  .section p{ margin:0; font-size:.95rem; }
+  .cta{ display:block; text-align:center; text-decoration:none; color:#fff; background:var(--c);
+        font-weight:700; padding:14px; border-radius:12px; margin-top:8px; }
+  .fineprint{ text-align:center; color:var(--muted); font-size:.74rem; margin-top:8px; }
+  .ico{ width:1em; height:1em; display:inline-block; vertical-align:-2px; }
+</style>
 </head>
 <body>
-  <p class="badge">PharmaPulse</p>
-  <h1>Pharma news feed</h1>
-  <p>This GitHub Pages site hosts the data feed for the PharmaPulse iOS app.</p>
-  <p>The machine-readable feed lives at
-     <a href="./feed.json"><code>feed.json</code></a>.</p>
-  <p>It is regenerated weekly from Citeline Insights. See the
-     <a href="https://github.com/sharjeel45557/drug-app">repository</a> for details.</p>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brandrow">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-7 4 14 2-9 1.5 4H21"/></svg>
+      Citeline Pharma Intelligence
+    </div>
+    <div class="kpi"><b id="count">–</b><span>stories this week</span></div>
+    <div class="meta">
+      <span id="week"></span>
+      <span id="updated"></span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="controls">
+    <div class="search">
+      <svg class="ico" style="color:var(--muted)" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="Search drugs, companies, topics" autocomplete="off" />
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <div id="banner"></div>
+  <div id="feed"></div>
+</div>
+
+<div class="sheet" id="sheet" aria-hidden="true">
+  <div class="sheetbar">
+    <button class="back" id="back">
+      <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      Feed
+    </button>
+    <span class="cat" id="sheetcat"></span>
+  </div>
+  <div class="detail" id="detail"></div>
+</div>
+
+<!-- Embedded fallback feed: used when feed.json can't be fetched (e.g. opened locally
+     via file://). Kept in sync with docs/feed.json. The live fetch always wins. -->
+<script id="embedded-feed" type="application/json">
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-31T00:00:00Z",
+  "weekRange": "May 25 – May 31, 2026",
+  "source": "Citeline Insights (insights.citeline.com)",
+  "articles": [
+    {
+      "id": 1,
+      "category": "Phase III / Approvals",
+      "catClass": "cat-phase3",
+      "borderClass": "border-phase3",
+      "headline": "Pipeline Watch: Thirteen Approvals And Three Phase III Readouts",
+      "details": "Citeline's weekly late-stage snapshot logged thirteen new approvals and three Phase III readouts across oncology, immunology and cardiometabolic disease for the week ending May 26, 2026.",
+      "drugs": "Multiple late-stage assets across oncology, immunology and cardiometabolic indications; large-cap and biotech sponsors reporting at medical conferences and in company releases.",
+      "impact": "A heavy approval week signals continued regulatory throughput despite agency upheaval, supporting near-term launch revenue for sponsors. Three positive Phase III readouts de-risk pipelines and can move small/mid-cap valuations sharply. Investors watch for label breadth and competitive overlap in crowded I-O and obesity markets.",
+      "url": "https://insights.citeline.com/scrip/r-and-d/pipeline-watch/pipeline-watch-thirteen-approvals-and-three-phase-iii-readouts-ZIV3CLEN5JDHNHVDBB4NO2QL5U/",
+      "date": "2026-05-26"
+    },
+    {
+      "id": 2,
+      "category": "Phase III / Approvals",
+      "catClass": "cat-phase3",
+      "borderClass": "border-phase3",
+      "headline": "Pipeline Watch: Eleven Approvals And One Phase III Readout",
+      "details": "The prior week's Pipeline Watch tallied eleven approvals and a single Phase III readout, reflecting a front-loaded approval cadence early in the month.",
+      "drugs": "Late-stage candidates spanning rare disease, oncology and CNS; sponsors disclosing at conferences and in financial presentations.",
+      "impact": "Consistent double-digit approval counts week over week underscore a productive 2026 launch environment. A thin readout slate shifts catalyst attention to upcoming data drops. Commercial teams should track which approvals open new therapeutic categories versus add to me-too competition.",
+      "url": "https://insights.citeline.com/scrip/r-and-d/pipeline-watch/pipeline-watch-eleven-approvals-and-one-phase-iii-readout-NVV26BFQONABVB4TSQ4HG334SM/",
+      "date": "2026-05-18"
+    },
+    {
+      "id": 3,
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "Breaking: US FDA's Bitopertin CRL Shows CNPV Cannot Overcome Surrogate Endpoint Woes",
+      "details": "The FDA issued a complete response letter for Disc Medicine's bitopertin, signaling that a Commissioner's National Priority Voucher could not compensate for reliance on a surrogate endpoint.",
+      "drugs": "Bitopertin (Disc Medicine) for erythropoietic protoporphyria; surrogate-endpoint–dependent rare-disease programs broadly.",
+      "impact": "The CRL is a cautionary marker for sponsors banking on surrogate endpoints and expedited vouchers, and pressured Disc Medicine's near-term outlook. It tightens the evidentiary bar for rare-disease filings, raising development cost and timeline risk. Competitors with clinical-outcome data gain relative positioning.",
+      "url": "https://insights.citeline.com/pink-sheet/product-reviews/complete-response-letters/breaking-us-fdas-bitopertin-crl-shows-cnpv-cannot-overcome-surrogate-endpoint-woes-M7SBK3YZENH7POPNL6TTFYHLFI/",
+      "date": "2026-05-20"
+    },
+    {
+      "id": 4,
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "US FDA Defends Review Consistency In Second CRL For Replimune's RP1",
+      "details": "Replimune's resubmitted BLA for RP1 drew a second complete response letter, with the FDA defending the consistency of its review standards.",
+      "drugs": "RP1 / vusolimogene oderparepvec (Replimune) in advanced melanoma; oncolytic immunotherapy and accelerated-approval candidates.",
+      "impact": "A second CRL is a severe setback that resets Replimune's regulatory timeline and weighed heavily on the stock. The decision carries a warning for accelerated-approval programs that the agency will hold firm on confirmatory evidence. Melanoma combination-therapy rivals benefit from the delay.",
+      "url": "https://insights.citeline.com/pink-sheet/product-reviews/complete-response-letters/us-fda-defends-review-consistency-in-second-crl-for-replimunes-rp1-N3OOF7X5SBHDXBIK7N3OQXUL7U/",
+      "date": "2026-05-14"
+    },
+    {
+      "id": 5,
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "US FDA Emphasizes Primary Endpoint Primacy In Vatiquinone, Lytenava CRLs",
+      "details": "Recent CRLs for vatiquinone and Lytenava show the FDA stressing the primacy of pre-specified primary endpoints over supportive secondary analyses.",
+      "drugs": "Vatiquinone (PTC Therapeutics) for Friedreich's ataxia; Lytenava / bevacizumab-gamma (Outlook Therapeutics) for wet AMD.",
+      "impact": "The agency's emphasis on primary-endpoint success raises the bar for programs leaning on secondary or post hoc data, affecting rare-disease and ophthalmology sponsors. PTC and Outlook face additional studies and cash burn. The signal reinforces disciplined trial design as a competitive and capital-efficiency differentiator.",
+      "url": "https://insights.citeline.com/pink-sheet/product-reviews/complete-response-letters/us-fda-emphasizes-primary-endpoint-primacy-in-vatiquinone-lytenava-crls-U2742XIHOVBGVCHGWCGIXRVZJE/",
+      "date": "2026-05-12"
+    },
+    {
+      "id": 6,
+      "category": "Biosimilar",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "FDA Approval Sets Stage For Accord's 2026 Denosumab Biosimilars Rollout",
+      "details": "Accord secured FDA approval for its denosumab biosimilars, positioning the company for a 2026 US commercial rollout against the Prolia/Xgeva franchise.",
+      "drugs": "Denosumab biosimilars (Accord) referencing Amgen's Prolia and Xgeva; the multibillion-dollar bone-health and oncology supportive-care market.",
+      "impact": "New denosumab entrants intensify price competition against Amgen's franchise, accelerating erosion as multiple biosimilars converge in 2026. Payers gain leverage for formulary discounts, pressuring originator revenue. Accord's launch readiness and contracting will determine share capture in a fast-commoditizing class.",
+      "url": "https://insights.citeline.com/generics-bulletin/products/biosimilars/fda-approval-sets-stage-for-accords-2026-denosumab-biosimilars-rollout-3JIU5NDGVJCGBIG3AEVK45K3BU/",
+      "date": "2026-05-22"
+    },
+    {
+      "id": 7,
+      "category": "Biosimilar",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "Henlius-Organon Wins EU's First Perjeta Biosimilar Approval",
+      "details": "Henlius and Organon obtained the EU's first biosimilar approval referencing Perjeta (pertuzumab), branded Poherdy, with approvals landing on two continents on May 1, 2026.",
+      "drugs": "Poherdy (pertuzumab biosimilar; Henlius/Organon) referencing Roche's Perjeta; HER2-positive breast cancer market.",
+      "impact": "The first Perjeta biosimilar opens biosimilar competition in HER2+ breast cancer, threatening Roche's pertuzumab revenue as exclusivity lapses in Europe. Organon's commercial reach could speed uptake and pricing pressure. Roche's Phesgo subcutaneous combination becomes a key defensive lever to retain share.",
+      "url": "https://insights.citeline.com/generics-bulletin/products/biosimilars/henlius-organon-wins-eus-first-perjeta-biosimilar-approval-2BZ6GNET4NBO5NZRAKKEFYATO4/",
+      "date": "2026-05-01"
+    },
+    {
+      "id": 8,
+      "category": "FDA Biosimilar Policy",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "BsUFA IV: If Dates Known, US FDA Looks To Speed Biosimilar Approval Once Exclusivity Expires",
+      "details": "Under BsUFA IV discussions, the FDA proposed goal dates to approve biosimilars that are ready but waiting for reference-product exclusivity to expire, with industry flagging uncertainty around unknown expiration dates.",
+      "drugs": "Cross-class biosimilar candidates awaiting exclusivity expiry; reference biologics across immunology, oncology and ophthalmology.",
+      "impact": "Faster, date-certain approvals would let biosimilar makers launch at first legal opportunity, compressing originator monopoly tails and accelerating price competition. Clarity on timing improves manufacturer launch planning and inventory commitments. Originators face shorter windows to maximize pre-biosimilar revenue.",
+      "url": "https://insights.citeline.com/pink-sheet/biosimilars-and-generics/biosimilars/bsufa-iv-if-dates-known-us-fda-looks-to-speed-biosimilar-approval-once-exclusivity-expires-BEFEMOQFY5DCRAX3B5NYURGYGY/",
+      "date": "2026-05-28"
+    },
+    {
+      "id": 9,
+      "category": "EU Regulatory",
+      "catClass": "cat-eu",
+      "borderClass": "border-eu",
+      "headline": "Challenges Abound To Sustain European Biosimilars 'Advantage'",
+      "details": "As Europe marked 20 years since its first biosimilar approval, stakeholders warned that sustaining the region's biosimilar lead will require smarter regulation and sustainable competition.",
+      "drugs": "European biosimilar portfolios across TNF inhibitors, oncology and ophthalmology; manufacturers competing on tender-based markets.",
+      "impact": "Race-to-the-bottom tender pricing threatens supply sustainability and could deter future biosimilar investment in Europe. Policy reforms on interchangeability and procurement will shape long-term competition and savings. Manufacturers must balance volume share against margin viability to remain in the market.",
+      "url": "https://insights.citeline.com/generics-bulletin/products/biosimilars/challenges-abound-to-sustain-european-biosimilars-advantage-T6DC7JSKGRDFPLWKBC76Z3KAKI/",
+      "date": "2026-05-07"
+    },
+    {
+      "id": 10,
+      "category": "M&A / Deals",
+      "catClass": "cat-deals",
+      "borderClass": "border-deals",
+      "headline": "Alvotech And Teva Are Latest With US Eylea Settlement",
+      "details": "Alvotech and Teva reached a US settlement clearing a path for their aflibercept biosimilar, joining other challengers resolving litigation over Regeneron's Eylea.",
+      "drugs": "Aflibercept biosimilar (Alvotech/Teva) referencing Regeneron's Eylea; the multibillion-dollar wet AMD and retinal-disease market.",
+      "impact": "The settlement adds another dated entrant to a crowding aflibercept biosimilar field, intensifying competition against Regeneron's franchise already pressured by Eylea HD. Defined launch timing aids payer negotiations and share modeling. Regeneron leans on Eylea HD and lifecycle strategies to defend the retinal market.",
+      "url": "https://insights.citeline.com/generics-bulletin/business/deals/alvotech-and-teva-are-latest-with-us-eylea-settlement-J252DE7FERBILN6NP4VMGAXQEM/",
+      "date": "2026-05-19"
+    },
+    {
+      "id": 11,
+      "category": "Accelerated Approval",
+      "catClass": "cat-approval",
+      "borderClass": "border-approval",
+      "headline": "Accelerated Approvals Perked Up While US FDA Excelled At Being Average In 2025",
+      "details": "Citeline's review found accelerated approvals rebounded in 2025 even as the FDA's overall novel-approval output landed near its historical average.",
+      "drugs": "Oncology and rare-disease assets cleared via the accelerated pathway; surrogate-endpoint–based programs across sponsors.",
+      "impact": "A rebound in accelerated approvals reopens a faster route to market for oncology and rare-disease developers, improving NPV on earlier launches. It also raises confirmatory-trial obligations and post-market scrutiny. Sponsors balancing speed against the rising CRL bar (see recent surrogate-endpoint denials) must invest in robust confirmatory evidence.",
+      "url": "https://insights.citeline.com/pink-sheet/pink-sheet-perspectives/accelerated-approvals-perked-up-while-us-fda-excelled-at-being-average-in-2025-LUQNKSRZKBG2TEQUW4RGGSVC2I/",
+      "date": "2026-05-05"
+    },
+    {
+      "id": 12,
+      "category": "FDA Regulatory",
+      "catClass": "cat-regulatory",
+      "borderClass": "border-regulatory",
+      "headline": "US FDA Holds Steady With 58 Novel Approvals In 2025 Despite Upheaval",
+      "details": "The FDA cleared 58 novel agents in 2025, holding near its multi-year norm despite significant organizational and policy upheaval at the agency.",
+      "drugs": "2025 cohort of 58 novel agents across oncology, immunology, CNS and rare disease; sponsors with 2026 PDUFA dates.",
+      "impact": "Steady throughput reassures investors that approval timelines remain durable through agency turmoil, supporting biopharma launch valuations. It sets a reliable baseline for 2026 planning even amid staffing and policy shifts. Sponsors should still model review-team variability and evolving evidentiary expectations.",
+      "url": "https://insights.citeline.com/pink-sheet/pink-sheet-perspectives/us-fda-holds-steady-with-58-novel-approvals-in-2025-despite-upheaval-NWHBCZPCXFDQ3JZMK6GFYKRV4Y/",
+      "date": "2026-05-03"
+    },
+    {
+      "id": 13,
+      "category": "Industry Outlook",
+      "catClass": "cat-outlook",
+      "borderClass": "border-outlook",
+      "headline": "US FDA's 2026 Lineup Of Novel Approval Candidates",
+      "details": "Citeline mapped the 2026 slate of novel approval candidates, with at least 55 novel agents seeking FDA clearance across the year.",
+      "drugs": "55+ novel agents under review spanning obesity, oncology, immunology, neurology and vaccines; major and emerging biopharma sponsors.",
+      "impact": "A deep 2026 candidate pipeline frames the year's catalyst calendar and competitive launch sequencing, especially in obesity and oncology. Approval clustering in hot categories will sharpen pricing and share battles. Investors should prioritize assets with differentiated profiles and first/best-in-class positioning.",
+      "url": "https://insights.citeline.com/pink-sheet/pink-sheet-perspectives/us-fda-2026-lineup-of-novel-approval-candidates-2QGEXBYVWNFK5ESQXPQGGLYQGQ/",
+      "date": "2026-05-09"
+    }
+  ]
+}
+</script>
+
+<script>
+(() => {
+  const CAT = {
+    "cat-approval":{c:"var(--cat-approval)",name:"Approvals",icon:"M9 12l2 2 4-4"},
+    "cat-regulatory":{c:"var(--cat-regulatory)",name:"FDA",icon:"M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"},
+    "cat-phase3":{c:"var(--cat-phase3)",name:"Phase III",icon:"M9 3v6l-5 9a2 2 0 0 0 2 3h12a2 2 0 0 0 2-3l-5-9V3"},
+    "cat-biosimilar":{c:"var(--cat-biosimilar)",name:"Biosimilars",icon:"M10.5 20.5a5 5 0 0 1-7-7l6-6a5 5 0 0 1 7 7zM8 8l8 8"},
+    "cat-crl":{c:"var(--cat-crl)",name:"CRLs",icon:"M12 9v4m0 4h.01M10.3 3.3 2.3 17a2 2 0 0 0 1.7 3h16a2 2 0 0 0 1.7-3L13.7 3.3a2 2 0 0 0-3.4 0z"},
+    "cat-deals":{c:"var(--cat-deals)",name:"M&A",icon:"M7 7l5 5 5-5M12 12v8M5 4h14"},
+    "cat-outlook":{c:"var(--cat-outlook)",name:"Outlook",icon:"M3 3v18h18M7 14l3-3 3 3 5-6"},
+    "cat-eu":{c:"var(--cat-eu)",name:"EU/Global",icon:"M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM2 12h20M12 2c3 3 3 17 0 20M12 2c-3 3-3 17 0 20"},
+    "default":{c:"var(--cat-default)",name:"Other",icon:"M4 4h16v16H4z"}
+  };
+  const cat = k => CAT[k] || CAT.default;
+  const ico = d => `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="${d}"/></svg>`;
+  const esc = s => (s||"").replace(/[&<>"]/g, m => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]));
+  const fmtDate = s => { if(!s) return ""; const d=new Date(s+"T00:00:00"); return isNaN(d)?"":d.toLocaleDateString(undefined,{month:"short",day:"numeric"}); };
+  const fmtLong = s => { if(!s) return ""; const d=new Date(s+"T00:00:00"); return isNaN(d)?"":d.toLocaleDateString(undefined,{year:"numeric",month:"long",day:"numeric"}); };
+
+  let ALL=[], state={q:"",cat:null};
+
+  function loadEmbedded(){
+    try { return JSON.parse(document.getElementById("embedded-feed").textContent); }
+    catch(e){ return {articles:[]}; }
+  }
+
+  function apply(feed, fromLive){
+    ALL = (feed.articles||[]).slice().sort((a,b)=> (b.date||"").localeCompare(a.date||""));
+    document.getElementById("count").textContent = ALL.length;
+    document.getElementById("week").innerHTML = feed.weekRange ? "📅 "+esc(feed.weekRange) : "";
+    const upd = feed.generatedAt ? new Date(feed.generatedAt) : null;
+    document.getElementById("updated").textContent = upd && !isNaN(upd) ? "Updated "+upd.toLocaleDateString(undefined,{month:"short",day:"numeric"}) : "";
+    document.getElementById("banner").innerHTML = fromLive ? "" :
+      '<div class="banner">Showing bundled stories — enable GitHub Pages to fetch the live feed.</div>';
+    renderChips(); renderFeed();
+  }
+
+  function renderChips(){
+    const present = [...new Set(ALL.map(a=>a.catClass))];
+    const el = document.getElementById("chips");
+    const chip = (key,label,on) => {
+      const c = cat(key).c;
+      return `<button class="chip" data-cat="${key==null?'':esc(key)}" aria-pressed="${on}" style="--c:${c}">`+
+             (key?ico(cat(key).icon):"")+esc(label)+`</button>`;
+    };
+    el.innerHTML = chip(null,"All",state.cat===null) + present.map(k=>chip(k,cat(k).name,state.cat===k)).join("");
+    el.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{
+      const k=b.dataset.cat||null; state.cat=(state.cat===k)?null:(k||null); if(b.dataset.cat==="")state.cat=null;
+      renderChips(); renderFeed();
+    });
+  }
+
+  function renderFeed(){
+    const q=state.q.toLowerCase();
+    const list=ALL.filter(a=>{
+      const okCat = !state.cat || a.catClass===state.cat;
+      const okQ = !q || (a.headline+a.drugs+a.category).toLowerCase().includes(q);
+      return okCat && okQ;
+    });
+    const feed=document.getElementById("feed");
+    if(!list.length){ feed.innerHTML='<div class="empty">No stories match. Try another category or search.</div>'; return; }
+    feed.innerHTML=list.map((a,i)=>{
+      const c=cat(a.catClass);
+      return `<div class="card" style="--c:${c.c}" data-id="${a.id}">
+        <div class="toprow"><span class="pill">${ico(c.icon)}${esc(a.category)}</span><span class="date">${fmtDate(a.date)}</span></div>
+        <h2>${esc(a.headline)}</h2><p>${esc(a.details)}</p></div>`;
+    }).join("");
+    feed.querySelectorAll(".card").forEach(card=>card.onclick=()=>openDetail(+card.dataset.id));
+  }
+
+  function openDetail(id){
+    const a=ALL.find(x=>x.id===id); if(!a) return;
+    const c=cat(a.catClass);
+    document.getElementById("sheetcat").textContent=a.category;
+    document.getElementById("detail").innerHTML=`
+      <span class="pill" style="--c:${c.c}">${ico(c.icon)}${esc(a.category)}</span>
+      <h1>${esc(a.headline)}</h1>
+      ${a.date?`<div class="date">📅 ${fmtLong(a.date)}</div>`:""}
+      <p style="margin:12px 0;font-size:1rem">${esc(a.details)}</p>
+      <div class="section" style="--c:${c.c}"><div class="lbl">💊 Drugs &amp; Markets Affected</div><p>${esc(a.drugs)}</p></div>
+      <div class="section" style="--c:${c.c}"><div class="lbl">📊 Industry Impact Analysis</div><p>${esc(a.impact)}</p></div>
+      ${a.url?`<a class="cta" style="--c:${c.c}" href="${esc(a.url)}" target="_blank" rel="noopener">Read on Citeline Insights ↗</a>
+      <div class="fineprint">Full article may require a Citeline subscription.</div>`:""}`;
+    document.getElementById("detail").scrollTop=0;
+    const s=document.getElementById("sheet"); s.classList.add("open"); s.setAttribute("aria-hidden","false");
+    history.pushState({detail:true},"");
+  }
+  function closeDetail(){
+    const s=document.getElementById("sheet"); s.classList.remove("open"); s.setAttribute("aria-hidden","true");
+  }
+  document.getElementById("back").onclick=()=>{ if(history.state&&history.state.detail) history.back(); else closeDetail(); };
+  window.addEventListener("popstate",closeDetail);
+  document.getElementById("q").addEventListener("input",e=>{ state.q=e.target.value; renderFeed(); });
+
+  // 1) paint embedded immediately, 2) try live feed.json (wins if reachable)
+  apply(loadEmbedded(), false);
+  fetch("feed.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()).then(f=>apply(f,true)).catch(()=>{});
+})();
+</script>
 </body>
 </html>
