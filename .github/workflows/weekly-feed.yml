@@ -58,6 +58,5 @@ jobs:
             - [ ] Categories look right
             - [ ] `weekRange` is correct
 
-            Merging to `main` publishes the new feed to GitHub Pages, and the
-            iOS app picks it up on next pull-to-refresh.
+            Merging to `main` publishes the rebuilt page to GitHub Pages.
           labels: feed, automated

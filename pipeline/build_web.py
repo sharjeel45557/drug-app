@@ -16,6 +16,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FEED = os.path.join(ROOT, "docs", "feed.json")
 OUT = os.path.join(ROOT, "docs", "index.html")
 
+# Showcase / deployment config — edit these freely.
+SITE_URL = "https://sharjeel45557.github.io/drug-app/"
+REPO_URL = "https://github.com/sharjeel45557/drug-app"
+AUTHOR = "Sharjeel Ahmed"
+DESCRIPTION = "Weekly pharma & drug-industry intelligence — FDA approvals, Phase III readouts, biosimilars, CRLs, M&A and more, each with an impact analysis."
+
 # catClass -> (solid hex, short label, SVG path)
 CATS = {
     "cat-approval":  ("#16A34A", "Approvals",   "M9 12l2 2 4-4"),
@@ -117,6 +123,10 @@ def build():
         "__UPDATED__": updated,
         "__CHIPS__": chips,
         "__CARDS__": cards,
+        "__DESCRIPTION__": esc(DESCRIPTION),
+        "__SITE__": SITE_URL,
+        "__REPO__": REPO_URL,
+        "__AUTHOR__": esc(AUTHOR),
     }.items():
         html = html.replace(k, v)
 
@@ -129,14 +139,26 @@ TEMPLATE = r"""<!doctype html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>PharmaPulse</title>
+<title>PharmaPulse — Weekly Pharma &amp; Drug-Industry Intelligence</title>
+<meta name="description" content="__DESCRIPTION__" />
 <meta name="theme-color" content="#1E3A8A" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <meta name="apple-mobile-web-app-title" content="PharmaPulse" />
+<link rel="canonical" href="__SITE__" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 <link rel="icon" type="image/png" href="icon-192.png" />
 <link rel="manifest" href="manifest.webmanifest" />
+<!-- Social link previews -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="PharmaPulse — Weekly Pharma &amp; Drug-Industry Intelligence" />
+<meta property="og:description" content="__DESCRIPTION__" />
+<meta property="og:url" content="__SITE__" />
+<meta property="og:image" content="__SITE__og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="PharmaPulse" />
+<meta name="twitter:description" content="__DESCRIPTION__" />
+<meta name="twitter:image" content="__SITE__og-image.png" />
 <style>
   :root{
     --accent:#1E3A8A; --accent2:#2563EB;
@@ -190,6 +212,13 @@ TEMPLATE = r"""<!doctype html>
   .fineprint{ text-align:center; color:var(--muted); font-size:.72rem; margin-top:8px; }
   .empty{ text-align:center; color:var(--muted); padding:40px 10px; }
   .ico{ width:1em; height:1em; display:inline-block; vertical-align:-2px; flex:0 0 auto; }
+  footer.foot{ margin-top:24px; padding-top:18px; border-top:1px solid var(--line); }
+  .about{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:0 14px; }
+  .about summary{ list-style:none; cursor:pointer; padding:14px 0; font-weight:700; font-size:.95rem; }
+  .about summary::-webkit-details-marker{ display:none; }
+  .about p{ margin:0 0 14px; color:var(--muted); font-size:.9rem; }
+  .credit{ text-align:center; color:var(--muted); font-size:.8rem; margin:16px 0 0; }
+  .credit a{ color:var(--accent2); text-decoration:none; }
 </style>
 </head>
 <body>
@@ -215,6 +244,21 @@ TEMPLATE = r"""<!doctype html>
 __CARDS__
   </div>
   <div class="empty" id="empty" hidden>No stories match. Try another category or search.</div>
+
+  <footer class="foot">
+    <details class="about">
+      <summary>About this project</summary>
+      <p>PharmaPulse is a weekly pharma &amp; drug-industry intelligence briefing —
+         FDA approvals, Phase III readouts, biosimilars, complete response letters,
+         M&amp;A and regulatory shifts, each paired with a concise impact analysis of
+         the competitive, pricing and market implications.</p>
+      <p>It is a fast, static web app: a single curated data file is rendered to
+         this page and refreshed automatically every week. Every story is server-
+         rendered, so the full briefing is readable even with JavaScript disabled.
+         Impact analysis is editorial summary, not investment advice.</p>
+    </details>
+    <p class="credit">Built by __AUTHOR__ · Updated weekly · <a href="__REPO__" target="_blank" rel="noopener">View source</a></p>
+  </footer>
 </div>
 
 <script>

@@ -1,12 +1,13 @@
 # PharmaPulse — Weekly Update Runbook (semi-manual + review)
 
-This is how the news in the app gets refreshed. The app reads
-`docs/feed.json` from GitHub Pages; updating the app's content means
-**regenerating that one file and pushing it** — no App Store resubmission.
+This is how the published site is refreshed. `docs/feed.json` is the single
+source of truth; updating the content means **regenerating that file, rebuilding
+the page, and pushing** — no code changes.
 
 ```
-[You + Claude] → regenerate docs/feed.json → review/edit → commit & push
-       → GitHub Pages serves it → iPhone app picks it up on pull-to-refresh
+[You + Claude] → regenerate docs/feed.json → review/edit
+       → build_web.py renders docs/index.html → commit & push
+       → GitHub Pages serves it → visitors see the new briefing
 ```
 
 ## Weekly steps (~10 minutes)
@@ -25,17 +26,15 @@ This is how the news in the app gets refreshed. The app reads
    - Fix any classification you disagree with.
    - Edit `weekRange` and `generatedAt`.
 
-4. **Validate the JSON** (optional but recommended):
+4. **Rebuild the page & validate:**
    ```bash
+   python3 pipeline/build_web.py          # feed.json → index.html
    python3 -m json.tool docs/feed.json > /dev/null && echo OK
-   # or, with a schema validator:
-   # npx ajv-cli validate -s pipeline/feed.schema.json -d docs/feed.json
    ```
 
-5. **Commit & push.** If you develop on the feature branch, merge to `main`
-   afterward so GitHub Pages publishes it (see hosting note below).
+5. **Commit & push**, then merge to `main` so GitHub Pages publishes it.
 
-6. **Refresh the app** on your iPhone (pull down on the feed). New stories appear.
+6. **Reload the site.** New stories appear immediately.
 
 ## Rules the generator follows
 
@@ -60,14 +59,11 @@ This is how the news in the app gets refreshed. The app reads
 
 ## Hosting note (GitHub Pages — free)
 
-The app fetches: `https://sharjeel45557.github.io/drug-app/feed.json`
-
 Enable once, in the repo settings:
 **Settings → Pages → Build from a branch → Branch: `main`, Folder: `/docs`.**
 
 GitHub then serves everything in `docs/` at `https://sharjeel45557.github.io/drug-app/`.
-If you publish from a different branch/folder, update `feedURL` in
-`PharmaPulse/Services/FeedService.swift` to match.
+Site title, author and links live at the top of `pipeline/build_web.py`.
 
 ## Automated weekly job (built — keeps your review gate)
 
