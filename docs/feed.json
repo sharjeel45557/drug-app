@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-31T00:00:00Z",
+  "weekRange": "May 25 – May 31, 2026",
+  "source": "PharmaPulse Weekly Briefing",
+  "articles": [
+    {
+      "id": 1,
+      "category": "Phase III / Approvals",
+      "catClass": "cat-phase3",
+      "borderClass": "border-phase3",
+      "headline": "Pipeline Watch: Thirteen Approvals And Three Phase III Readouts",
+      "details": "A weekly late-stage snapshot logged thirteen new approvals and three Phase III readouts across oncology, immunology and cardiometabolic disease for the week ending May 26, 2026.",
+      "drugs": "Multiple late-stage assets across oncology, immunology and cardiometabolic indications; large-cap and biotech sponsors reporting at medical conferences and in company releases.",
+      "impact": "A heavy approval week signals continued regulatory throughput despite agency upheaval, supporting near-term launch revenue for sponsors. Three positive Phase III readouts de-risk pipelines and can move small/mid-cap valuations sharply. Investors watch for label breadth and competitive overlap in crowded I-O and obesity markets.",
+      "date": "2026-05-26"
+    },
+    {
+      "id": 2,
+      "category": "Phase III / Approvals",
+      "catClass": "cat-phase3",
+      "borderClass": "border-phase3",
+      "headline": "Pipeline Watch: Eleven Approvals And One Phase III Readout",
+      "details": "The prior week's Pipeline Watch tallied eleven approvals and a single Phase III readout, reflecting a front-loaded approval cadence early in the month.",
+      "drugs": "Late-stage candidates spanning rare disease, oncology and CNS; sponsors disclosing at conferences and in financial presentations.",
+      "impact": "Consistent double-digit approval counts week over week underscore a productive 2026 launch environment. A thin readout slate shifts catalyst attention to upcoming data drops. Commercial teams should track which approvals open new therapeutic categories versus add to me-too competition.",
+      "date": "2026-05-18"
+    },
+    {
+      "id": 3,
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "Breaking: US FDA's Bitopertin CRL Shows CNPV Cannot Overcome Surrogate Endpoint Woes",
+      "details": "The FDA issued a complete response letter for Disc Medicine's bitopertin, signaling that a Commissioner's National Priority Voucher could not compensate for reliance on a surrogate endpoint.",
+      "drugs": "Bitopertin (Disc Medicine) for erythropoietic protoporphyria; surrogate-endpoint–dependent rare-disease programs broadly.",
+      "impact": "The CRL is a cautionary marker for sponsors banking on surrogate endpoints and expedited vouchers, and pressured Disc Medicine's near-term outlook. It tightens the evidentiary bar for rare-disease filings, raising development cost and timeline risk. Competitors with clinical-outcome data gain relative positioning.",
+      "date": "2026-05-20"
+    },
+    {
+      "id": 4,
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "US FDA Defends Review Consistency In Second CRL For Replimune's RP1",
+      "details": "Replimune's resubmitted BLA for RP1 drew a second complete response letter, with the FDA defending the consistency of its review standards.",
+      "drugs": "RP1 / vusolimogene oderparepvec (Replimune) in advanced melanoma; oncolytic immunotherapy and accelerated-approval candidates.",
+      "impact": "A second CRL is a severe setback that resets Replimune's regulatory timeline and weighed heavily on the stock. The decision carries a warning for accelerated-approval programs that the agency will hold firm on confirmatory evidence. Melanoma combination-therapy rivals benefit from the delay.",
+      "date": "2026-05-14"
+    },
+    {
+      "id": 5,
+      "category": "Complete Response Letter",
+      "catClass": "cat-crl",
+      "borderClass": "border-crl",
+      "headline": "US FDA Emphasizes Primary Endpoint Primacy In Vatiquinone, Lytenava CRLs",
+      "details": "Recent CRLs for vatiquinone and Lytenava show the FDA stressing the primacy of pre-specified primary endpoints over supportive secondary analyses.",
+      "drugs": "Vatiquinone (PTC Therapeutics) for Friedreich's ataxia; Lytenava / bevacizumab-gamma (Outlook Therapeutics) for wet AMD.",
+      "impact": "The agency's emphasis on primary-endpoint success raises the bar for programs leaning on secondary or post hoc data, affecting rare-disease and ophthalmology sponsors. PTC and Outlook face additional studies and cash burn. The signal reinforces disciplined trial design as a competitive and capital-efficiency differentiator.",
+      "date": "2026-05-12"
+    },
+    {
+      "id": 6,
+      "category": "Biosimilar",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "FDA Approval Sets Stage For Accord's 2026 Denosumab Biosimilars Rollout",
+      "details": "Accord secured FDA approval for its denosumab biosimilars, positioning the company for a 2026 US commercial rollout against the Prolia/Xgeva franchise.",
+      "drugs": "Denosumab biosimilars (Accord) referencing Amgen's Prolia and Xgeva; the multibillion-dollar bone-health and oncology supportive-care market.",
+      "impact": "New denosumab entrants intensify price competition against Amgen's franchise, accelerating erosion as multiple biosimilars converge in 2026. Payers gain leverage for formulary discounts, pressuring originator revenue. Accord's launch readiness and contracting will determine share capture in a fast-commoditizing class.",
+      "date": "2026-05-22"
+    },
+    {
+      "id": 7,
+      "category": "Biosimilar",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "Henlius-Organon Wins EU's First Perjeta Biosimilar Approval",
+      "details": "Henlius and Organon obtained the EU's first biosimilar approval referencing Perjeta (pertuzumab), branded Poherdy, with approvals landing on two continents on May 1, 2026.",
+      "drugs": "Poherdy (pertuzumab biosimilar; Henlius/Organon) referencing Roche's Perjeta; HER2-positive breast cancer market.",
+      "impact": "The first Perjeta biosimilar opens biosimilar competition in HER2+ breast cancer, threatening Roche's pertuzumab revenue as exclusivity lapses in Europe. Organon's commercial reach could speed uptake and pricing pressure. Roche's Phesgo subcutaneous combination becomes a key defensive lever to retain share.",
+      "date": "2026-05-01"
+    },
+    {
+      "id": 8,
+      "category": "FDA Biosimilar Policy",
+      "catClass": "cat-biosimilar",
+      "borderClass": "border-biosimilar",
+      "headline": "BsUFA IV: If Dates Known, US FDA Looks To Speed Biosimilar Approval Once Exclusivity Expires",
+      "details": "Under BsUFA IV discussions, the FDA proposed goal dates to approve biosimilars that are ready but waiting for reference-product exclusivity to expire, with industry flagging uncertainty around unknown expiration dates.",
+      "drugs": "Cross-class biosimilar candidates awaiting exclusivity expiry; reference biologics across immunology, oncology and ophthalmology.",
+      "impact": "Faster, date-certain approvals would let biosimilar makers launch at first legal opportunity, compressing originator monopoly tails and accelerating price competition. Clarity on timing improves manufacturer launch planning and inventory commitments. Originators face shorter windows to maximize pre-biosimilar revenue.",
+      "date": "2026-05-28"
+    },
+    {
+      "id": 9,
+      "category": "EU Regulatory",
+      "catClass": "cat-eu",
+      "borderClass": "border-eu",
+      "headline": "Challenges Abound To Sustain European Biosimilars 'Advantage'",
+      "details": "As Europe marked 20 years since its first biosimilar approval, stakeholders warned that sustaining the region's biosimilar lead will require smarter regulation and sustainable competition.",
+      "drugs": "European biosimilar portfolios across TNF inhibitors, oncology and ophthalmology; manufacturers competing on tender-based markets.",
+      "impact": "Race-to-the-bottom tender pricing threatens supply sustainability and could deter future biosimilar investment in Europe. Policy reforms on interchangeability and procurement will shape long-term competition and savings. Manufacturers must balance volume share against margin viability to remain in the market.",
+      "date": "2026-05-07"
+    },
+    {
+      "id": 10,
+      "category": "M&A / Deals",
+      "catClass": "cat-deals",
+      "borderClass": "border-deals",
+      "headline": "Alvotech And Teva Are Latest With US Eylea Settlement",
+      "details": "Alvotech and Teva reached a US settlement clearing a path for their aflibercept biosimilar, joining other challengers resolving litigation over Regeneron's Eylea.",
+      "drugs": "Aflibercept biosimilar (Alvotech/Teva) referencing Regeneron's Eylea; the multibillion-dollar wet AMD and retinal-disease market.",
+      "impact": "The settlement adds another dated entrant to a crowding aflibercept biosimilar field, intensifying competition against Regeneron's franchise already pressured by Eylea HD. Defined launch timing aids payer negotiations and share modeling. Regeneron leans on Eylea HD and lifecycle strategies to defend the retinal market.",
+      "date": "2026-05-19"
+    },
+    {
+      "id": 11,
+      "category": "Accelerated Approval",
+      "catClass": "cat-approval",
+      "borderClass": "border-approval",
+      "headline": "Accelerated Approvals Perked Up While US FDA Excelled At Being Average In 2025",
+      "details": "An industry review found accelerated approvals rebounded in 2025 even as the FDA's overall novel-approval output landed near its historical average.",
+      "drugs": "Oncology and rare-disease assets cleared via the accelerated pathway; surrogate-endpoint–based programs across sponsors.",
+      "impact": "A rebound in accelerated approvals reopens a faster route to market for oncology and rare-disease developers, improving NPV on earlier launches. It also raises confirmatory-trial obligations and post-market scrutiny. Sponsors balancing speed against the rising CRL bar (see recent surrogate-endpoint denials) must invest in robust confirmatory evidence.",
+      "date": "2026-05-05"
+    },
+    {
+      "id": 12,
+      "category": "FDA Regulatory",
+      "catClass": "cat-regulatory",
+      "borderClass": "border-regulatory",
+      "headline": "US FDA Holds Steady With 58 Novel Approvals In 2025 Despite Upheaval",
+      "details": "The FDA cleared 58 novel agents in 2025, holding near its multi-year norm despite significant organizational and policy upheaval at the agency.",
+      "drugs": "2025 cohort of 58 novel agents across oncology, immunology, CNS and rare disease; sponsors with 2026 PDUFA dates.",
+      "impact": "Steady throughput reassures investors that approval timelines remain durable through agency turmoil, supporting biopharma launch valuations. It sets a reliable baseline for 2026 planning even amid staffing and policy shifts. Sponsors should still model review-team variability and evolving evidentiary expectations.",
+      "date": "2026-05-03"
+    },
+    {
+      "id": 13,
+      "category": "Industry Outlook",
+      "catClass": "cat-outlook",
+      "borderClass": "border-outlook",
+      "headline": "US FDA's 2026 Lineup Of Novel Approval Candidates",
+      "details": "An industry analysis mapped the 2026 slate of novel approval candidates, with at least 55 novel agents seeking FDA clearance across the year.",
+      "drugs": "55+ novel agents under review spanning obesity, oncology, immunology, neurology and vaccines; major and emerging biopharma sponsors.",
+      "impact": "A deep 2026 candidate pipeline frames the year's catalyst calendar and competitive launch sequencing, especially in obesity and oncology. Approval clustering in hot categories will sharpen pricing and share battles. Investors should prioritize assets with differentiated profiles and first/best-in-class positioning.",
+      "date": "2026-05-09"
+    }
+  ]
+}
