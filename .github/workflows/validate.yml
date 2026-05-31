@@ -1,0 +1,48 @@
+name: Validate
+
+# Runs on every pull request (and pushes to main) to catch problems before they
+# reach the live site:
+#   1. docs/feed.json is valid and matches the schema
+#   2. docs/index.html is already in sync with feed.json (build_web.py was run)
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install jsonschema
+
+      - name: Validate feed.json against the schema
+        run: |
+          python3 - <<'PY'
+          import json
+          from jsonschema import validate
+          feed = json.load(open("docs/feed.json", encoding="utf-8"))
+          schema = json.load(open("pipeline/feed.schema.json", encoding="utf-8"))
+          validate(instance=feed, schema=schema)
+          print(f"OK: feed.json is valid ({len(feed['articles'])} articles).")
+          PY
+
+      - name: Check docs/index.html is in sync with feed.json
+        run: |
+          python3 pipeline/build_web.py
+          if ! git diff --quiet -- docs/index.html; then
+            echo "::error::docs/index.html is out of date. Run 'python3 pipeline/build_web.py' and commit the result."
+            git --no-pager diff -- docs/index.html | head -60
+            exit 1
+          fi
+          echo "OK: docs/index.html matches docs/feed.json."

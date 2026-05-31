@@ -1,5 +1,7 @@
 # PharmaPulse 📈💊
 
+[![Validate](https://github.com/sharjeel45557/drug-app/actions/workflows/validate.yml/badge.svg)](https://github.com/sharjeel45557/drug-app/actions/workflows/validate.yml)
+
 **A fast, static, auto-updating web app delivering weekly pharma & drug-industry
 intelligence** — FDA approvals, Phase III readouts, biosimilars, complete
 response letters, M&A and regulatory shifts — each paired with a concise
