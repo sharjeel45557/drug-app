@@ -48,11 +48,13 @@ Note today's date. Search `{source}` for items published in roughly the last
 - (note the source url internally for dedup; it is NOT stored in the public feed)
 
 ## 4. Update `docs/feed.json` (only if there are new items)
-- Merge new + existing articles; drop anything older than ~8 weeks.
+- Merge new items with ALL existing articles — this is a cumulative archive, so
+  do NOT delete older stories.
 - Sort newest first and re-number `id` 1…N (newest = 1).
 - Do NOT include a `url` field (the public feed carries no source links).
-- Set `generatedAt` to today; set `weekRange` to the trailing 7-day window
-  (e.g. "May 25 – May 31, 2026"). Keep `schemaVersion: 1` and
+- Set `generatedAt` to today. Set `weekRange` to the coverage span, e.g.
+  "2026 Year-to-Date (Jan – Jun 2026)" — update the end month as the year
+  progresses; do NOT use a single-week range. Keep `schemaVersion: 1` and
   `source: "PharmaPulse Weekly Briefing"`.
 
 ## 5. Rebuild and publish

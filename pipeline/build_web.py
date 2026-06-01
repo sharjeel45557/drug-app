@@ -227,7 +227,7 @@ TEMPLATE = r"""<!doctype html>
     <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-7 4 14 2-9 1.5 4H21"/></svg>
     Pharma Intelligence
   </div>
-  <div class="kpi"><b>__COUNT__</b><span>stories this week</span></div>
+  <div class="kpi"><b>__COUNT__</b><span>stories tracked</span></div>
   <div class="meta"><span>__WEEK__</span><span>__UPDATED__</span></div>
 </header>
 
