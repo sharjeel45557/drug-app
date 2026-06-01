@@ -21,7 +21,7 @@ SITE_URL = "https://sharjeel45557.github.io/drug-app/"
 REPO_URL = "https://github.com/sharjeel45557/drug-app"
 AUTHOR = "Sharjeel Ahmad"
 AUTHOR_URL = "https://linkedin.com/in/sharjeelahmad"
-DESCRIPTION = "Weekly pharma & drug-industry intelligence — FDA approvals, Phase III readouts, biosimilars, CRLs, M&A and more, each with an impact analysis."
+DESCRIPTION = "Daily pharma & drug-industry intelligence — FDA approvals, Phase III readouts, biosimilars, CRLs, M&A and more, each with an impact analysis."
 
 # catClass -> (solid hex, short label, SVG path)
 CATS = {
@@ -164,7 +164,7 @@ TEMPLATE = r"""<!doctype html>
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>PharmaPulse — Weekly Pharma &amp; Drug-Industry Intelligence</title>
+<title>PharmaPulse — Daily Pharma &amp; Drug-Industry Intelligence</title>
 <meta name="description" content="__DESCRIPTION__" />
 <meta name="theme-color" content="#1E3A8A" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -176,7 +176,7 @@ TEMPLATE = r"""<!doctype html>
 <link rel="manifest" href="manifest.webmanifest" />
 <!-- Social link previews -->
 <meta property="og:type" content="website" />
-<meta property="og:title" content="PharmaPulse — Weekly Pharma &amp; Drug-Industry Intelligence" />
+<meta property="og:title" content="PharmaPulse — Daily Pharma &amp; Drug-Industry Intelligence" />
 <meta property="og:description" content="__DESCRIPTION__" />
 <meta property="og:url" content="__SITE__" />
 <meta property="og:image" content="__SITE__og-image.png" />

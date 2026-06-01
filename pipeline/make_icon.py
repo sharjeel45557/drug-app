@@ -86,7 +86,7 @@ def fit_font(text, start_px):
 
 
 title = "PharmaPulse"
-subtitle = "Weekly pharma & drug-industry intelligence"
+subtitle = "Daily pharma & drug-industry intelligence"
 title_font = fit_font(title, 132 * SS)
 sub_font = fit_font(subtitle, 50 * SS)
 dc.text((margin, 150 * SS), title, font=title_font, fill=WHITE)

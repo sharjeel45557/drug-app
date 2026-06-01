@@ -1,7 +1,7 @@
 {
   "name": "PharmaPulse",
   "short_name": "PharmaPulse",
-  "description": "Weekly pharma & drug-industry intelligence with impact analysis.",
+  "description": "Daily pharma & drug-industry intelligence with impact analysis.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#1E3A8A",
