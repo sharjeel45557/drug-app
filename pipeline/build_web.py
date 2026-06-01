@@ -266,17 +266,15 @@ __CARDS__
 
   <footer class="foot">
     <details class="about">
-      <summary>About this project</summary>
-      <p>PharmaPulse is a weekly pharma &amp; drug-industry intelligence briefing —
-         FDA approvals, Phase III readouts, biosimilars, complete response letters,
-         M&amp;A and regulatory shifts, each paired with a concise impact analysis of
-         the competitive, pricing and market implications.</p>
-      <p>It is a fast, static web app: a single curated data file is rendered to
-         this page and refreshed automatically every week. Every story is server-
-         rendered, so the full briefing is readable even with JavaScript disabled.
-         Impact analysis is editorial summary, not investment advice.</p>
+      <summary>About PharmaPulse</summary>
+      <p>PharmaPulse is a curated pharma &amp; drug-industry intelligence feed,
+         updated daily. It tracks the developments that move markets — FDA and EU
+         approvals, Phase III readouts, biosimilars, complete response letters,
+         and M&amp;A — and pairs each story with a concise analysis of the
+         competitive, pricing and investor implications.</p>
+      <p>Impact analysis is editorial summary and not investment advice.</p>
     </details>
-    <p class="credit">Built by __AUTHOR__ · Updated weekly · <a href="__REPO__" target="_blank" rel="noopener">View source</a></p>
+    <p class="credit">Built by __AUTHOR__ · Updated daily</p>
   </footer>
 </div>
 
