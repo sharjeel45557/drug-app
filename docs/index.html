@@ -43,7 +43,14 @@
   .kpi b{ font-size:2.6rem; font-weight:800; letter-spacing:-1px; }
   .kpi span{ font-weight:600; opacity:.92; }
   .meta{ margin-top:6px; font-size:.82rem; opacity:.9; display:flex; gap:14px; flex-wrap:wrap; }
-  .controls{ position:sticky; top:0; z-index:5; background:var(--bg); padding:12px 0 6px; }
+  .controls{ padding:12px 0 10px; }
+  /* Stories live in their own scroll window so the page itself stays short. */
+  #feed{ max-height:68vh; overflow-y:auto; -webkit-overflow-scrolling:touch;
+         border:1px solid var(--line); border-radius:16px; padding:12px 12px 4px;
+         background:var(--bg); box-shadow:inset 0 -10px 12px -10px rgba(0,0,0,.12); }
+  #feed::-webkit-scrollbar{ width:10px; }
+  #feed::-webkit-scrollbar-thumb{ background:var(--line); border-radius:8px;
+         border:3px solid var(--bg); }
   .search{ display:flex; align-items:center; gap:8px; background:var(--card);
            border:1px solid var(--line); border-radius:12px; padding:10px 12px; }
   .search input{ border:0; outline:0; background:transparent; color:var(--text); font-size:1rem; width:100%; }
