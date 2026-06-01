@@ -258,7 +258,7 @@ TEMPLATE = r"""<!doctype html>
     Pharma Intelligence
   </div>
   <div class="kpi"><b>__COUNT__</b><span>stories this week</span></div>
-  <div class="meta"><span>__WEEKLABEL__</span><span>📚 __TOTAL__ tracked · 2026 YTD</span><span>__UPDATED__</span></div>
+  <div class="meta"><span>__WEEKLABEL__</span><span>📚 __TOTAL__ tracked</span><span>__UPDATED__</span></div>
 </header>
 
 <div class="wrap">
