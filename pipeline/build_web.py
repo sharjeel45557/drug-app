@@ -19,7 +19,8 @@ OUT = os.path.join(ROOT, "docs", "index.html")
 # Showcase / deployment config — edit these freely.
 SITE_URL = "https://sharjeel45557.github.io/drug-app/"
 REPO_URL = "https://github.com/sharjeel45557/drug-app"
-AUTHOR = "Sharjeel Ahmed"
+AUTHOR = "Sharjeel Ahmad"
+AUTHOR_URL = "https://linkedin.com/in/sharjeelahmad"
 DESCRIPTION = "Weekly pharma & drug-industry intelligence — FDA approvals, Phase III readouts, biosimilars, CRLs, M&A and more, each with an impact analysis."
 
 # catClass -> (solid hex, short label, SVG path)
@@ -150,6 +151,7 @@ def build():
         "__SITE__": SITE_URL,
         "__REPO__": REPO_URL,
         "__AUTHOR__": esc(AUTHOR),
+        "__AUTHOR_URL__": AUTHOR_URL,
     }.items():
         html = html.replace(k, v)
 
@@ -285,7 +287,7 @@ __CARDS__
          competitive, pricing and investor implications.</p>
       <p>Impact analysis is editorial summary and not investment advice.</p>
     </details>
-    <p class="credit">Built by __AUTHOR__ · Updated daily</p>
+    <p class="credit">Built by <a href="__AUTHOR_URL__" target="_blank" rel="noopener">__AUTHOR__</a> · Updated daily</p>
   </footer>
 </div>
 
