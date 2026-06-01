@@ -110,6 +110,23 @@ def build():
 
     week = esc(feed.get("weekRange", ""))
     import datetime as dt
+
+    # Count stories in the current week (7-day window ending at the newest story).
+    def parse(d):
+        try:
+            return dt.date.fromisoformat(d)
+        except Exception:
+            return None
+    dates = [parse(a.get("date")) for a in arts]
+    dates = [d for d in dates if d]
+    week_count = len(arts)
+    week_label = ""
+    if dates:
+        newest = max(dates)
+        start = newest - dt.timedelta(days=6)
+        week_count = sum(1 for d in dates if start <= d <= newest)
+        week_label = f"📅 Week of {start.strftime('%b %-d')} – {newest.strftime('%b %-d, %Y')}"
+
     try:
         upd = dt.datetime.fromisoformat(feed["generatedAt"].replace("Z", "+00:00"))
         updated = "Updated " + upd.strftime("%b %-d")
@@ -118,7 +135,9 @@ def build():
 
     html = TEMPLATE
     for k, v in {
-        "__COUNT__": str(len(arts)),
+        "__COUNT__": str(week_count),
+        "__TOTAL__": str(len(arts)),
+        "__WEEKLABEL__": week_label,
         "__WEEK__": ("📅 " + week) if week else "",
         "__UPDATED__": updated,
         "__CHIPS__": chips,
@@ -227,8 +246,8 @@ TEMPLATE = r"""<!doctype html>
     <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l2-7 4 14 2-9 1.5 4H21"/></svg>
     Pharma Intelligence
   </div>
-  <div class="kpi"><b>__COUNT__</b><span>stories tracked</span></div>
-  <div class="meta"><span>__WEEK__</span><span>__UPDATED__</span></div>
+  <div class="kpi"><b>__COUNT__</b><span>stories this week</span></div>
+  <div class="meta"><span>__WEEKLABEL__</span><span>📚 __TOTAL__ tracked · 2026 YTD</span><span>__UPDATED__</span></div>
 </header>
 
 <div class="wrap">
