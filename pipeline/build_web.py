@@ -17,7 +17,7 @@ FEED = os.path.join(ROOT, "docs", "feed.json")
 OUT = os.path.join(ROOT, "docs", "index.html")
 
 # Showcase / deployment config — edit these freely.
-SITE_URL = "https://sharjeel45557.github.io/drug-app/"
+SITE_URL = "https://pharmapulse.confidential.codes/"
 REPO_URL = "https://github.com/sharjeel45557/drug-app"
 AUTHOR = "Sharjeel Ahmad"
 AUTHOR_URL = "https://linkedin.com/in/sharjeelahmad"
