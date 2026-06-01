@@ -127,11 +127,15 @@ def build():
         week_count = sum(1 for d in dates if start <= d <= newest)
         week_label = f"📅 Week of {start.strftime('%b %-d')} – {newest.strftime('%b %-d, %Y')}"
 
+    # "Updated" = the later of generatedAt and the newest story date, so it stays
+    # correct automatically even if a run doesn't refresh generatedAt.
+    gen = None
     try:
-        upd = dt.datetime.fromisoformat(feed["generatedAt"].replace("Z", "+00:00"))
-        updated = "Updated " + upd.strftime("%b %-d")
+        gen = dt.datetime.fromisoformat(feed["generatedAt"].replace("Z", "+00:00")).date()
     except Exception:
-        updated = ""
+        gen = None
+    upd_candidates = [d for d in (gen, (max(dates) if dates else None)) if d]
+    updated = ("Updated " + max(upd_candidates).strftime("%b %-d, %Y")) if upd_candidates else ""
 
     html = TEMPLATE
     for k, v in {
