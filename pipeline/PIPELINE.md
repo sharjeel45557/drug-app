@@ -63,6 +63,10 @@ It stays dormant until those are set.
 - Newest articles get the lowest `id`s after a full re-number (1…N).
 - `catClass` / `borderClass` must come from the enum in `feed.schema.json`.
 - No `url` field in the public feed (source links are stripped).
+- Always publish to `main` — GitHub Pages serves `main`/`docs`, so the feed only
+  goes live once the commit is on `main`. Even when a session works on a
+  development/feature branch, merge/fast-forward into `main` and push `main`; a
+  feed commit that lands only on a branch is not published.
 - Impact analysis is specific and conservative: name drugs, companies,
   competitors, markets — without overstating.
 

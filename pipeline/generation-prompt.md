@@ -62,6 +62,13 @@ Note today's date. Search `{source}` for items published in roughly the last
 - Verify: `python3 -m json.tool docs/feed.json > /dev/null`.
 - If (and only if) files changed, commit with a message like
   `feed: add N stories (YYYY-MM-DD)` and **push to `main`**.
+- **Always publish to `main`.** GitHub Pages serves the site from `main`/`docs`,
+  so the feed only goes live once the commit is on `main`. This holds even when
+  the session is configured to work on a development/feature branch: do the work
+  there if required, then merge/fast-forward into `main` and push `main` (e.g.
+  `git checkout main && git pull origin main && git merge --ff-only <branch> &&
+  git push origin main`). A commit that lands only on a feature branch is NOT
+  published — never stop there.
 - If nothing new was worth adding, make NO commit and stop.
 
 ## 6. Report
