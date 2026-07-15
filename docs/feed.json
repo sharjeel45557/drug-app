@@ -1,11 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T00:00:00Z",
+  "generatedAt": "2026-07-15T00:00:00Z",
   "weekRange": "2026 Year-to-Date (Jan – Jul 2026)",
   "source": "PharmaPulse Weekly Briefing",
   "articles": [
     {
       "id": 1,
+      "category": "EU Regulatory",
+      "catClass": "cat-eu",
+      "borderClass": "border-eu",
+      "headline": "France's ANSM Fines Novo Nordisk And Lilly Over Obesity 'Awareness' Campaigns",
+      "details": "French medicines regulator ANSM fined Novo Nordisk a total of €1.78m (€1m for Saxenda adverts, €783,838 for Wegovy) and Eli Lilly €108,766 over its Mounjaro campaign, ruling that their public obesity 'awareness' promotions amounted to banned direct-to-consumer advertising of prescription GLP-1 medicines. Novo Nordisk said it strongly contests the decision and is exploring an appeal.",
+      "drugs": "Wegovy, Saxenda (Novo Nordisk); Mounjaro (Eli Lilly); GLP-1 obesity market, France/EU",
+      "impact": "The penalties establish an EU precedent that unbranded disease-awareness marketing can be treated as illegal DTC promotion, constraining how the two dominant GLP-1 players build obesity demand across Europe, where consumer drug advertising is broadly prohibited. Though the fines are financially small, the ruling raises compliance risk for aggressive obesity campaigns and could push spend toward physician and payer channels. It is a strategically notable marker as Novo Nordisk and Lilly compete for the fast-growing European weight-loss market.",
+      "date": "2026-07-13"
+    },
+    {
+      "id": 2,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -16,7 +27,7 @@
       "date": "2026-07-13"
     },
     {
-      "id": 2,
+      "id": 3,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -27,7 +38,7 @@
       "date": "2026-07-10"
     },
     {
-      "id": 3,
+      "id": 4,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -38,7 +49,7 @@
       "date": "2026-07-10"
     },
     {
-      "id": 4,
+      "id": 5,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -49,7 +60,7 @@
       "date": "2026-07-09"
     },
     {
-      "id": 5,
+      "id": 6,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -60,7 +71,7 @@
       "date": "2026-07-08"
     },
     {
-      "id": 6,
+      "id": 7,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -71,7 +82,7 @@
       "date": "2026-07-07"
     },
     {
-      "id": 7,
+      "id": 8,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -82,7 +93,7 @@
       "date": "2026-07-07"
     },
     {
-      "id": 8,
+      "id": 9,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -93,7 +104,7 @@
       "date": "2026-07-06"
     },
     {
-      "id": 9,
+      "id": 10,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -104,7 +115,7 @@
       "date": "2026-07-06"
     },
     {
-      "id": 10,
+      "id": 11,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -115,7 +126,7 @@
       "date": "2026-07-03"
     },
     {
-      "id": 11,
+      "id": 12,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -126,7 +137,7 @@
       "date": "2026-07-01"
     },
     {
-      "id": 12,
+      "id": 13,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -137,7 +148,7 @@
       "date": "2026-06-30"
     },
     {
-      "id": 13,
+      "id": 14,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -148,7 +159,7 @@
       "date": "2026-06-30"
     },
     {
-      "id": 14,
+      "id": 15,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -159,7 +170,7 @@
       "date": "2026-06-29"
     },
     {
-      "id": 15,
+      "id": 16,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -170,7 +181,7 @@
       "date": "2026-06-26"
     },
     {
-      "id": 16,
+      "id": 17,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -181,7 +192,7 @@
       "date": "2026-06-26"
     },
     {
-      "id": 17,
+      "id": 18,
       "category": "Generics",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -192,7 +203,7 @@
       "date": "2026-06-26"
     },
     {
-      "id": 18,
+      "id": 19,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -203,7 +214,7 @@
       "date": "2026-06-25"
     },
     {
-      "id": 19,
+      "id": 20,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -214,7 +225,7 @@
       "date": "2026-06-24"
     },
     {
-      "id": 20,
+      "id": 21,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -225,7 +236,7 @@
       "date": "2026-06-22"
     },
     {
-      "id": 21,
+      "id": 22,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -236,7 +247,7 @@
       "date": "2026-06-22"
     },
     {
-      "id": 22,
+      "id": 23,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -247,7 +258,7 @@
       "date": "2026-06-22"
     },
     {
-      "id": 23,
+      "id": 24,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -258,7 +269,7 @@
       "date": "2026-06-19"
     },
     {
-      "id": 24,
+      "id": 25,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -269,7 +280,7 @@
       "date": "2026-06-17"
     },
     {
-      "id": 25,
+      "id": 26,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -280,7 +291,7 @@
       "date": "2026-06-17"
     },
     {
-      "id": 26,
+      "id": 27,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -291,7 +302,7 @@
       "date": "2026-06-17"
     },
     {
-      "id": 27,
+      "id": 28,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -302,7 +313,7 @@
       "date": "2026-06-09"
     },
     {
-      "id": 28,
+      "id": 29,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -313,7 +324,7 @@
       "date": "2026-06-09"
     },
     {
-      "id": 29,
+      "id": 30,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -324,7 +335,7 @@
       "date": "2026-06-08"
     },
     {
-      "id": 30,
+      "id": 31,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -335,7 +346,7 @@
       "date": "2026-06-08"
     },
     {
-      "id": 31,
+      "id": 32,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -346,7 +357,7 @@
       "date": "2026-06-07"
     },
     {
-      "id": 32,
+      "id": 33,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -357,7 +368,7 @@
       "date": "2026-06-03"
     },
     {
-      "id": 33,
+      "id": 34,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -368,7 +379,7 @@
       "date": "2026-06-03"
     },
     {
-      "id": 34,
+      "id": 35,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -379,7 +390,7 @@
       "date": "2026-06-02"
     },
     {
-      "id": 35,
+      "id": 36,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -390,7 +401,7 @@
       "date": "2026-06-02"
     },
     {
-      "id": 36,
+      "id": 37,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -401,7 +412,7 @@
       "date": "2026-06-02"
     },
     {
-      "id": 37,
+      "id": 38,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -412,7 +423,7 @@
       "date": "2026-06-01"
     },
     {
-      "id": 38,
+      "id": 39,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -423,7 +434,7 @@
       "date": "2026-06-01"
     },
     {
-      "id": 39,
+      "id": 40,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -434,7 +445,7 @@
       "date": "2026-06-01"
     },
     {
-      "id": 40,
+      "id": 41,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -445,7 +456,7 @@
       "date": "2026-05-31"
     },
     {
-      "id": 41,
+      "id": 42,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -456,7 +467,7 @@
       "date": "2026-05-31"
     },
     {
-      "id": 42,
+      "id": 43,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -467,7 +478,7 @@
       "date": "2026-05-31"
     },
     {
-      "id": 43,
+      "id": 44,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -478,7 +489,7 @@
       "date": "2026-05-30"
     },
     {
-      "id": 44,
+      "id": 45,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -489,7 +500,7 @@
       "date": "2026-05-29"
     },
     {
-      "id": 45,
+      "id": 46,
       "category": "FDA Biosimilar Policy",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -500,7 +511,7 @@
       "date": "2026-05-28"
     },
     {
-      "id": 46,
+      "id": 47,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -511,7 +522,7 @@
       "date": "2026-05-28"
     },
     {
-      "id": 47,
+      "id": 48,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -522,7 +533,7 @@
       "date": "2026-05-27"
     },
     {
-      "id": 48,
+      "id": 49,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -533,7 +544,7 @@
       "date": "2026-05-26"
     },
     {
-      "id": 49,
+      "id": 50,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -544,7 +555,7 @@
       "date": "2026-05-22"
     },
     {
-      "id": 50,
+      "id": 51,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -555,7 +566,7 @@
       "date": "2026-05-22"
     },
     {
-      "id": 51,
+      "id": 52,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -566,7 +577,7 @@
       "date": "2026-05-22"
     },
     {
-      "id": 52,
+      "id": 53,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -577,7 +588,7 @@
       "date": "2026-05-20"
     },
     {
-      "id": 53,
+      "id": 54,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -588,7 +599,7 @@
       "date": "2026-05-19"
     },
     {
-      "id": 54,
+      "id": 55,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -599,7 +610,7 @@
       "date": "2026-05-18"
     },
     {
-      "id": 55,
+      "id": 56,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -610,7 +621,7 @@
       "date": "2026-05-18"
     },
     {
-      "id": 56,
+      "id": 57,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -621,7 +632,7 @@
       "date": "2026-05-15"
     },
     {
-      "id": 57,
+      "id": 58,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -632,7 +643,7 @@
       "date": "2026-05-14"
     },
     {
-      "id": 58,
+      "id": 59,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -643,7 +654,7 @@
       "date": "2026-05-12"
     },
     {
-      "id": 59,
+      "id": 60,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -654,7 +665,7 @@
       "date": "2026-05-12"
     },
     {
-      "id": 60,
+      "id": 61,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -665,7 +676,7 @@
       "date": "2026-05-12"
     },
     {
-      "id": 61,
+      "id": 62,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -676,7 +687,7 @@
       "date": "2026-05-11"
     },
     {
-      "id": 62,
+      "id": 63,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -687,7 +698,7 @@
       "date": "2026-05-10"
     },
     {
-      "id": 63,
+      "id": 64,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -698,7 +709,7 @@
       "date": "2026-05-10"
     },
     {
-      "id": 64,
+      "id": 65,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -709,7 +720,7 @@
       "date": "2026-05-09"
     },
     {
-      "id": 65,
+      "id": 66,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -720,7 +731,7 @@
       "date": "2026-05-07"
     },
     {
-      "id": 66,
+      "id": 67,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -731,7 +742,7 @@
       "date": "2026-05-07"
     },
     {
-      "id": 67,
+      "id": 68,
       "category": "Accelerated Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -742,7 +753,7 @@
       "date": "2026-05-05"
     },
     {
-      "id": 68,
+      "id": 69,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -753,7 +764,7 @@
       "date": "2026-05-05"
     },
     {
-      "id": 69,
+      "id": 70,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -764,7 +775,7 @@
       "date": "2026-05-04"
     },
     {
-      "id": 70,
+      "id": 71,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -775,7 +786,7 @@
       "date": "2026-05-04"
     },
     {
-      "id": 71,
+      "id": 72,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -786,7 +797,7 @@
       "date": "2026-05-03"
     },
     {
-      "id": 72,
+      "id": 73,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -797,7 +808,7 @@
       "date": "2026-05-01"
     },
     {
-      "id": 73,
+      "id": 74,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -808,7 +819,7 @@
       "date": "2026-04-30"
     },
     {
-      "id": 74,
+      "id": 75,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -819,7 +830,7 @@
       "date": "2026-04-30"
     },
     {
-      "id": 75,
+      "id": 76,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -830,7 +841,7 @@
       "date": "2026-04-29"
     },
     {
-      "id": 76,
+      "id": 77,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -841,7 +852,7 @@
       "date": "2026-04-28"
     },
     {
-      "id": 77,
+      "id": 78,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -852,7 +863,7 @@
       "date": "2026-04-24"
     },
     {
-      "id": 78,
+      "id": 79,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -863,7 +874,7 @@
       "date": "2026-04-24"
     },
     {
-      "id": 79,
+      "id": 80,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -874,7 +885,7 @@
       "date": "2026-04-22"
     },
     {
-      "id": 80,
+      "id": 81,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -885,7 +896,7 @@
       "date": "2026-04-20"
     },
     {
-      "id": 81,
+      "id": 82,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -896,7 +907,7 @@
       "date": "2026-04-20"
     },
     {
-      "id": 82,
+      "id": 83,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -907,7 +918,7 @@
       "date": "2026-04-19"
     },
     {
-      "id": 83,
+      "id": 84,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -918,7 +929,7 @@
       "date": "2026-04-17"
     },
     {
-      "id": 84,
+      "id": 85,
       "category": "Industry / R&D",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -929,7 +940,7 @@
       "date": "2026-04-16"
     },
     {
-      "id": 85,
+      "id": 86,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -940,7 +951,7 @@
       "date": "2026-04-15"
     },
     {
-      "id": 86,
+      "id": 87,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -951,7 +962,7 @@
       "date": "2026-04-14"
     },
     {
-      "id": 87,
+      "id": 88,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -962,7 +973,7 @@
       "date": "2026-04-13"
     },
     {
-      "id": 88,
+      "id": 89,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -973,7 +984,7 @@
       "date": "2026-04-10"
     },
     {
-      "id": 89,
+      "id": 90,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -984,7 +995,7 @@
       "date": "2026-04-10"
     },
     {
-      "id": 90,
+      "id": 91,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -995,7 +1006,7 @@
       "date": "2026-04-08"
     },
     {
-      "id": 91,
+      "id": 92,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1006,7 +1017,7 @@
       "date": "2026-04-07"
     },
     {
-      "id": 92,
+      "id": 93,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1017,7 +1028,7 @@
       "date": "2026-04-03"
     },
     {
-      "id": 93,
+      "id": 94,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1028,7 +1039,7 @@
       "date": "2026-04-01"
     },
     {
-      "id": 94,
+      "id": 95,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1039,7 +1050,7 @@
       "date": "2026-03-31"
     },
     {
-      "id": 95,
+      "id": 96,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1050,7 +1061,7 @@
       "date": "2026-03-30"
     },
     {
-      "id": 96,
+      "id": 97,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1061,7 +1072,7 @@
       "date": "2026-03-30"
     },
     {
-      "id": 97,
+      "id": 98,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1072,7 +1083,7 @@
       "date": "2026-03-30"
     },
     {
-      "id": 98,
+      "id": 99,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1083,7 +1094,7 @@
       "date": "2026-03-27"
     },
     {
-      "id": 99,
+      "id": 100,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1094,7 +1105,7 @@
       "date": "2026-03-25"
     },
     {
-      "id": 100,
+      "id": 101,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1105,7 +1116,7 @@
       "date": "2026-03-25"
     },
     {
-      "id": 101,
+      "id": 102,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1116,7 +1127,7 @@
       "date": "2026-03-23"
     },
     {
-      "id": 102,
+      "id": 103,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1127,7 +1138,7 @@
       "date": "2026-03-20"
     },
     {
-      "id": 103,
+      "id": 104,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1138,7 +1149,7 @@
       "date": "2026-03-20"
     },
     {
-      "id": 104,
+      "id": 105,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1149,7 +1160,7 @@
       "date": "2026-03-20"
     },
     {
-      "id": 105,
+      "id": 106,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1160,7 +1171,7 @@
       "date": "2026-03-18"
     },
     {
-      "id": 106,
+      "id": 107,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1171,7 +1182,7 @@
       "date": "2026-03-16"
     },
     {
-      "id": 107,
+      "id": 108,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1182,7 +1193,7 @@
       "date": "2026-03-15"
     },
     {
-      "id": 108,
+      "id": 109,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1193,7 +1204,7 @@
       "date": "2026-03-15"
     },
     {
-      "id": 109,
+      "id": 110,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1204,7 +1215,7 @@
       "date": "2026-03-12"
     },
     {
-      "id": 110,
+      "id": 111,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1215,7 +1226,7 @@
       "date": "2026-03-12"
     },
     {
-      "id": 111,
+      "id": 112,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1226,7 +1237,7 @@
       "date": "2026-03-10"
     },
     {
-      "id": 112,
+      "id": 113,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1237,7 +1248,7 @@
       "date": "2026-03-10"
     },
     {
-      "id": 113,
+      "id": 114,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1248,7 +1259,7 @@
       "date": "2026-03-09"
     },
     {
-      "id": 114,
+      "id": 115,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -1259,7 +1270,7 @@
       "date": "2026-03-06"
     },
     {
-      "id": 115,
+      "id": 116,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1270,7 +1281,7 @@
       "date": "2026-03-05"
     },
     {
-      "id": 116,
+      "id": 117,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1281,7 +1292,7 @@
       "date": "2026-03-05"
     },
     {
-      "id": 117,
+      "id": 118,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1292,7 +1303,7 @@
       "date": "2026-03-02"
     },
     {
-      "id": 118,
+      "id": 119,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1303,7 +1314,7 @@
       "date": "2026-03-02"
     },
     {
-      "id": 119,
+      "id": 120,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1314,7 +1325,7 @@
       "date": "2026-02-27"
     },
     {
-      "id": 120,
+      "id": 121,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1325,7 +1336,7 @@
       "date": "2026-02-27"
     },
     {
-      "id": 121,
+      "id": 122,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1336,7 +1347,7 @@
       "date": "2026-02-27"
     },
     {
-      "id": 122,
+      "id": 123,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1347,7 +1358,7 @@
       "date": "2026-02-26"
     },
     {
-      "id": 123,
+      "id": 124,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1358,7 +1369,7 @@
       "date": "2026-02-25"
     },
     {
-      "id": 124,
+      "id": 125,
       "category": "Industry / R&D",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1369,7 +1380,7 @@
       "date": "2026-02-24"
     },
     {
-      "id": 125,
+      "id": 126,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1380,7 +1391,7 @@
       "date": "2026-02-23"
     },
     {
-      "id": 126,
+      "id": 127,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1391,7 +1402,7 @@
       "date": "2026-02-20"
     },
     {
-      "id": 127,
+      "id": 128,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1402,7 +1413,7 @@
       "date": "2026-02-20"
     },
     {
-      "id": 128,
+      "id": 129,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1413,7 +1424,7 @@
       "date": "2026-02-19"
     },
     {
-      "id": 129,
+      "id": 130,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -1424,7 +1435,7 @@
       "date": "2026-02-18"
     },
     {
-      "id": 130,
+      "id": 131,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1435,7 +1446,7 @@
       "date": "2026-02-18"
     },
     {
-      "id": 131,
+      "id": 132,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1446,7 +1457,7 @@
       "date": "2026-02-17"
     },
     {
-      "id": 132,
+      "id": 133,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1457,7 +1468,7 @@
       "date": "2026-02-16"
     },
     {
-      "id": 133,
+      "id": 134,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1468,7 +1479,7 @@
       "date": "2026-02-15"
     },
     {
-      "id": 134,
+      "id": 135,
       "category": "Industry / R&D",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1479,7 +1490,7 @@
       "date": "2026-02-13"
     },
     {
-      "id": 135,
+      "id": 136,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1490,7 +1501,7 @@
       "date": "2026-02-12"
     },
     {
-      "id": 136,
+      "id": 137,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1501,7 +1512,7 @@
       "date": "2026-02-10"
     },
     {
-      "id": 137,
+      "id": 138,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1512,7 +1523,7 @@
       "date": "2026-02-10"
     },
     {
-      "id": 138,
+      "id": 139,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1523,7 +1534,7 @@
       "date": "2026-02-09"
     },
     {
-      "id": 139,
+      "id": 140,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1534,7 +1545,7 @@
       "date": "2026-02-09"
     },
     {
-      "id": 140,
+      "id": 141,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1545,7 +1556,7 @@
       "date": "2026-02-08"
     },
     {
-      "id": 141,
+      "id": 142,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1556,7 +1567,7 @@
       "date": "2026-02-05"
     },
     {
-      "id": 142,
+      "id": 143,
       "category": "Accelerated Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1567,7 +1578,7 @@
       "date": "2026-02-05"
     },
     {
-      "id": 143,
+      "id": 144,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1578,7 +1589,7 @@
       "date": "2026-02-05"
     },
     {
-      "id": 144,
+      "id": 145,
       "category": "Accelerated Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1589,7 +1600,7 @@
       "date": "2026-02-02"
     },
     {
-      "id": 145,
+      "id": 146,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -1600,7 +1611,7 @@
       "date": "2026-01-30"
     },
     {
-      "id": 146,
+      "id": 147,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1611,7 +1622,7 @@
       "date": "2026-01-30"
     },
     {
-      "id": 147,
+      "id": 148,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1622,7 +1633,7 @@
       "date": "2026-01-30"
     },
     {
-      "id": 148,
+      "id": 149,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1633,7 +1644,7 @@
       "date": "2026-01-28"
     },
     {
-      "id": 149,
+      "id": 150,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1644,7 +1655,7 @@
       "date": "2026-01-26"
     },
     {
-      "id": 150,
+      "id": 151,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1655,7 +1666,7 @@
       "date": "2026-01-23"
     },
     {
-      "id": 151,
+      "id": 152,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1666,7 +1677,7 @@
       "date": "2026-01-23"
     },
     {
-      "id": 152,
+      "id": 153,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1677,7 +1688,7 @@
       "date": "2026-01-22"
     },
     {
-      "id": 153,
+      "id": 154,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1688,7 +1699,7 @@
       "date": "2026-01-21"
     },
     {
-      "id": 154,
+      "id": 155,
       "category": "Generics / Value-Added",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1699,7 +1710,7 @@
       "date": "2026-01-20"
     },
     {
-      "id": 155,
+      "id": 156,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1710,7 +1721,7 @@
       "date": "2026-01-16"
     },
     {
-      "id": 156,
+      "id": 157,
       "category": "Industry / R&D",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1721,7 +1732,7 @@
       "date": "2026-01-15"
     },
     {
-      "id": 157,
+      "id": 158,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1732,7 +1743,7 @@
       "date": "2026-01-15"
     },
     {
-      "id": 158,
+      "id": 159,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1743,7 +1754,7 @@
       "date": "2026-01-14"
     },
     {
-      "id": 159,
+      "id": 160,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1754,7 +1765,7 @@
       "date": "2026-01-14"
     },
     {
-      "id": 160,
+      "id": 161,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1765,7 +1776,7 @@
       "date": "2026-01-13"
     },
     {
-      "id": 161,
+      "id": 162,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1776,7 +1787,7 @@
       "date": "2026-01-13"
     },
     {
-      "id": 162,
+      "id": 163,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1787,7 +1798,7 @@
       "date": "2026-01-13"
     },
     {
-      "id": 163,
+      "id": 164,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1798,7 +1809,7 @@
       "date": "2026-01-13"
     },
     {
-      "id": 164,
+      "id": 165,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1809,7 +1820,7 @@
       "date": "2026-01-13"
     },
     {
-      "id": 165,
+      "id": 166,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1820,7 +1831,7 @@
       "date": "2026-01-13"
     },
     {
-      "id": 166,
+      "id": 167,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1831,7 +1842,7 @@
       "date": "2026-01-13"
     },
     {
-      "id": 167,
+      "id": 168,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1842,7 +1853,7 @@
       "date": "2026-01-12"
     },
     {
-      "id": 168,
+      "id": 169,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1853,7 +1864,7 @@
       "date": "2026-01-10"
     },
     {
-      "id": 169,
+      "id": 170,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1864,7 +1875,7 @@
       "date": "2026-01-08"
     },
     {
-      "id": 170,
+      "id": 171,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1875,7 +1886,7 @@
       "date": "2026-01-08"
     },
     {
-      "id": 171,
+      "id": 172,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1886,7 +1897,7 @@
       "date": "2026-01-06"
     },
     {
-      "id": 172,
+      "id": 173,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1897,7 +1908,7 @@
       "date": "2026-01-06"
     },
     {
-      "id": 173,
+      "id": 174,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1908,7 +1919,7 @@
       "date": "2026-01-05"
     },
     {
-      "id": 174,
+      "id": 175,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
