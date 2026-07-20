@@ -1,9 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T00:00:00Z",
+  "generatedAt": "2026-07-20T00:00:00Z",
   "weekRange": "2026 Year-to-Date (Jan – Jul 2026)",
   "source": "PharmaPulse Weekly Briefing",
   "articles": [
+    {
+      "category": "FDA Drug Approval",
+      "catClass": "cat-approval",
+      "borderClass": "border-approval",
+      "headline": "FDA Grants Fabhalta Full Approval To Slow Kidney Decline In IgA Nephropathy, A First For Complement Inhibitors",
+      "details": "The US FDA converted Novartis's oral Factor B inhibitor Fabhalta (iptacopan) from accelerated to traditional approval in primary IgA nephropathy and added a claim to slow kidney function decline, after the drug cut annualized eGFR loss by roughly 48% versus placebo over two years (-3.0 vs -5.7 mL/min/1.73m2/yr). It is described as the first and only complement inhibitor cleared to significantly slow kidney disease progression in IgAN.",
+      "drugs": "Fabhalta (iptacopan), Novartis; competing IgAN therapies include Vera Therapeutics' Trutakna (atacicept), Travere's Filspari (sparsentan), Calliditas/Otsuka's Tarpeyo (budesonide) and Vertex's povetacicept",
+      "impact": "The full approval and hard eGFR claim strengthen Novartis's foothold in a fast-crowding IgAN market and give Fabhalta a differentiated kidney-protection label as rivals fight for share. It raises the competitive bar for Vera's recently launched Trutakna and Vertex's pipeline, and supports Fabhalta's multi-indication expansion beyond PNH and C3 glomerulopathy. The shift from a proteinuria surrogate to a kidney-function outcome is investor-relevant as payers weigh long-term value.",
+      "date": "2026-07-16",
+      "id": 1
+    },
     {
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
@@ -13,7 +24,18 @@
       "drugs": "US FDA (CDER); builds on H1 2026's 26 novel approvals",
       "impact": "A record approval year would crowd the second-half launch calendar across therapeutic areas and pull forward revenue timelines for sponsors with pending applications. The parallel high CRL rate signals the agency is holding a firm quality and manufacturing bar, so approval odds remain uneven rather than assured. Investors tracking H2 PDUFA dates should brace for a dense, catalyst-heavy stretch.",
       "date": "2026-07-16",
-      "id": 1
+      "id": 2
+    },
+    {
+      "category": "FDA Regulatory",
+      "catClass": "cat-regulatory",
+      "borderClass": "border-regulatory",
+      "headline": "US FDA Walks Back 'Podium Policy', Says Makary Journal Articles And NPV FAQ Are Not Binding Guidance",
+      "details": "The US FDA stated that two journal articles co-authored by former Commissioner Martin Makary and CBER's Vinay Prasad, along with an FAQ on the National Priority Voucher (NPV) program, do not constitute policy or guidance and did not establish regulatory expectations. The move distances the agency from 'podium policy' - conveying expectations through speeches and informal writing rather than formal notice-and-comment guidance.",
+      "drugs": "Affects the National Priority Voucher (NPV) expedited-review program used for recent ultra-fast approvals such as Merck's Lipfendra (enlicitide)",
+      "impact": "The clarification signals a lean back toward formal guidance and adds uncertainty around the durability of the NPV program that has driven some of 2026's fastest approvals. For sponsors banking on NPV-style expedited pathways, the walk-back tempers expectations and raises questions about how future priority reviews will be governed. It is a governance-level shift for investors tracking FDA predictability.",
+      "date": "2026-07-15",
+      "id": 3
     },
     {
       "category": "FDA Drug Approval",
@@ -24,7 +46,7 @@
       "drugs": "Lipfendra (enlicitide), Merck; competes with injectable PCSK9 therapies Repatha (evolocumab, Amgen), Praluent (alirocumab, Regeneron/Sanofi) and Leqvio (inclisiran, Novartis)",
       "impact": "As the first oral entrant in a class long confined to injections, Lipfendra could substantially widen PCSK9 uptake and pressure incumbent injectables on convenience. Reported placebo-adjusted LDL-C reductions of roughly 56-59% at 24 weeks position it competitively on efficacy. The clearance also validates the FDA's National Priority Voucher pathway and hands Merck a potential blockbuster to help offset looming Keytruda patent erosion.",
       "date": "2026-07-15",
-      "id": 2
+      "id": 4
     },
     {
       "category": "FDA Drug Approval",
@@ -35,7 +57,7 @@
       "drugs": "Revtorpyk (gedatolisib, Celcuity), a pan-PI3K and mTORC1/2 inhibitor for HR+/HER2-, PIK3CA wild-type advanced breast cancer used with fulvestrant and palbociclib; contrasts with agents aimed at PIK3CA-mutant disease including Novartis's PI3K-alpha inhibitor Piqray (alpelisib), AstraZeneca's AKT inhibitor Truqap (capivasertib) and Novartis's mTOR inhibitor Afinitor (everolimus).",
       "impact": "The approval marks Celcuity's transition to a commercial-stage company and opens a differentiated option for the large HR+/HER2- population whose tumors lack a PIK3CA mutation - a group largely unaddressed by existing PAM-pathway drugs that are labeled for PIK3CA-mutant disease. A first-in-class, pathway-wide mechanism could carve share from CDK4/6-inhibitor-plus-endocrine regimens in later lines, though tolerability of broad PI3K/mTOR blockade will shape uptake. Celcuity plans a Q3 2026 supplemental filing for the PIK3CA-mutant cohort, and for investors the launch validates the company's sole lead asset.",
       "date": "2026-07-14",
-      "id": 3
+      "id": 5
     },
     {
       "category": "Phase III Clinical Trial",
@@ -46,10 +68,9 @@
       "drugs": "HBI-8000 (tucidinostat, HUYABIO International), an oral histone deacetylase (HDAC) inhibitor already approved for lymphoma in China and Japan, paired with nivolumab (Opdivo, Bristol Myers Squibb) in first-line advanced melanoma; the setting is otherwise served by anti-PD-1 monotherapy and combinations such as BMS's nivolumab-plus-relatlimab Opdualag and nivolumab-plus-ipilimumab.",
       "impact": "A positive first-line Phase III readout positions HBI-8000 as a potential oral add-on to checkpoint blockade in melanoma, where improving on single-agent anti-PD-1 without the added toxicity of ipilimumab-based regimens remains a central goal. A roughly four-month PFS gain, if it supports a filing, would give HUYABIO its first Western oncology approval and extend the drug beyond its established Asian hematology franchise. For investors the result validates an HDAC-inhibitor/checkpoint combination strategy, though overall-survival maturity and tolerability will determine its competitive standing against Opdualag and other frontline options.",
       "date": "2026-07-14",
-      "id": 4
+      "id": 6
     },
     {
-      "id": 5,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -57,10 +78,10 @@
       "details": "French medicines regulator ANSM fined Novo Nordisk a total of €1.78m (€1m for Saxenda adverts, €783,838 for Wegovy) and Eli Lilly €108,766 over its Mounjaro campaign, ruling that their public obesity 'awareness' promotions amounted to banned direct-to-consumer advertising of prescription GLP-1 medicines. Novo Nordisk said it strongly contests the decision and is exploring an appeal.",
       "drugs": "Wegovy, Saxenda (Novo Nordisk); Mounjaro (Eli Lilly); GLP-1 obesity market, France/EU",
       "impact": "The penalties establish an EU precedent that unbranded disease-awareness marketing can be treated as illegal DTC promotion, constraining how the two dominant GLP-1 players build obesity demand across Europe, where consumer drug advertising is broadly prohibited. Though the fines are financially small, the ruling raises compliance risk for aggressive obesity campaigns and could push spend toward physician and payer channels. It is a strategically notable marker as Novo Nordisk and Lilly compete for the fast-growing European weight-loss market.",
-      "date": "2026-07-13"
+      "date": "2026-07-13",
+      "id": 7
     },
     {
-      "id": 6,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -68,10 +89,10 @@
       "details": "A weekly late-stage snapshot logged two new approvals and six Phase III readouts across oncology, immunology and other therapy areas for the week ending July 13, 2026.",
       "drugs": "Late-stage assets across oncology, immunology and cardiometabolic indications; large-cap and biotech sponsors disclosing at medical conferences and in company releases.",
       "impact": "A lighter two-approval week cools the brisk 2026 launch cadence after several heavier weeks, while a moderate six-readout slate keeps a steady flow of clinical catalysts. Investors track which approvals open new therapeutic categories versus add me-too competition, and which positive readouts can re-rate small- and mid-cap developers heading into the second half.",
-      "date": "2026-07-13"
+      "date": "2026-07-13",
+      "id": 8
     },
     {
-      "id": 7,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -79,10 +100,10 @@
       "details": "Disc Medicine received a complete response letter for bitopertin, an oral GLYT1 inhibitor for erythropoietic protoporphyria (EPP), making it the first novel agent reviewed under the FDA's Commissioner's National Priority Voucher (CNPV) program to be turned down. The FDA said the trial's biomarker endpoint - a reduction in protoporphyrin IX (PPIX) - was not shown to be associated with clinical benefit, leaving the surrogate-based filing short of the evidence needed for approval.",
       "drugs": "Disc Medicine's bitopertin (oral GLYT1 inhibitor) for erythropoietic protoporphyria and X-linked protoporphyria; the ultra-rare EPP space is otherwise served mainly by Clinuvel Pharmaceuticals' Scenesse (afamelanotide).",
       "impact": "The decision is the first CRL for a drug carrying the FDA's new Commissioner's National Priority Voucher, signaling that the expedited-review pathway does not lower the evidentiary bar for surrogate endpoints. It is a material setback for Disc Medicine, which now faces additional work to tie PPIX reduction to clinical outcomes and a delay to what could have been a first-to-market oral therapy for EPP. For investors it underscores that regulatory surrogate-endpoint risk persists even for prioritized rare-disease programs.",
-      "date": "2026-07-10"
+      "date": "2026-07-10",
+      "id": 9
     },
     {
-      "id": 8,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -90,10 +111,10 @@
       "details": "The FDA published 14 previously confidential complete response letters for unapproved drugs, restarting a transparency initiative it had paused since April 2026; the newly released letters largely cite drug-quality and manufacturing-facility deficiencies. The disclosure accompanies a proposed rule floated in early July that would formalize and expand the agency's discretion to routinely publish CRLs, building on an earlier release of roughly 100 historical letters.",
       "drugs": "Applies across multiple unapproved-drug applications rather than a single product; part of a broader FDA push that has now disclosed more than 100 historical complete response letters.",
       "impact": "Routine CRL publication erodes a long-standing information asymmetry in which only sponsors knew why a drug was rejected, giving investors and competitors direct insight into rejection rationales - frequently manufacturing and quality problems rather than efficacy. Greater transparency raises the reputational stakes for sponsors that receive CRLs and could reshape how companies disclose regulatory setbacks. It reinforces the administration's 2026 agenda of real-time regulatory disclosure, which also targets complete response letters and DTC advertising.",
-      "date": "2026-07-10"
+      "date": "2026-07-10",
+      "id": 10
     },
     {
-      "id": 9,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -101,10 +122,10 @@
       "details": "The US FDA issued a third complete response letter, dated 9 July 2026, for Elevar Therapeutics and Hengrui Pharma's combination of the PD-1 inhibitor camrelizumab and the VEGFR2 tyrosine kinase inhibitor rivoceranib in first-line unresectable hepatocellular carcinoma (HCC). The rejection again cited manufacturing-facility deficiencies - this time findings from an April 2026 FDA inspection of a Hengrui site in China tied to the rivoceranib filing - rather than any concern about the clinical data, which come from the Phase III CARES-310 trial.",
       "drugs": "Camrelizumab (PD-1 inhibitor) plus rivoceranib (VEGFR2 TKI), Elevar Therapeutics/Hengrui Pharma (HLB Group), for first-line unresectable hepatocellular carcinoma; competes with standard-of-care first-line regimens including Roche's Tecentriq (atezolizumab) plus Avastin (bevacizumab), AstraZeneca's Imfinzi (durvalumab) plus Imjudo (tremelimumab), and Bayer's Nexavar (sorafenib).",
       "impact": "A third manufacturing-related CRL - after rejections in May 2024 and March 2025 - keeps a clinically validated liver-cancer regimen off the US market and prolongs a costly delay for HLB/Elevar and partner Hengrui. Because the FDA again flagged only manufacturing-facility deficiencies and raised no efficacy or safety concerns, the setback is a supply-chain and inspection problem the companies must resolve before resubmitting. The delay cedes ground to entrenched first-line HCC immunotherapy combinations from Roche and AstraZeneca while the CARES-310 survival benefit versus sorafenib remains unmonetized in the US.",
-      "date": "2026-07-09"
+      "date": "2026-07-09",
+      "id": 11
     },
     {
-      "id": 10,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -112,10 +133,10 @@
       "details": "The US FDA is advancing a proposed rule, newly listed on the 2026 Unified Agenda with a notice of proposed rulemaking targeted for December 2026, that would revise 21 CFR 202.1 to eliminate the long-standing 'adequate provision' option for broadcast direct-to-consumer (DTC) prescription-drug advertising. Removing it would require every television or radio ad to recite the full 'brief summary' of a drug's risks and contraindications rather than directing viewers to another source, a change the FDA and HHS acknowledge would make most broadcast ads prohibitively long and costly.",
       "drugs": "Applies broadly to brand prescription-drug advertisers rather than a single product; the heaviest US DTC television spenders include AbbVie (Rinvoq, Skyrizi), Pfizer, Bristol Myers Squibb, Novo Nordisk and Eli Lilly, whose campaigns underpin billions of dollars in annual pharma broadcast advertising.",
       "impact": "By stripping out adequate provision, the rule could function as a near de facto ban on broadcast DTC drug advertising - a market worth several billion dollars a year and a significant revenue source for television networks - with the FDA estimating compliance would cost industry more than $100m annually. It follows the administration's September 2025 DTC crackdown of roughly 100 cease-and-desist letters and is part of a wider FDA rulemaking agenda that also includes formalizing the real-time public release of complete response letters. For investors it pressures the marketing models of heavy DTC advertisers and media companies, though the December 2026 rulemaking target and ensuing comment period mean any change remains years from taking effect.",
-      "date": "2026-07-08"
+      "date": "2026-07-08",
+      "id": 12
     },
     {
-      "id": 11,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -123,10 +144,10 @@
       "details": "The US FDA granted accelerated approval on 7 July 2026 to Trutakna (atacicept), Vera Therapeutics' self-administered subcutaneous fusion protein that inhibits both BAFF and APRIL, for IgA nephropathy (IgAN), based on proteinuria-reduction data from the Phase IIb/III ORIGIN program. It is the first BAFF/APRIL dual inhibitor cleared in IgAN and reaches the market ahead of Vertex's competing candidate povetacicept.",
       "drugs": "Trutakna (atacicept, Vera Therapeutics), a subcutaneous BAFF/APRIL inhibitor for IgA nephropathy; Vertex's povetacicept (acquired via Alpine Immune Sciences) is the direct BAFF/APRIL rival in development, in a market that already includes Filspari (sparsentan, Travere), Fabhalta (iptacopan, Novartis) and Tarpeyo (budesonide, Calliditas/Otsuka).",
       "impact": "The first-in-class BAFF/APRIL dual-inhibitor approval gives Vera a first-mover commercial entry into an increasingly crowded IgAN market and an edge over Vertex, whose povetacicept remains in development. Trutakna's home-administered subcutaneous profile targets the B-cell-driven pathogenesis underlying disease progression, differentiating it from endothelin and complement approaches already approved. For investors, the clearance validates Vera's lead asset and lengthens the competitive field in IgAN, where several therapies are now vying for share and long-term outcome data will ultimately shape positioning.",
-      "date": "2026-07-07"
+      "date": "2026-07-07",
+      "id": 13
     },
     {
-      "id": 12,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -134,10 +155,10 @@
       "details": "Biopharma merger-and-acquisition activity that reignited in mid-2025 accelerated again in the second quarter of 2026, with roughly $78bn of announced deal value across 27 transactions - including 20 deals worth more than $1bn - representing sequential increases of about 14% in deal volume and 41% in total value versus the first quarter, according to Evaluate data. First-half 2026 dealmaking reached about $134bn, already surpassing all of 2025's $112bn, with 33 biotech acquisitions of $1bn or more.",
       "drugs": "Aggregate sector M&A analysis rather than a single product; Q2's largest transactions included Sun Pharma's ~$11.75bn purchase of Organon and GSK's ~$10.6bn acquisition of Nuvalent, with demand concentrated in oncology, metabolic disease and novel modalities such as bispecific antibodies, genome editing and in vivo CAR-T therapies.",
       "impact": "The data confirm that biopharma is on track for its strongest dealmaking year since the 2019 pre-pandemic peak, driven by looming patent cliffs, buoyant public markets and Big Pharma's race to replenish pipelines. Scaled specialty and midcap acquirers have joined large pharma in bidding for de-risked commercial and late-stage assets, while a difficult fundraising climate leaves smaller biotechs as willing sellers and Asia-based licensors increasingly supply pipeline innovation. For investors the trend signals sustained premium valuations for de-risked targets and continued portfolio rebalancing, tempered by interest-rate and macro uncertainty that keeps buyers selective.",
-      "date": "2026-07-07"
+      "date": "2026-07-07",
+      "id": 14
     },
     {
-      "id": 13,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -145,10 +166,10 @@
       "details": "Vertex Pharmaceuticals agreed to acquire Crinetics Pharmaceuticals for about $10.0bn ($85.00 per share in cash, roughly $8.8bn net of estimated cash and about double Crinetics' prior closing price), in a deal announced 6 July 2026 that is expected to close in the third quarter of 2026. The acquisition adds Crinetics' endocrinology franchise led by Palsonify (paltusotine), the first once-daily oral therapy approved by the US FDA (September 2025) and recently the EMA for adults with acromegaly, plus atumelnant, a once-daily oral ACTH receptor antagonist in Phase III for congenital adrenal hyperplasia (CAH).",
       "drugs": "Palsonify (paltusotine, Crinetics), an oral once-daily somatostatin receptor type 2 (SST2) agonist for acromegaly, competing with injectable somatostatin analogs Sandostatin (octreotide, Novartis), Somatuline (lanreotide, Ipsen) and Signifor (pasireotide, Recordati); plus atumelnant, an oral ACTH receptor antagonist in Phase III for congenital adrenal hyperplasia (CAH).",
       "impact": "The deal is Vertex's largest acquisition and accelerates its push to diversify beyond cystic fibrosis and its pain drug Journavx, adding a commercial-stage oral acromegaly drug with strong early uptake alongside a late-stage CAH asset in two underserved rare endocrine markets. Palsonify's oral, once-daily profile positions it to take share from long-established injectable depot somatostatin analogs that dominate acromegaly care. The roughly 2x premium underscores how aggressively large caps are paying for de-risked, commercial- and Phase III-stage rare-disease franchises, and hands Crinetics shareholders a sizable cash exit while Vertex assumes launch-execution and integration risk.",
-      "date": "2026-07-06"
+      "date": "2026-07-06",
+      "id": 15
     },
     {
-      "id": 14,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -156,10 +177,10 @@
       "details": "A weekly late-stage snapshot logged eight new approvals and fourteen Phase III readouts for the week ending July 6, 2026, spanning oncology, immunology, cardiometabolic and other therapy areas as sponsors disclosed data at medical meetings and in company releases.",
       "drugs": "Late-stage assets from large-cap and biotech sponsors across multiple indications; the week's eight regulatory clearances and fourteen positive or negative Phase III readouts were reported alongside US, EU and Japanese approval activity and conference and company disclosures.",
       "impact": "The heavier fourteen-readout slate lifts clinical catalyst density back up after a lighter prior week, giving investors a fresh batch of late-stage data points to reprice small- and mid-cap developers. The eight-approval tally keeps near-term launch activity steady across regions. Tracking which readouts hit or miss their primary endpoints - and which approvals unlock incremental revenue - remains the key signal for sponsors and portfolio positioning heading into the second half.",
-      "date": "2026-07-06"
+      "date": "2026-07-06",
+      "id": 16
     },
     {
-      "id": 15,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -167,10 +188,10 @@
       "details": "A mid-year regulatory scorecard showed the US FDA's drugs center (CDER) rebounded in the first half of 2026, clearing 26 novel agents and surpassing its year-earlier H1 count, while the biologics center (CBER) posted one of its lowest first-half novel approval totals in years.",
       "drugs": "Novel agents cleared by CDER spanning oncology, rare and ultra-rare diseases, thyroid eye disease, chronic conditions and once-weekly basal insulin; contrasted with a notably thinner first-half slate at CBER, which oversees biologics, cell and gene therapies and vaccines.",
       "impact": "The CDER rebound signals that small-molecule and standard drug review throughput recovered in H1 after a softer 2025, a constructive read-through for sponsors with near-term CDER decision dates. The divergent CBER slowdown raises questions about biologics, cell- and gene-therapy review momentum under a politically reshaped agency, a watch-item for developers whose lead assets sit at the biologics center. Investors use the mid-year tally to gauge regulatory momentum and calibrate expectations for the second-half approval and launch calendar.",
-      "date": "2026-07-03"
+      "date": "2026-07-03",
+      "id": 17
     },
     {
-      "id": 16,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -178,10 +199,10 @@
       "details": "Within roughly three days, Ipsen agreed to acquire US-based Kartos Therapeutics for $450m up front (up to $1.75bn with milestones), gaining oral MDM2 inhibitor navtemadlin - a Phase III (POIESIS) add-on to ruxolitinib in myelofibrosis with top-line data expected in 2027 - and to buy Switzerland's Memo Therapeutics for about EUR700m for potravitug, an antibody for post-transplant BK-virus infection, an area with no approved treatment. Both deals are expected to close by the end of the third quarter of 2026.",
       "drugs": "Navtemadlin (Kartos Therapeutics), an oral MDM2 inhibitor in Phase III as an add-on to ruxolitinib (Jakafi, Incyte/Novartis) for myelofibrosis; potravitug (Memo Therapeutics), an antibody targeting BK-virus infection in transplant recipients.",
       "impact": "The back-to-back deals deepen Ipsen's hemato-oncology and rare-disease pipelines as it works to diversify beyond established franchises ahead of future patent pressure. Navtemadlin targets a suboptimal-responder niche in myelofibrosis alongside standard-of-care ruxolitinib, while potravitug moves Ipsen into an untreated post-transplant infection space. The milestone-heavy Kartos structure caps upfront risk and defers most value to the 2027 POIESIS readout, and the rapid-fire dealmaking signals Ipsen's continued appetite for de-risked late-stage assets that larger buyers passed over.",
-      "date": "2026-07-01"
+      "date": "2026-07-01",
+      "id": 18
     },
     {
-      "id": 17,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -189,10 +210,10 @@
       "details": "The US FDA approved Orca Bio's Tregzi (allogeneic regulatory T-cell-based immunotherapy with HSPC and T cells-vldq), known in development as Orca-T, on 30 June 2026 for use in matched-donor hematopoietic stem cell transplantation with a myeloablative preparative regimen in adults with hematological malignancies. In the pivotal Phase III Precision-T trial, about 78% of Tregzi recipients were alive and free of moderate-to-severe chronic graft-versus-host disease (GVHD) at one year versus roughly 38% with standard allogeneic transplant, making it the first and only precision-engineered cell therapy for allogeneic transplant.",
       "drugs": "Tregzi (Orca-T; allogeneic HSPC and regulatory/conventional T cells-vldq, Orca Bio) for matched-donor allogeneic stem cell transplant in adults with hematologic malignancies such as acute leukemias and myelodysplastic syndrome; positioned against conventional unmanipulated allogeneic grafts paired with standard GVHD prophylaxis.",
       "impact": "As Orca Bio's first commercial product, the approval vaults the company from clinical to commercial stage and validates its high-precision graft-engineering platform, with reports it could pursue an IPO next. By roughly halving moderate-to-severe chronic GVHD - the main driver of transplant morbidity - Tregzi offers a differentiated alternative to standard allogeneic transplantation and could reshape conditioning and graft-engineering practice at major transplant centers. Uptake will hinge on manufacturing scale, logistics and reimbursement for a bespoke cell therapy competing against long-established, lower-cost standard-of-care transplant approaches.",
-      "date": "2026-06-30"
+      "date": "2026-06-30",
+      "id": 19
     },
     {
-      "id": 18,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -200,10 +221,10 @@
       "details": "The US FDA issued a second complete response letter on 30 June 2026 for Unicycive Therapeutics' oxylanthanum carbonate (OLC), a phosphate-lowering therapy for hyperphosphatemia in chronic kidney disease patients on dialysis, citing unresolved deficiencies at a third-party manufacturing vendor rather than any concern about the drug's efficacy, safety or its own chemistry, manufacturing and controls data.",
       "drugs": "Oxylanthanum carbonate (OLC, Unicycive Therapeutics), a next-generation lanthanum-based phosphate binder for hyperphosphatemia in dialysis-dependent chronic kidney disease; competes with established binders including sevelamer, lanthanum carbonate (Fosrenol), ferric citrate (Auryxia) and Ardelyx's phosphate absorption inhibitor Xphozah (tenapanor).",
       "impact": "A second manufacturing-related CRL delays what would be Unicycive's first commercial product and sharpens pressure on a cash-strapped micro-cap as its runway tightens. Because the FDA flagged only a third-party vendor's deficiencies and raised no efficacy, safety or product-CMC concerns, the setback is squarely a supply-chain problem the company must resolve before it can resubmit. Entry is further complicated by a crowded, largely genericized phosphate-binder market where a lower pill burden would be the key differentiator for uptake.",
-      "date": "2026-06-30"
+      "date": "2026-06-30",
+      "id": 20
     },
     {
-      "id": 19,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -211,10 +232,10 @@
       "details": "A weekly late-stage snapshot logged thirty-four new approvals and seven Phase III readouts for the week ending June 29, 2026, with Japanese regulatory clearances accounting for the bulk of the approval tally across multiple therapy areas.",
       "drugs": "Late-stage assets across oncology, immunology, cardiometabolic and other indications; a large batch of Japanese (PMDA) approvals alongside US and EU clearances from large-cap and biotech sponsors disclosing at medical conferences and in company releases.",
       "impact": "An unusually large thirty-four-approval week, skewed toward Japanese clearances, underscores how much near-term launch activity sits outside the US and reinforces Japan as a meaningful approval market for global and domestic sponsors. The lighter seven-readout slate keeps clinical catalyst risk lower than recent weeks as the post-ASCO data flow tapers into mid-year. Investors track which Japanese approvals unlock incremental ex-US revenue and which positive readouts can re-rate small- and mid-cap developers.",
-      "date": "2026-06-29"
+      "date": "2026-06-29",
+      "id": 21
     },
     {
-      "id": 20,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -222,10 +243,10 @@
       "details": "The US FDA approved Viridian Therapeutics' Lumvoa (veligrotug-vvze), an anti-IGF-1R monoclonal antibody, for thyroid eye disease (TED) on 26 June 2026, making it the second approved TED therapy and the first with a label covering both active and chronic disease. Approval rested on the Phase III THRIVE and THRIVE-2 trials, in which Lumvoa achieved proptosis responder rates of about 70% in active TED and 56% in chronic TED versus 5% and 8% for placebo, dosed as five infusions three weeks apart.",
       "drugs": "Lumvoa (veligrotug-vvze, Viridian Therapeutics), an IGF-1R inhibitor for thyroid eye disease; directly challenges Amgen's Tepezza (teprotumumab), which booked roughly $1.9bn in 2025 sales and had been the only approved TED therapy. Viridian is also advancing a subcutaneous follow-on candidate, with a US filing planned for early 2027.",
       "impact": "Lumvoa ends Tepezza's monopoly in TED, and its broad active-plus-chronic label together with a shorter five-infusion regimen (versus Tepezza's eight) hand Viridian a clear competitive wedge in a market Amgen has valued at around $2bn. As Viridian's first commercial product, the approval and immediate launch are pivotal to its transition into a commercial-stage biotech. Amgen must now defend the franchise on dosing convenience and payer contracting, while Viridian's planned subcutaneous version could reshape the category further.",
-      "date": "2026-06-26"
+      "date": "2026-06-26",
+      "id": 22
     },
     {
-      "id": 21,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -233,10 +254,10 @@
       "details": "The EMA's CHMP adopted a negative opinion on Omeros's marketing application for Yartemlea (narsoplimab) in transplant-associated thrombotic microangiopathy (TA-TMA), citing insufficient evidence of efficacy even though the same data supported the drug's US approval. Omeros said it intends to seek re-examination of the decision.",
       "drugs": "Yartemlea (narsoplimab), Omeros; indication: hematopoietic stem cell transplant-associated thrombotic microangiopathy (TA-TMA)",
       "impact": "The negative opinion stalls Omeros's European launch of its lead commercial asset and widens the transatlantic gap for narsoplimab, which already carries US approval. A successful re-examination is now pivotal to the company's revenue outlook, and the divergent US-EU verdicts highlight continued EMA caution on single-arm efficacy data in rare transplant complications.",
-      "date": "2026-06-26"
+      "date": "2026-06-26",
+      "id": 23
     },
     {
-      "id": 22,
       "category": "Generics",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -244,10 +265,10 @@
       "details": "The US FDA approved the first generic version of rifapentine (Priftin) nearly 28 years after Sanofi's originator was first cleared, opening competition for the long-acting rifamycin used in tuberculosis treatment and latent-TB prevention regimens.",
       "drugs": "Rifapentine generic; originator Priftin (Sanofi); indication: tuberculosis treatment and latent TB infection prevention",
       "impact": "A first generic introduces price competition to a product that had remained sole-source for decades, supporting broader and lower-cost access to short-course TB-prevention regimens. The dollar opportunity is modest, but the approval is meaningful for global TB programs and adds another launch to the US generics pipeline.",
-      "date": "2026-06-26"
+      "date": "2026-06-26",
+      "id": 24
     },
     {
-      "id": 23,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -255,10 +276,10 @@
       "details": "At its 22-25 June 2026 meeting, the EMA's CHMP issued a positive opinion for Eli Lilly's once-weekly basal insulin Onswik (insulin efsitora alfa) in adults with type 2 diabetes, which would become the EU's second once-weekly insulin after Novo Nordisk's Awiqli (insulin icodec). The committee also reversed an earlier negative stance to recommend Acadia Pharmaceuticals' trofinetide (Daybu) for Rett syndrome - potentially the first approved pharmacological therapy for the disorder in the EU - while recommending revocation of CSL Vifor's Tavneos (avacopan) over data-integrity questions concerning the main study supporting its approval.",
       "drugs": "Onswik (insulin efsitora alfa, Eli Lilly) for type 2 diabetes, versus Novo Nordisk's once-weekly Awiqli (insulin icodec) and daily basal insulins; trofinetide (Daybu, Acadia Pharmaceuticals) for Rett syndrome; avacopan (Tavneos, CSL Vifor) for ANCA-associated vasculitis.",
       "impact": "A positive opinion clears Onswik to become the EU's second once-weekly basal insulin, intensifying the weekly-insulin contest with Novo Nordisk's Awiqli and promising less-frequent dosing across the large type 2 diabetes market. The trofinetide reversal would open the first drug treatment for Rett syndrome in Europe, vindicating Acadia's persistence after an initial rejection, while the recommended revocation of Tavneos removes a marketed vasculitis therapy and underscores the CHMP's hardening stance on trial data integrity. The mixed slate sets the cadence for European launches, reimbursement talks and one notable market withdrawal.",
-      "date": "2026-06-25"
+      "date": "2026-06-25",
+      "id": 25
     },
     {
-      "id": 24,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -266,10 +287,10 @@
       "details": "The US FDA released revised draft guidance, published in the Federal Register on 24 June 2026, that positions a single adequate and well-controlled pivotal trial plus 'confirmatory evidence' as the default route to demonstrating substantial evidence of effectiveness, broadening the single-study pathway well beyond rare and serious diseases and dropping older 'legal equivalent' framing. Confirmatory evidence can draw on related trial data, evidence from other drugs in the same class, and mechanistic or natural-history data, and the agency paired the move with a pilot program intended to speed investigational new drug (IND) clearances.",
       "drugs": "Drug and biologic sponsors across therapeutic areas; the guidance applies broadly rather than to specific products, with the FDA recommending sponsors raise single-trial plans at pre-IND meetings and no later than the end of Phase II.",
       "impact": "Formalizing one pivotal trial as the norm could materially cut development cost and timelines for well-designed programs, accelerating filings across the industry rather than just in rare disease. It raises the stakes on trial design and the quality of 'confirmatory evidence,' and critics warn a lower bar could let weaker evidence reach the market. Coupled with the IND-clearance pilot, the guidance signals the politically reshaped FDA's continued push to speed development, with a public comment period running to 22 September 2026.",
-      "date": "2026-06-24"
+      "date": "2026-06-24",
+      "id": 26
     },
     {
-      "id": 25,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -277,10 +298,10 @@
       "details": "AbbVie agreed to acquire Apogee Therapeutics for about $10.9bn, paying $135.11 per share in cash to add a late-stage immunology and inflammation portfolio led by zumilokibart (APG777), a half-life-extended IL-13 monoclonal antibody designed for less-frequent dosing in atopic dermatitis and asthma. The deal, announced 22 June 2026, is AbbVie's largest acquisition since its 2020 Allergan takeover and is expected to close in the third quarter of 2026, subject to Apogee shareholder and regulatory approvals.",
       "drugs": "Zumilokibart (APG777, anti-IL-13 monoclonal antibody) and a long-acting IL-13/OX40L combination program (Apogee Therapeutics); AbbVie's in-line immunology franchise Skyrizi and Rinvoq; competing atopic dermatitis biologics Dupixent (dupilumab, Sanofi/Regeneron), Ebglyss (lebrikizumab, Eli Lilly) and Adbry/Adtralza (tralokinumab, LEO Pharma).",
       "impact": "The deal extends AbbVie's bet on immunology beyond its Humira successors Skyrizi and Rinvoq, positioning zumilokibart's extended-interval dosing against market-leading Dupixent and Lilly's Ebglyss in the multibillion-dollar atopic dermatitis market. At $10.9bn it ranks among 2026's largest biopharma acquisitions and signals continued willingness to pay premiums for de-risked, clinical-stage I&I assets as large caps race to backfill looming patent-cliff revenue. Apogee shareholders receive a sizable cash premium, while AbbVie absorbs late-stage clinical and competitive execution risk in a crowded IL-13 field.",
-      "date": "2026-06-22"
+      "date": "2026-06-22",
+      "id": 27
     },
     {
-      "id": 26,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -288,10 +309,10 @@
       "details": "REGENXBIO said the US FDA agreed, through its appeal of a February 2026 complete response letter, that existing clinical data for its one-time gene therapy Navsunli (clemidsogene lanparvovec, RGX-121) are sufficient to support a Biologics License Application under the accelerated approval pathway in mucopolysaccharidosis type II (Hunter syndrome), with no additional patients or studies required. The company plans a Type A meeting in July and to resubmit the BLA in the third quarter of 2026, with the FDA agreeing to review the resubmission on an expedited basis.",
       "drugs": "Navsunli (clemidsogene lanparvovec, RGX-121; REGENXBIO) for mucopolysaccharidosis type II (MPS II, Hunter syndrome); would be the first one-time gene therapy for the disorder, competing with Takeda's standard-of-care enzyme replacement therapy Elaprase (idursulfase).",
       "impact": "FDA acceptance of the existing data package—after a February 2026 CRL had stalled the program—could shorten Navsunli's path to becoming the first gene therapy for Hunter syndrome and revives REGENXBIO's lead clinical asset, sending its shares up about 11%. Approval would pit a durable one-time treatment against Takeda's recurring-infusion Elaprase and could trigger a lucrative rare pediatric disease priority review voucher. The reversal adds to a run of recent signals that the politically reshaped FDA is showing renewed flexibility on external controls and single-study evidence for rare-disease gene therapies.",
-      "date": "2026-06-22"
+      "date": "2026-06-22",
+      "id": 28
     },
     {
-      "id": 27,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -299,10 +320,10 @@
       "details": "A weekly late-stage snapshot logged nine new approvals and fourteen Phase III readouts across oncology, immunology and other therapy areas for the week ending June 22, 2026.",
       "drugs": "Late-stage assets across oncology, immunology and cardiometabolic indications; large-cap and biotech sponsors disclosing at medical conferences and in company releases.",
       "impact": "A steady nine-approval week sustains the brisk 2026 launch cadence, converting pipeline into near-term revenue. A heavier fourteen-readout slate keeps clinical catalyst risk elevated as the post-ASCO and post-ADA data flow continues. Investors track which approvals open new therapeutic categories versus add me-too competition, and which positive readouts can sharply re-rate small- and mid-cap developers.",
-      "date": "2026-06-22"
+      "date": "2026-06-22",
+      "id": 29
     },
     {
-      "id": 28,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -310,10 +331,10 @@
       "details": "The US FDA approved Bayer's Ambelvist (gadoquatrane), a macrocyclic gadolinium-based contrast agent (GBCA) for MRI that achieves diagnostic image quality at the lowest gadolinium dose of any approved macrocyclic agent.",
       "drugs": "Ambelvist (gadoquatrane), Bayer; rival macrocyclic GBCAs include Bayer's own Gadavist/Gadovist (gadobutrol), Guerbet's Dotarem (gadoterate meglumine), GE HealthCare's Clariscan and Bracco's ProHance (gadoteridol)",
       "impact": "The approval gives Bayer a next-generation MRI contrast agent that cuts per-scan gadolinium exposure, addressing growing safety and environmental concerns around gadolinium retention. Lower gadolinium load could become a competitive differentiator as radiology practices and regulators scrutinize cumulative dosing, helping Bayer defend its imaging franchise against generic gadobutrol and other macrocyclic agents. It extends Bayer's radiology business at a time when its flagship Gadavist faces eroding exclusivity.",
-      "date": "2026-06-19"
+      "date": "2026-06-19",
+      "id": 30
     },
     {
-      "id": 29,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -321,10 +342,10 @@
       "details": "uniQure said the US FDA has agreed that three-year Phase I/II data for its one-time gene therapy AMT-130 can support a Biologics License Application under the accelerated approval pathway in Huntington's disease, with the company planning to file in the third quarter of 2026. High-dose AMT-130 met its primary endpoint at three years, slowing decline on the composite cUHDRS scale by roughly 75% versus propensity-matched external controls from the Enroll-HD natural history database; the agency reversed an earlier stance against external controls and is finalizing a confirmatory study expected to use a standard-of-care rather than sham control.",
       "drugs": "AMT-130 (uniQure), an AAV5-delivered microRNA (miHTT) gene therapy that lowers mutant huntingtin protein, for Huntington's disease; would be the first disease-modifying therapy in a condition with no approved treatments that slow progression.",
       "impact": "FDA acceptance of a Phase I/II accelerated-approval filing—after the agency's late-2025 reversal had thrown the program into doubt—could shorten AMT-130's path to market by years and positions uniQure to bring the first disease-modifying Huntington's treatment to the roughly 6,000 US patients it initially aims to target. The clarity sent uniQure shares up about 79%, underscoring how pivotal the decision is for the company. It also signals renewed FDA flexibility on external controls and single-study evidence for rare neurodegenerative gene therapies, with read-through for the broader CNS gene-therapy field.",
-      "date": "2026-06-17"
+      "date": "2026-06-17",
+      "id": 31
     },
     {
-      "id": 30,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -332,10 +353,10 @@
       "details": "The US FDA approved AstraZeneca's Baxfendy (baxdrostat) for use in combination with other antihypertensives to lower blood pressure in adults who are not adequately controlled on existing therapy, making it the first-in-class aldosterone synthase inhibitor (ASI) to reach the US market. Approval was based on the Phase III BaxHTN trial in patients with systolic blood pressure of 140 mmHg or higher despite at least two antihypertensive medications, including a diuretic.",
       "drugs": "Baxfendy (baxdrostat, AstraZeneca; originally CinCor), a first-in-class aldosterone synthase inhibitor for uncontrolled and resistant hypertension; gets to market ahead of Mineralys Therapeutics' rival ASI lorundrostat, and competes with standard antihypertensive regimens and mineralocorticoid receptor antagonists.",
       "impact": "Being first to approval in a large, innovation-starved hypertension market hands AstraZeneca an early lead over Mineralys' lorundrostat and anchors a potential multibillion-dollar cardiovascular-renal-metabolic franchise the company sees as central to its $80bn 2030 sales ambition. A novel aldosterone-lowering mechanism opens a differentiated option for the millions of patients whose blood pressure stays uncontrolled on current drugs, with label expansion into chronic kidney disease and combination use with dapagliflozin in prospect. The launch sharpens the ASI race and pressures incumbent generic antihypertensives in resistant disease.",
-      "date": "2026-06-17"
+      "date": "2026-06-17",
+      "id": 32
     },
     {
-      "id": 31,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -343,10 +364,10 @@
       "details": "The US FDA approved GSK's Utebzi (tebipenem pivoxil hydrobromide) for complicated urinary tract infections, clearing the first oral carbapenem antibiotic in the US and offering an alternative to intravenous carbapenems that typically require hospitalization or outpatient infusion. The approval was supported by Phase III non-inferiority data generated by Spero Therapeutics, whose asset GSK acquired.",
       "drugs": "Utebzi (tebipenem pivoxil hydrobromide, GSK; originally Spero Therapeutics) for complicated urinary tract infections (cUTI), including pyelonephritis; an oral alternative to IV carbapenems such as ertapenem and meropenem and to other cUTI/pyelonephritis antibiotics.",
       "impact": "An oral carbapenem lets appropriate cUTI patients avoid IV infusion and inpatient stays, potentially shifting care to the outpatient setting and easing pressure on stretched antibiotic options for resistant Gram-negative infections. The approval validates GSK's bet on Spero's asset and strengthens its anti-infectives portfolio at a time of thin commercial investment in antibiotics. Reimbursement and stewardship-driven positioning against low-cost generic options will shape uptake in a market wary of antimicrobial overuse.",
-      "date": "2026-06-17"
+      "date": "2026-06-17",
+      "id": 33
     },
     {
-      "id": 32,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -354,10 +375,10 @@
       "details": "GSK agreed to acquire Nuvalent for about $10.6bn ($124 per share in cash, a roughly 40% premium), gaining two late-stage, next-generation precision oncology assets for non-small cell lung cancer — the selective ROS1 inhibitor zidesamtinib and the selective ALK inhibitor neladalkib, both under FDA review with target action dates of 18 September and 27 November 2026 — plus the Phase I HER2 inhibitor NVL-330.",
       "drugs": "Zidesamtinib (NVL-520, selective ROS1 inhibitor) and neladalkib (NVL-655, selective ALK inhibitor) for NSCLC, plus NVL-330 (HER2 inhibitor) (Nuvalent/GSK); compete with Pfizer's Xalkori (crizotinib) and Lorbrena (lorlatinib), Roche's Rozlytrek (entrectinib), Takeda's Alunbrig (brigatinib), Novartis's Zykadia (ceritinib) and Nuvation Bio's Ibtrozi (taletrectinib).",
       "impact": "The $10.6bn all-cash deal hands GSK two potential best-in-class, brain-penetrant ROS1/ALK inhibitors engineered to overcome resistance mutations that limit current tyrosine kinase inhibitors, giving it near-term launch optionality in genetically defined NSCLC ahead of late-2026 FDA decisions. It marks GSK's return to large-scale M&A as it races to refill its pipeline before late-decade patent expiries. The 40% premium intensifies competition for precision-oncology assets and pressures incumbents Pfizer, Roche and Takeda in targeted lung cancer.",
-      "date": "2026-06-09"
+      "date": "2026-06-09",
+      "id": 34
     },
     {
-      "id": 33,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -365,10 +386,10 @@
       "details": "A weekly late-stage snapshot logged fourteen new approvals and ten Phase III readouts across oncology, immunology and other therapy areas for the week ending June 8, 2026.",
       "drugs": "Late-stage assets across oncology, immunology and cardiometabolic indications; large-cap and biotech sponsors disclosing at medical conferences and in company releases.",
       "impact": "A fourteen-approval week sustains the brisk 2026 launch cadence, converting pipeline into near-term revenue. A heavier ten-readout slate reloads clinical catalyst risk following the late-May ASCO and early-June ADA data surge. Investors track which approvals open new therapeutic categories versus add me-too competition, and which positive readouts can sharply re-rate small- and mid-cap developers.",
-      "date": "2026-06-09"
+      "date": "2026-06-09",
+      "id": 35
     },
     {
-      "id": 34,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -376,10 +397,10 @@
       "details": "At the American Diabetes Association's 2026 Scientific Sessions, AstraZeneca reported that its oral small-molecule GLP-1 receptor agonist elecoglipron drove up to roughly 11.8% weight loss at 36 weeks in the Phase IIb VISTA study, with data simultaneously published in The Lancet, and said it will move the drug into an extensive Phase III programme (EMBOLD in obesity and ELUMINATE in type 2 diabetes) that includes cardiovascular and kidney outcome trials.",
       "drugs": "Elecoglipron (AstraZeneca), an oral small-molecule GLP-1 receptor agonist for obesity and type 2 diabetes; competes with Lilly's oral orforglipron and injectable tirzepatide (Zepbound/Mounjaro), Novo Nordisk's semaglutide (Wegovy/Ozempic) and oral semaglutide, and other emerging oral GLP-1 contenders.",
       "impact": "Positive Phase IIb data push AstraZeneca into the high-stakes oral GLP-1 race, where Lilly's orforglipron and Novo Nordisk currently dominate the pipeline conversation. Framing elecoglipron as a core piece of AstraZeneca's cardiometabolic-renal franchise — backed by dedicated CV and kidney outcome trials — signals multi-indication ambition beyond standalone weight loss. Investors will watch whether efficacy and tolerability can close the gap with the front-runners as pivotal trials start later this year.",
-      "date": "2026-06-08"
+      "date": "2026-06-08",
+      "id": 36
     },
     {
-      "id": 35,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -387,10 +408,10 @@
       "details": "Roche agreed a global collaboration with Nurix Therapeutics to co-develop and co-commercialize the oral BTK degrader bexobrutideg (NX-5948), paying $700m upfront and up to roughly $2.3bn in total including milestones, with US development costs shared 60/40 and US profits split 50/50; the partners are targeting a Phase III start in second-line chronic lymphocytic leukemia in summer 2026.",
       "drugs": "Bexobrutideg (NX-5948, Nurix Therapeutics/Roche), an oral BTK degrader for B-cell malignancies led by second-line CLL, with immunology and neurology ambitions; competes with covalent and non-covalent BTK inhibitors including AbbVie/J&J's Imbruvica (ibrutinib), AstraZeneca's Calquence (acalabrutinib), BeiGene's Brukinsa (zanubrutinib) and Lilly's Jaypirca (pirtobrutinib).",
       "impact": "The pact hands Roche a differentiated protein-degradation asset designed to overcome resistance mutations that limit existing covalent and non-covalent BTK inhibitors, deepening a hematology franchise that already includes Gazyva, Columvi and Polivy. For Nurix, a $700m upfront and 50/50 US profit share validate its targeted-protein-degradation platform and help fund a broader pipeline. Investors will track Phase III execution in CLL and read-through to immunology and neurology, where an oral BTK degrader could open large new markets.",
-      "date": "2026-06-08"
+      "date": "2026-06-08",
+      "id": 37
     },
     {
-      "id": 36,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -398,10 +419,10 @@
       "details": "At the American Diabetes Association's 86th Scientific Sessions, Structure Therapeutics presented obesity data for its oral small-molecule GLP-1 receptor agonist aleniglipron (GSBR-1290), including up to roughly 16.3% body-weight loss at 44 weeks in the ACCESS II extension and an 11.3% placebo-adjusted reduction at 36 weeks with the 120 mg dose in the Phase IIb ACCESS study, and said Phase III initiation remains on track for the third quarter of 2026 following positive end-of-Phase II FDA feedback.",
       "drugs": "Aleniglipron (GSBR-1290, Structure Therapeutics), an oral small-molecule GLP-1 receptor agonist for obesity and type 2 diabetes; competes with Lilly's oral orforglipron and injectable tirzepatide (Zepbound/Mounjaro), Novo Nordisk's semaglutide (Wegovy/Ozempic) and oral semaglutide, and AstraZeneca's oral GLP-1 elecoglipron.",
       "impact": "Weight loss approaching the high-teens at 44 weeks puts aleniglipron among the most efficacious oral GLP-1 contenders, potentially rivaling injectables and sharpening the contest with Lilly's orforglipron and AstraZeneca's elecoglipron. A Q3 2026 Phase III start keeps the small-cap developer in the front rank of the crowded oral-incretin race and supports its standalone and combination ambitions. Investors will weigh durability, tolerability and dosing convenience as pivotal trials begin against far larger rivals.",
-      "date": "2026-06-07"
+      "date": "2026-06-07",
+      "id": 38
     },
     {
-      "id": 37,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -409,10 +430,10 @@
       "details": "The US FDA accepted Roche's new drug application and set a 30 November 2026 action date for the oral SERD giredestrant as adjuvant treatment of ER-positive, HER2-negative early-stage breast cancer, following Phase III data presented at ASCO 2026 showing roughly a 30% reduction in the risk of invasive disease recurrence versus standard endocrine therapy.",
       "drugs": "Giredestrant (Roche), an oral selective estrogen receptor degrader (SERD) in ER-positive/HER2-negative early-stage breast cancer; would compete with standard adjuvant endocrine therapy and other oral SERDs including AstraZeneca's camizestrant, Lilly's imlunestrant, and Stemline/Menarini's Orserdu (elacestrant).",
       "impact": "Acceptance positions giredestrant to become the first oral SERD with a positive Phase III result in the curative (adjuvant) setting, opening a large early-stage population well beyond metastatic use. A November action date hands Roche a near-term catalyst as it builds out its breast-cancer franchise. Approval would pressure incumbent endocrine therapies and rival oral SERDs racing into earlier lines.",
-      "date": "2026-06-03"
+      "date": "2026-06-03",
+      "id": 39
     },
     {
-      "id": 38,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -420,10 +441,10 @@
       "details": "AstraZeneca and Daiichi Sankyo's TROP2 antibody-drug conjugate Datroway (datopotamab deruxtecan) won US FDA approval for first-line unresectable or metastatic triple-negative breast cancer in patients ineligible for PD-(L)1 therapy — the first TROP2 ADC cleared in 1L TNBC — as ASCO 2026 data underscored an intensifying contest with Gilead's Trodelvy and Merck/Kelun's sacituzumab tirumotecan.",
       "drugs": "Datroway (datopotamab deruxtecan, Daiichi Sankyo/AstraZeneca) in first-line metastatic triple-negative breast cancer (PD-(L)1-ineligible); competing TROP2 ADCs Trodelvy (sacituzumab govitecan, Gilead) and sacituzumab tirumotecan (sac-TMT, Kelun-Biotech/Merck).",
       "impact": "Being first to the 1L TNBC finish line gives Datroway an early foothold in a high-value setting ahead of a July FDA decision for Gilead's Trodelvy and a recent China Phase III win for Merck-partnered sac-TMT. The approval reinforces AstraZeneca/Daiichi's ADC leadership and pressures Gilead's flagship TROP2 franchise. Investors will watch label breadth and overall-survival data as the three-way race unfolds.",
-      "date": "2026-06-03"
+      "date": "2026-06-03",
+      "id": 40
     },
     {
-      "id": 39,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -431,10 +452,10 @@
       "details": "At ASCO 2026, Johnson & Johnson reported that adding Erleada (apalutamide) to standard of care for patients with high-risk localized or locally advanced prostate cancer undergoing surgery improved survival versus standard of care alone, supporting a move into the neoadjuvant/perioperative setting.",
       "drugs": "Erleada (apalutamide), Johnson & Johnson, in high-risk localized/locally advanced prostate cancer; competes with next-generation androgen receptor inhibitors Xtandi (enzalutamide, Pfizer/Astellas) and Nubeqa (darolutamide, Bayer).",
       "impact": "A survival benefit in earlier-stage, high-risk localized disease could expand Erleada's addressable population well beyond its current metastatic and nonmetastatic castration-resistant settings. Establishing a perioperative role would strengthen J&J's prostate franchise against Xtandi and Nubeqa. Investors will watch for a label-expansion filing to capture the larger earlier-line market.",
-      "date": "2026-06-02"
+      "date": "2026-06-02",
+      "id": 41
     },
     {
-      "id": 40,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -442,10 +463,10 @@
       "details": "At ASCO 2026, the bispecific EGFR×HER3 antibody-drug conjugate iza-bren (izalontamab brengitecan, BL-B01D1) showed statistically significant and clinically meaningful improvements in overall and progression-free survival in second-line triple-negative breast cancer and second-line esophageal squamous cell carcinoma, though a higher proportion of dose reductions due to adverse events raised tolerability concerns.",
       "drugs": "Iza-bren (izalontamab brengitecan, BL-B01D1), a bispecific EGFR×HER3 ADC from SystImmune/Sichuan Baili partnered with Bristol Myers Squibb; second-line triple-negative breast cancer (TNBC) and esophageal squamous cell carcinoma (ESCC).",
       "impact": "Positive Phase III survival data position iza-bren as a potential new option in hard-to-treat TNBC and ESCC, but adverse-event-driven dose reductions could temper its profile against established ADCs such as Gilead's Trodelvy and AstraZeneca/Daiichi Sankyo's Enhertu and Datroway. Strong efficacy helps validate Bristol Myers Squibb's multibillion-dollar bet on the China-originated asset. Tolerability will be central to its regulatory and commercial positioning.",
-      "date": "2026-06-02"
+      "date": "2026-06-02",
+      "id": 42
     },
     {
-      "id": 41,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -453,10 +474,10 @@
       "details": "A weekly late-stage snapshot logged ten new approvals and two Phase III readouts across oncology, immunology and other therapy areas for the week ending June 1, 2026.",
       "drugs": "Late-stage assets across oncology, immunology and cardiometabolic indications; large-cap and biotech sponsors disclosing at conferences and in company releases.",
       "impact": "A double-digit approval tally sustains the steady 2026 launch cadence, converting pipeline into near-term revenue. A lighter two-readout slate shifts catalyst attention to upcoming data following the late-May ASCO surge. Investors track which approvals open new therapeutic categories versus add me-too competition.",
-      "date": "2026-06-02"
+      "date": "2026-06-02",
+      "id": 43
     },
     {
-      "id": 42,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -464,10 +485,10 @@
       "details": "Full 32-week results from the Phase III VERIFY study, presented at an ASCO 2026 plenary, showed Takeda and Protagonist's hepcidin mimetic rusfertide produced a clinical response in roughly 77% of polycythemia vera patients versus about 33% on standard of care, sharply reducing the need for therapeutic phlebotomy; the FDA has granted priority review with a third-quarter 2026 action date.",
       "drugs": "Rusfertide (Takeda/Protagonist Therapeutics), an injectable hepcidin mimetic for polycythemia vera; would compete with phlebotomy-based standard of care, ruxolitinib (Jakafi, Incyte/Novartis) and ropeginterferon alfa-2b (Besremi, PharmaEssentia).",
       "impact": "A plenary-level Phase III win positions rusfertide as a potential first-in-class option to control hematocrit and curb phlebotomy burden in polycythemia vera. A Q3 2026 action date gives Takeda a near-term launch catalyst and Protagonist a key milestone-and-royalty event. Approval would carve out a new treatment category alongside cytoreductive therapies.",
-      "date": "2026-06-01"
+      "date": "2026-06-01",
+      "id": 44
     },
     {
-      "id": 43,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -475,10 +496,10 @@
       "details": "Citeline's Pink Sheet flagged a busy slate of June 2026 FDA user-fee goal dates, including a single-dose passive immunization to protect infants against RSV, what could be the first oral acute treatment and a first-in-class preventive antibody for hereditary angioedema (HAE), and multiple novel agents from a crowded lung-cancer pipeline.",
       "drugs": "June 2026 PDUFA candidates spanning RSV infant immunization, hereditary angioedema (a potential first oral acute treatment and a first-in-class preventive antibody), and several novel lung-cancer therapies.",
       "impact": "A cancer-, infection- and HAE-heavy June goal-date slate signals continued FDA throughput and a wave of potential near-term launches. New oral and antibody options in HAE would challenge established prophylactic and acute treatments, while an RSV infant immunization would expand a fast-growing prevention market. Investors track which goal dates convert to approvals versus delays.",
-      "date": "2026-06-01"
+      "date": "2026-06-01",
+      "id": 45
     },
     {
-      "id": 44,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -486,10 +507,10 @@
       "details": "At ASCO 2026, Incyte's Phase III frontMIND trial showed adding tafasitamab and lenalidomide to R-CHOP cut progression risk ~25% versus R-CHOP alone in newly diagnosed high-risk diffuse large B-cell lymphoma — only the second Phase III in 25 years to beat the R-CHOP standard.",
       "drugs": "Tafasitamab (Incyte's Monjuvi) + lenalidomide + R-CHOP in first-line high-risk DLBCL; competing with R-CHOP, Polivy-R-CHP (Roche) and CAR-T in relapsed disease.",
       "impact": "Beating the decades-old R-CHOP standard could reposition tafasitamab into the large first-line DLBCL market, well beyond its current relapsed/refractory use. It pressures Roche's Polivy combination for frontline share. A label expansion would materially grow Incyte's oncology franchise.",
-      "date": "2026-06-01"
+      "date": "2026-06-01",
+      "id": 46
     },
     {
-      "id": 45,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -497,10 +518,10 @@
       "details": "Full Phase III results presented in an ASCO 2026 plenary showed daraxonrasib roughly doubled median overall survival versus chemotherapy in previously treated metastatic pancreatic cancer.",
       "drugs": "Daraxonrasib (Revolution Medicines), pan-RAS(ON) inhibitor in metastatic pancreatic cancer; RAS-mutant tumors broadly.",
       "impact": "A plenary-level survival doubling in pancreatic cancer is a landmark that could redefine treatment and anchor a multibillion-dollar franchise. It intensifies takeover interest in Revolution. The RAS(ON) class gains pivotal clinical validation.",
-      "date": "2026-05-31"
+      "date": "2026-05-31",
+      "id": 47
     },
     {
-      "id": 46,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -508,10 +529,10 @@
       "details": "At the ASCO 2026 plenary, the Harmoni-6 trial showed ivonescimab plus chemotherapy cut death risk ~34% versus BeOne's Tevimbra plus chemo in first-line squamous NSCLC (27.9 vs 23.7 months OS) — the first China-developed asset to win a plenary slot.",
       "drugs": "Ivonescimab (Akeso/Summit), PD-1/VEGF bispecific in first-line squamous NSCLC; vs Tevimbra (BeOne) and Keytruda-based regimens.",
       "impact": "A survival win over an established PD-1 in a head-to-head validates the PD-1/VEGF bispecific approach and pressures Keytruda's NSCLC franchise. It de-risks Summit's US filing and lifts the China-innovation narrative. The historic plenary slot marks a milestone for Chinese oncology R&D.",
-      "date": "2026-05-31"
+      "date": "2026-05-31",
+      "id": 48
     },
     {
-      "id": 47,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -519,10 +540,10 @@
       "details": "At ASCO 2026, five-year overall-survival and patient-reported outcomes from the Phase III POTOMAC trial supported Imfinzi plus BCG induction and maintenance in high-risk non-muscle-invasive bladder cancer (NMIBC).",
       "drugs": "Imfinzi / durvalumab (AstraZeneca) + BCG in high-risk NMIBC; competing with Merck's Keytruda and BCG-based regimens in early bladder cancer.",
       "impact": "Moving checkpoint immunotherapy into earlier NMIBC expands Imfinzi's addressable population and AstraZeneca's bladder-cancer franchise. Durable five-year survival strengthens the regulatory and payer case. It intensifies competition with Keytruda in the early-disease setting.",
-      "date": "2026-05-31"
+      "date": "2026-05-31",
+      "id": 49
     },
     {
-      "id": 48,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -530,10 +551,10 @@
       "details": "Full results from the large randomized NHS-Galleri trial, presented at ASCO 2026, showed GRAIL's Galleri multi-cancer early-detection (MCED) blood test missed its primary endpoint of significantly reducing combined late-stage (Stage III/IV) diagnoses across 12 prespecified cancers within one year, but hit secondary endpoints with a 14% overall reduction in Stage IV diagnoses, a 16% rise in Stage I-II detection, a four-fold increase in screen-detected cancers and a 25% drop in emergency presentations.",
       "drugs": "Galleri multi-cancer early detection (MCED) blood test (GRAIL); NHS-Galleri trial; rival liquid-biopsy/MCED developers including Exact Sciences, Guardant Health and Freenome.",
       "impact": "The mixed readout leaves GRAIL's path to broad UK NHS adoption and US reimbursement uncertain, as payers and regulators weigh compelling stage-shift data against the headline primary-endpoint miss. GRAIL plans to follow the population for at least another 12 months, with additional data in 2027, prolonging the timeline to a definitive late-stage/mortality benefit case. The result reframes the investment narrative for the entire multi-cancer early detection field, where competitors such as Exact Sciences and Guardant Health are racing to validate rival blood-based screening tests.",
-      "date": "2026-05-30"
+      "date": "2026-05-30",
+      "id": 50
     },
     {
-      "id": 49,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -541,10 +562,10 @@
       "details": "At ASCO 2026, 3.5-year EV-302/KEYNOTE-A39 follow-up showed Padcev plus Keytruda delivered ~33.6 months median overall survival versus 15.9 months for chemotherapy in advanced urothelial carcinoma.",
       "drugs": "Padcev / enfortumab vedotin (Pfizer/Astellas) + Keytruda / pembrolizumab (Merck) in advanced urothelial carcinoma; first-line bladder-cancer standard of care.",
       "impact": "Durable long-term survival cements the ADC/IO combination as first-line standard of care and entrenches its commercial dominance. The data raise the bar for all bladder-cancer competitors. They extend Padcev's and Keytruda's revenue trajectories.",
-      "date": "2026-05-29"
+      "date": "2026-05-29",
+      "id": 51
     },
     {
-      "id": 50,
       "category": "FDA Biosimilar Policy",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -552,10 +573,10 @@
       "details": "Under BsUFA IV discussions, the FDA proposed goal dates to approve biosimilars that are ready but waiting for reference-product exclusivity to expire, with industry flagging uncertainty around unknown expiration dates.",
       "drugs": "Cross-class biosimilar candidates awaiting exclusivity expiry; reference biologics across immunology, oncology and ophthalmology.",
       "impact": "Faster, date-certain approvals would let biosimilar makers launch at first legal opportunity, compressing originator monopoly tails and accelerating price competition. Clarity on timing improves manufacturer launch planning and inventory commitments. Originators face shorter windows to maximize pre-biosimilar revenue.",
-      "date": "2026-05-28"
+      "date": "2026-05-28",
+      "id": 52
     },
     {
-      "id": 51,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -563,10 +584,10 @@
       "details": "Pfizer agreed to pay Innovent Biologics $650m upfront plus up to $9.85bn in milestones for a portfolio of 12 oncology programs — eight Innovent-originated early-stage assets and four Pfizer-proposed discovery programs spanning antibody-drug conjugates and multi-specific antibodies. Innovent leads development through Phase I, after which Pfizer assumes global development.",
       "drugs": "Pfizer / Innovent Biologics collaboration; 12 China-originated oncology programs across antibody-drug conjugates (ADCs) and immune-engaging multi-specific antibodies.",
       "impact": "The deal deepens Pfizer's reliance on China-originated innovation to rebuild its oncology pipeline ahead of looming patent-cliff revenue gaps, extending a wave of Western pharma licensing of Chinese early-stage assets. The modest-upfront, milestone-heavy structure reflects more selective, de-risked dealmaking. It bolsters Innovent's standing as a global ADC and bispecific source and pressures rivals competing for the same China assets.",
-      "date": "2026-05-28"
+      "date": "2026-05-28",
+      "id": 53
     },
     {
-      "id": 52,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -574,10 +595,10 @@
       "details": "The US FDA approved AbbVie's Decnupaz (pivekimab sunirine-pvzy), a CD123-directed antibody-drug conjugate, for adult patients with blastic plasmacytoid dendritic cell neoplasm (BPDCN), an ultra-rare and aggressive blood cancer. It is AbbVie's third approved ADC and its first in a hematologic malignancy.",
       "drugs": "Decnupaz (pivekimab sunirine-pvzy, AbbVie), an asset from the ImmunoGen acquisition; competes with Menarini/Stemline's Elzonris (tagraxofusp) in BPDCN; ultra-rare hematologic oncology market.",
       "impact": "The approval validates AbbVie's $10bn ImmunoGen buyout by extending its ADC franchise beyond solid tumors into hematology. As the first ADC and the only outpatient-initiable option in BPDCN, Decnupaz challenges Elzonris's hold on a small but high-need niche. Commercial upside is modest given the ultra-rare population, but it strengthens AbbVie's oncology pipeline narrative as it diversifies past Humira.",
-      "date": "2026-05-27"
+      "date": "2026-05-27",
+      "id": 54
     },
     {
-      "id": 53,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -585,10 +606,10 @@
       "details": "A weekly late-stage snapshot logged thirteen new approvals and three Phase III readouts across oncology, immunology and cardiometabolic disease for the week ending May 26, 2026.",
       "drugs": "Multiple late-stage assets across oncology, immunology and cardiometabolic indications; large-cap and biotech sponsors reporting at medical conferences and in company releases.",
       "impact": "A heavy approval week signals continued regulatory throughput despite agency upheaval, supporting near-term launch revenue for sponsors. Three positive Phase III readouts de-risk pipelines and can move small/mid-cap valuations sharply. Investors watch for label breadth and competitive overlap in crowded I-O and obesity markets.",
-      "date": "2026-05-26"
+      "date": "2026-05-26",
+      "id": 55
     },
     {
-      "id": 54,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -596,10 +617,10 @@
       "details": "Accord secured FDA approval for its denosumab biosimilars, positioning the company for a 2026 US commercial rollout against the Prolia/Xgeva franchise.",
       "drugs": "Denosumab biosimilars (Accord) referencing Amgen's Prolia and Xgeva; the multibillion-dollar bone-health and oncology supportive-care market.",
       "impact": "New denosumab entrants intensify price competition against Amgen's franchise, accelerating erosion as multiple biosimilars converge in 2026. Payers gain leverage for formulary discounts, pressuring originator revenue. Accord's launch readiness and contracting will determine share capture in a fast-commoditizing class.",
-      "date": "2026-05-22"
+      "date": "2026-05-22",
+      "id": 56
     },
     {
-      "id": 55,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -607,10 +628,10 @@
       "details": "The EMA's CHMP was set to opine on five new products, including semaglutide for non-cirrhotic MASH and therapies for serious liver and ultra-rare mitochondrial disorders.",
       "drugs": "Semaglutide for MASH (Novo Nordisk); plus orphan therapies for liver disease and a rare mitochondrial disorder; EU metabolic and rare-disease markets.",
       "impact": "An EU nod for semaglutide in MASH would extend Novo Nordisk's GLP-1 franchise into a large, newly addressable liver-disease market. Positive opinions for orphan drugs open premium-priced EU niches. CHMP outcomes set the cadence for European launches and reimbursement talks.",
-      "date": "2026-05-22"
+      "date": "2026-05-22",
+      "id": 57
     },
     {
-      "id": 56,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -618,10 +639,10 @@
       "details": "AbbVie secured a positive CHMP opinion for its fast-acting neurotoxin (a Botox successor/primer) following an earlier US setback.",
       "drugs": "AbbVie's fast-acting botulinum neurotoxin; complements/extends the Botox franchise; aesthetics and therapeutic neurotoxin market.",
       "impact": "EU backing salvages momentum for AbbVie's next-generation neurotoxin after a US stumble, protecting its leadership in a lucrative aesthetics market. A faster-onset profile could differentiate against rivals like Daxxify. The US path remains the key swing factor for the franchise.",
-      "date": "2026-05-22"
+      "date": "2026-05-22",
+      "id": 58
     },
     {
-      "id": 57,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -629,10 +650,10 @@
       "details": "The FDA issued a complete response letter for Disc Medicine's bitopertin, signaling that a Commissioner's National Priority Voucher could not compensate for reliance on a surrogate endpoint.",
       "drugs": "Bitopertin (Disc Medicine) for erythropoietic protoporphyria; surrogate-endpoint–dependent rare-disease programs broadly.",
       "impact": "The CRL is a cautionary marker for sponsors banking on surrogate endpoints and expedited vouchers, and pressured Disc Medicine's near-term outlook. It tightens the evidentiary bar for rare-disease filings, raising development cost and timeline risk. Competitors with clinical-outcome data gain relative positioning.",
-      "date": "2026-05-20"
+      "date": "2026-05-20",
+      "id": 59
     },
     {
-      "id": 58,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -640,10 +661,10 @@
       "details": "Alvotech and Teva reached a US settlement clearing a path for their aflibercept biosimilar, joining other challengers resolving litigation over Regeneron's Eylea.",
       "drugs": "Aflibercept biosimilar (Alvotech/Teva) referencing Regeneron's Eylea; the multibillion-dollar wet AMD and retinal-disease market.",
       "impact": "The settlement adds another dated entrant to a crowding aflibercept biosimilar field, intensifying competition against Regeneron's franchise already pressured by Eylea HD. Defined launch timing aids payer negotiations and share modeling. Regeneron leans on Eylea HD and lifecycle strategies to defend the retinal market.",
-      "date": "2026-05-19"
+      "date": "2026-05-19",
+      "id": 60
     },
     {
-      "id": 59,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -651,10 +672,10 @@
       "details": "The prior week's Pipeline Watch tallied eleven approvals and a single Phase III readout, reflecting a front-loaded approval cadence early in the month.",
       "drugs": "Late-stage candidates spanning rare disease, oncology and CNS; sponsors disclosing at conferences and in financial presentations.",
       "impact": "Consistent double-digit approval counts week over week underscore a productive 2026 launch environment. A thin readout slate shifts catalyst attention to upcoming data drops. Commercial teams should track which approvals open new therapeutic categories versus add to me-too competition.",
-      "date": "2026-05-18"
+      "date": "2026-05-18",
+      "id": 61
     },
     {
-      "id": 60,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -662,10 +683,10 @@
       "details": "Sun Pharmaceutical Industries entered a definitive agreement to acquire Organon, the top M&A deal highlighted in May 2026.",
       "drugs": "Organon's women's-health, biosimilar and established-brands portfolio; Sun Pharma's specialty and global expansion.",
       "impact": "Acquiring Organon would significantly scale Sun Pharma's global branded and biosimilar footprint, including women's health. It marks a major emerging-market-player move up the value chain. Integration and franchise retention will determine deal returns.",
-      "date": "2026-05-18"
+      "date": "2026-05-18",
+      "id": 62
     },
     {
-      "id": 61,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -673,10 +694,10 @@
       "details": "The FDA accepted Summit Therapeutics' BLA for the PD-1/VEGF bispecific ivonescimab in EGFR-mutated NSCLC, with a PDUFA date of November 14, 2026.",
       "drugs": "Ivonescimab (Summit Therapeutics/Akeso), PD-1/VEGF bispecific in EGFR-mutated NSCLC; competing with Keytruda and other IO regimens.",
       "impact": "Acceptance advances a closely watched bispecific that has challenged Keytruda in Chinese trials toward US review. A late-2026 decision is a major catalyst for Summit. It tests whether PD-1/VEGF bispecifics can disrupt PD-1 monotherapy dominance.",
-      "date": "2026-05-15"
+      "date": "2026-05-15",
+      "id": 63
     },
     {
-      "id": 62,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -684,10 +705,10 @@
       "details": "Replimune's resubmitted BLA for RP1 drew a second complete response letter, with the FDA defending the consistency of its review standards.",
       "drugs": "RP1 / vusolimogene oderparepvec (Replimune) in advanced melanoma; oncolytic immunotherapy and accelerated-approval candidates.",
       "impact": "A second CRL is a severe setback that resets Replimune's regulatory timeline and weighed heavily on the stock. The decision carries a warning for accelerated-approval programs that the agency will hold firm on confirmatory evidence. Melanoma combination-therapy rivals benefit from the delay.",
-      "date": "2026-05-14"
+      "date": "2026-05-14",
+      "id": 64
     },
     {
-      "id": 63,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -695,10 +716,10 @@
       "details": "Recent CRLs for vatiquinone and Lytenava show the FDA stressing the primacy of pre-specified primary endpoints over supportive secondary analyses.",
       "drugs": "Vatiquinone (PTC Therapeutics) for Friedreich's ataxia; Lytenava / bevacizumab-gamma (Outlook Therapeutics) for wet AMD.",
       "impact": "The agency's emphasis on primary-endpoint success raises the bar for programs leaning on secondary or post hoc data, affecting rare-disease and ophthalmology sponsors. PTC and Outlook face additional studies and cash burn. The signal reinforces disciplined trial design as a competitive and capital-efficiency differentiator.",
-      "date": "2026-05-12"
+      "date": "2026-05-12",
+      "id": 65
     },
     {
-      "id": 64,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -706,10 +727,10 @@
       "details": "The FDA's Office of Therapeutic Products chief said manufacturing readiness, not science, is often what blocks breakthrough cell and gene therapies from advancing to filing.",
       "drugs": "Cell and gene therapy pipeline broadly; sponsors with breakthrough-designated programs.",
       "impact": "The message pushes developers to invest in CMC earlier or risk losing first-mover advantage. It signals the agency wants to clear scientifically sound programs faster if manufacturing keeps pace. CDMO capacity and process maturity become strategic differentiators.",
-      "date": "2026-05-12"
+      "date": "2026-05-12",
+      "id": 66
     },
     {
-      "id": 65,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -717,10 +738,10 @@
       "details": "April dealmaking continued at a brisk pace, with multiple billion-dollar alliances and acquisitions extending Q1's momentum into the second quarter.",
       "drugs": "Sector-wide; oncology, immunology and platform assets changing hands via M&A and licensing.",
       "impact": "Sustained April activity signals dealmaking momentum is durable rather than a Q1 spike. Continued large-cap appetite supports target valuations. Deal structures increasingly blend M&A, licensing and equity.",
-      "date": "2026-05-12"
+      "date": "2026-05-12",
+      "id": 67
     },
     {
-      "id": 66,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -728,10 +749,10 @@
       "details": "A mid-May Pipeline Watch (week of May 11) recorded six approvals and three Phase III readouts.",
       "drugs": "Late-stage candidates across multiple indications disclosed at conferences and in company updates.",
       "impact": "A moderate week precedes the late-May oncology data surge. Approvals continue converting pipeline to revenue. Investors look ahead to ASCO for the bigger catalysts.",
-      "date": "2026-05-11"
+      "date": "2026-05-11",
+      "id": 68
     },
     {
-      "id": 67,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -739,10 +760,10 @@
       "details": "Following the FDA's move to publish CRLs for unapproved drugs, industry analysis examined whether fuller review action packages could be disclosed next.",
       "drugs": "Sponsors across all therapeutic areas with pending or rejected applications; transparency-sensitive development programs.",
       "impact": "Greater CRL transparency reshapes how sponsors manage disclosure, investor communication and competitive intelligence. Rivals gain visibility into deficiencies, while investors get earlier risk signals. It raises the bar on data quality and regulatory strategy ahead of filings.",
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "id": 69
     },
     {
-      "id": 68,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -750,10 +771,10 @@
       "details": "Akeso clarified preliminary overall-survival data for the PD-1/VEGF bispecific ivonescimab after an initially negative investor reaction, ahead of the pivotal ASCO readout.",
       "drugs": "Ivonescimab (Akeso/Summit Therapeutics), PD-1/VEGF bispecific in NSCLC; competing with Merck's Keytruda and Roche's Avastin mechanisms.",
       "impact": "Investor sensitivity to the OS data underscores how much rides on ivonescimab challenging Keytruda's dominance. Clear survival benefit would validate the PD-1/VEGF bispecific class and Summit's US opportunity. Ambiguity raises the stakes for the confirmatory ASCO presentation.",
-      "date": "2026-05-10"
+      "date": "2026-05-10",
+      "id": 70
     },
     {
-      "id": 69,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -761,10 +782,10 @@
       "details": "An industry analysis mapped the 2026 slate of novel approval candidates, with at least 55 novel agents seeking FDA clearance across the year.",
       "drugs": "55+ novel agents under review spanning obesity, oncology, immunology, neurology and vaccines; major and emerging biopharma sponsors.",
       "impact": "A deep 2026 candidate pipeline frames the year's catalyst calendar and competitive launch sequencing, especially in obesity and oncology. Approval clustering in hot categories will sharpen pricing and share battles. Investors should prioritize assets with differentiated profiles and first/best-in-class positioning.",
-      "date": "2026-05-09"
+      "date": "2026-05-09",
+      "id": 71
     },
     {
-      "id": 70,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -772,10 +793,10 @@
       "details": "As Europe marked 20 years since its first biosimilar approval, stakeholders warned that sustaining the region's biosimilar lead will require smarter regulation and sustainable competition.",
       "drugs": "European biosimilar portfolios across TNF inhibitors, oncology and ophthalmology; manufacturers competing on tender-based markets.",
       "impact": "Race-to-the-bottom tender pricing threatens supply sustainability and could deter future biosimilar investment in Europe. Policy reforms on interchangeability and procurement will shape long-term competition and savings. Manufacturers must balance volume share against margin viability to remain in the market.",
-      "date": "2026-05-07"
+      "date": "2026-05-07",
+      "id": 72
     },
     {
-      "id": 71,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -783,10 +804,10 @@
       "details": "New FDA guidance on cell and gene therapy manufacturing clarified regulatory flexibility, offering examples of phase-appropriate CMC approaches from clinical development to approval.",
       "drugs": "Cell and gene therapy developers across rare disease, oncology and emerging autoimmune/neurology indications.",
       "impact": "Clearer CMC flexibility could shorten development timelines and reduce costly late-stage manufacturing surprises for advanced therapies. It lowers a key barrier that has stalled promising programs. Sponsors with strong early product-quality work gain a competitive edge.",
-      "date": "2026-05-07"
+      "date": "2026-05-07",
+      "id": 73
     },
     {
-      "id": 72,
       "category": "Accelerated Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -794,10 +815,10 @@
       "details": "An industry review found accelerated approvals rebounded in 2025 even as the FDA's overall novel-approval output landed near its historical average.",
       "drugs": "Oncology and rare-disease assets cleared via the accelerated pathway; surrogate-endpoint–based programs across sponsors.",
       "impact": "A rebound in accelerated approvals reopens a faster route to market for oncology and rare-disease developers, improving NPV on earlier launches. It also raises confirmatory-trial obligations and post-market scrutiny. Sponsors balancing speed against the rising CRL bar (see recent surrogate-endpoint denials) must invest in robust confirmatory evidence.",
-      "date": "2026-05-05"
+      "date": "2026-05-05",
+      "id": 74
     },
     {
-      "id": 73,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -805,10 +826,10 @@
       "details": "MFN pricing led biopharma firms to scrap plans to out-license ex-US rights, since low foreign prices could be referenced back into the US.",
       "drugs": "Branded manufacturers weighing global rights strategy; partners that historically bought ex-US licenses.",
       "impact": "Retaining ex-US rights to control reference prices upends a long-standing licensing model and reduces deal supply. Smaller partners lose access to commercialization opportunities. Global pricing strategy becomes tightly coupled to US policy.",
-      "date": "2026-05-05"
+      "date": "2026-05-05",
+      "id": 75
     },
     {
-      "id": 74,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -816,10 +837,10 @@
       "details": "Streamlined global biosimilar development pathways helped unlock billions of dollars in biosimilar M&A activity in 2026.",
       "drugs": "Biosimilar developers and portfolios across immunology, oncology and ophthalmology; consolidating manufacturers.",
       "impact": "Regulatory streamlining lowers development cost and risk, making biosimilar assets more attractive acquisition targets. Consolidation favors scaled players able to compete on price. The M&A wave reshapes the competitive map for originators.",
-      "date": "2026-05-04"
+      "date": "2026-05-04",
+      "id": 76
     },
     {
-      "id": 75,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -827,10 +848,10 @@
       "details": "An early-May Pipeline Watch (week of May 4) tallied seven approvals and four Phase III readouts.",
       "drugs": "Late-stage assets across oncology, immunology and metabolic disease; large-cap and biotech sponsors.",
       "impact": "A steady week sustains the spring launch cadence ahead of the ASCO catalyst cluster. Approvals add near-term commercial competition. Readouts keep clinical event risk in focus.",
-      "date": "2026-05-04"
+      "date": "2026-05-04",
+      "id": 77
     },
     {
-      "id": 76,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -838,10 +859,10 @@
       "details": "The FDA cleared 58 novel agents in 2025, holding near its multi-year norm despite significant organizational and policy upheaval at the agency.",
       "drugs": "2025 cohort of 58 novel agents across oncology, immunology, CNS and rare disease; sponsors with 2026 PDUFA dates.",
       "impact": "Steady throughput reassures investors that approval timelines remain durable through agency turmoil, supporting biopharma launch valuations. It sets a reliable baseline for 2026 planning even amid staffing and policy shifts. Sponsors should still model review-team variability and evolving evidentiary expectations.",
-      "date": "2026-05-03"
+      "date": "2026-05-03",
+      "id": 78
     },
     {
-      "id": 77,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -849,10 +870,10 @@
       "details": "Henlius and Organon obtained the EU's first biosimilar approval referencing Perjeta (pertuzumab), branded Poherdy, with approvals landing on two continents on May 1, 2026.",
       "drugs": "Poherdy (pertuzumab biosimilar; Henlius/Organon) referencing Roche's Perjeta; HER2-positive breast cancer market.",
       "impact": "The first Perjeta biosimilar opens biosimilar competition in HER2+ breast cancer, threatening Roche's pertuzumab revenue as exclusivity lapses in Europe. Organon's commercial reach could speed uptake and pricing pressure. Roche's Phesgo subcutaneous combination becomes a key defensive lever to retain share.",
-      "date": "2026-05-01"
+      "date": "2026-05-01",
+      "id": 79
     },
     {
-      "id": 78,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -860,10 +881,10 @@
       "details": "Abeona won FDA approval (on its second BLA) for Zevaskyn for recessive dystrophic epidermolysis bullosa and set a $3.1m price with an outcomes-based payment model, targeting first treatment in Q3.",
       "drugs": "Zevaskyn / prademagene zamikeracel (Abeona) for recessive dystrophic epidermolysis bullosa (RDEB); rare-disease gene-therapy market.",
       "impact": "A $3.1m list price extends the trend of multimillion-dollar one-time gene therapies and tests payer appetite via outcomes-based contracts. Approval after an earlier CMC rejection validates Abeona's manufacturing turnaround. Uptake will hinge on reimbursement design in an ultra-rare population.",
-      "date": "2026-04-30"
+      "date": "2026-04-30",
+      "id": 80
     },
     {
-      "id": 79,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -871,10 +892,10 @@
       "details": "Ustekinumab biosimilars, with discounts reaching up to 90%, continued to erode J&J's Stelara sales in Q1 2026 as expected.",
       "drugs": "Stelara / ustekinumab (J&J) and its biosimilars (Amgen, Teva/Alvotech, Samsung Bioepis and others); immunology market.",
       "impact": "Steep discounting accelerates Stelara's revenue erosion, mirroring the Humira biosimilar playbook. Payers capture savings while originator share falls rapidly. It pressures J&J to lean on next-generation immunology assets like Tremfya.",
-      "date": "2026-04-30"
+      "date": "2026-04-30",
+      "id": 81
     },
     {
-      "id": 80,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -882,10 +903,10 @@
       "details": "Pfizer's 2026 guidance (~$59.5–62.5bn revenue, roughly flat) emphasized a long-term return to growth as launched and acquired products grew 22% operationally in Q1.",
       "drugs": "Pfizer portfolio post-COVID (ex-Comirnaty/Paxlovid); oncology and acquired growth drivers; pipeline assets.",
       "impact": "Flat near-term guidance reflects COVID-revenue runoff offset by 22% growth in launched/acquired products. The long-term framing signals reliance on M&A and pipeline execution to restore growth. Investors weigh patent-cliff exposure against the rebuilding portfolio.",
-      "date": "2026-04-29"
+      "date": "2026-04-29",
+      "id": 82
     },
     {
-      "id": 81,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -893,10 +914,10 @@
       "details": "The Padcev/Keytruda combination delivered another positive Phase III bladder-cancer result, extending its run in cisplatin-eligible muscle-invasive disease.",
       "drugs": "Padcev / enfortumab vedotin (Pfizer/Astellas) + Keytruda (Merck); cisplatin-eligible muscle-invasive bladder cancer.",
       "impact": "Consecutive wins build a dominant position for the ADC/IO combination across bladder-cancer settings. Each new indication compounds Padcev's revenue and entrenches the regimen as standard of care. It pressures chemotherapy and rival combinations out of earlier lines.",
-      "date": "2026-04-28"
+      "date": "2026-04-28",
+      "id": 83
     },
     {
-      "id": 82,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -904,10 +925,10 @@
       "details": "The CHMP recommended five medicines for EU approval, including Imdylltra and Zepzelca for small cell lung cancer, alongside orphan drugs for lung cancer and a rare immunodeficiency.",
       "drugs": "Imdylltra / tarlatamab (Amgen) and Zepzelca / lurbinectedin (Jazz) in SCLC; plus orphan oncology and immunodeficiency therapies.",
       "impact": "EU backing in small cell lung cancer expands access for two differentiated mechanisms in a high-unmet-need tumor. It strengthens Amgen's and Jazz's European oncology positions and competitive footprint. Reimbursement negotiations will shape the pace of uptake.",
-      "date": "2026-04-24"
+      "date": "2026-04-24",
+      "id": 84
     },
     {
-      "id": 83,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -915,10 +936,10 @@
       "details": "The CHMP recommended 14 new medicines for EU approval while confirming its rejection of low-dose atropine for childhood myopia.",
       "drugs": "14 newly recommended EU medicines across therapy areas; low-dose atropine for pediatric myopia (rejected).",
       "impact": "A broad positive slate clears numerous EU launches and revenue runways. The atropine rejection shows the CHMP's firm benefit-risk bar even for high-demand pediatric uses. Member-state reimbursement will pace uptake of the backed drugs.",
-      "date": "2026-04-24"
+      "date": "2026-04-24",
+      "id": 85
     },
     {
-      "id": 84,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -926,10 +947,10 @@
       "details": "The administration intensified pressure for Most Favored Nation drug pricing, sending letters to 17 companies and clarifying demands across insurance markets.",
       "drugs": "Single-source branded drugs across all insurance markets; major manufacturers facing MFN reference pricing.",
       "impact": "MFN reference pricing threatens US revenue on single-source brands and is reshaping global launch and pricing strategy. It is already deterring companies from out-licensing ex-US rights. Manufacturers face structural pressure on the high-margin US market.",
-      "date": "2026-04-22"
+      "date": "2026-04-22",
+      "id": 86
     },
     {
-      "id": 85,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -937,10 +958,10 @@
       "details": "The FDA accepted Dr Reddy's BLA for its proposed abatacept biosimilar to Orencia, keeping it on track for a potential late-2026 US approval.",
       "drugs": "Abatacept biosimilar (Dr Reddy's) referencing Bristol Myers Squibb's Orencia; rheumatoid arthritis and immunology market.",
       "impact": "A first abatacept biosimilar would open competition against BMS's Orencia franchise and create new payer savings leverage in immunology. Acceptance de-risks Dr Reddy's biosimilar roadmap and US ambitions. Approval timing versus exclusivity will determine launch economics.",
-      "date": "2026-04-20"
+      "date": "2026-04-20",
+      "id": 87
     },
     {
-      "id": 86,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -948,10 +969,10 @@
       "details": "An April snapshot logged six approvals and ten Phase III readouts.",
       "drugs": "Late-stage assets across oncology, immunology and metabolic disease; sponsors disclosing in company updates.",
       "impact": "A readout-tilted week keeps clinical data as the primary value driver. Ten reads cluster event risk across the sector. Approvals add incremental launch competition in established categories.",
-      "date": "2026-04-20"
+      "date": "2026-04-20",
+      "id": 88
     },
     {
-      "id": 87,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -959,10 +980,10 @@
       "details": "At AACR 2026 (April), the clinical-trials plenary featured antibody-drug conjugates and bispecifics, including CSPC's EGFR ADC, Qilu's claudin-6 candidate, and the GSK/Hansoh B7-H3 ADC.",
       "drugs": "CSPC EGFR ADC, Qilu claudin-6 ADC, GSK/Hansoh B7-H3 ADC; the next-generation ADC and bispecific competitive landscape.",
       "impact": "A plenary dominated by ADCs and bispecifics — many China-originated — signals where oncology innovation and dealmaking are concentrating. Strong early data fuel further licensing and M&A. It pressures incumbents to secure next-generation modalities.",
-      "date": "2026-04-19"
+      "date": "2026-04-19",
+      "id": 89
     },
     {
-      "id": 88,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -970,10 +991,10 @@
       "details": "UCB agreed to acquire Neurona Therapeutics for $650m upfront (up to $1.15bn) for its regenerative cell therapy NRTX-1001 in drug-resistant epilepsy.",
       "drugs": "NRTX-1001 (Neurona/UCB), GABAergic interneuron cell therapy for mesial temporal lobe epilepsy; UCB's epilepsy franchise (Vimpat, Briviact, Fintepla).",
       "impact": "A regenerative cell therapy could transform treatment for drug-resistant epilepsy and extend UCB's CNS leadership beyond small molecules. The deal validates cell therapy in neurology. Success would open a differentiated, high-value franchise.",
-      "date": "2026-04-17"
+      "date": "2026-04-17",
+      "id": 90
     },
     {
-      "id": 89,
       "category": "Industry / R&D",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -981,10 +1002,10 @@
       "details": "MeiraGTx reacquired its XLRP gene therapy bota-vec from J&J in April 2026 and moved toward global regulatory submissions.",
       "drugs": "Bota-vec / botaretigene sparoparvovec (MeiraGTx) for X-linked retinitis pigmentosa (XLRP); inherited retinal disease market.",
       "impact": "Reclaiming full rights gives MeiraGTx the upside (and risk) of a solo launch in a rare inherited blindness indication. A clean regulatory path could establish an early ophthalmic gene-therapy franchise. Commercial and manufacturing readiness become the key execution variables.",
-      "date": "2026-04-16"
+      "date": "2026-04-16",
+      "id": 91
     },
     {
-      "id": 90,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -992,10 +1013,10 @@
       "details": "Revolution Medicines' RAS(ON) inhibitor daraxonrasib roughly doubled survival versus chemotherapy in metastatic pancreatic cancer, and the company upsized a follow-on raise to about $2bn.",
       "drugs": "Daraxonrasib (Revolution Medicines), pan-RAS(ON) inhibitor in metastatic pancreatic cancer; RAS-mutant tumors broadly; a potential $10bn+ opportunity.",
       "impact": "A near-doubling of survival in an intractable cancer points to a paradigm shift and a large commercial opportunity in RAS-driven tumors. The upsized raise signals strong investor conviction and funds launch readiness. It cements Revolution as a prime large-cap takeover target.",
-      "date": "2026-04-15"
+      "date": "2026-04-15",
+      "id": 92
     },
     {
-      "id": 91,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1003,10 +1024,10 @@
       "details": "UK biotech, under pressure in recent years, was buoyed in Q1 2026 by a rise in M&A and financing activity, including two big-pharma buyouts.",
       "drugs": "UK-listed and private biotechs; large-pharma acquirers targeting UK assets.",
       "impact": "A financing and M&A rebound eases the funding squeeze on UK biotech and supports the sector ecosystem. Big-pharma buyouts validate UK science and could attract more investment. It signals broader recovery in biotech capital markets.",
-      "date": "2026-04-14"
+      "date": "2026-04-14",
+      "id": 93
     },
     {
-      "id": 92,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1014,10 +1035,10 @@
       "details": "A late-stage snapshot recorded just one approval against seventeen Phase III readouts, a readout-dominated week.",
       "drugs": "Late-stage assets across oncology, immunology and metabolic disease disclosed at conferences and in company updates.",
       "impact": "A readout-heavy, approval-light week shifts near-term value drivers to clinical data rather than launches. Seventeen reads create clustered volatility for affected names. Positive surprises can rapidly re-rate small/mid-cap developers.",
-      "date": "2026-04-13"
+      "date": "2026-04-13",
+      "id": 94
     },
     {
-      "id": 93,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1025,10 +1046,10 @@
       "details": "Biopharma M&A deal value reached $54bn in Q1 2026 across 41 announced deals, with alliances drawing $88.7bn in potential value, capped by a late-March run of multibillion-dollar bids.",
       "drugs": "Sector-wide; acquirers targeting approved products, late-stage assets and precision-medicine platforms amid looming patent cliffs.",
       "impact": "A strong Q1 confirms reacquelerating dealmaking driven by patent-cliff urgency and cash-rich large caps. Premiums concentrate on de-risked, proven assets, lifting valuations for late-stage biotechs. Smaller platform companies become acquisition targets, supporting sector sentiment.",
-      "date": "2026-04-10"
+      "date": "2026-04-10",
+      "id": 95
     },
     {
-      "id": 94,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1036,10 +1057,10 @@
       "details": "Vertex reported sustained glycemic control and high rates of insulin independence with its off-the-shelf islet cell therapy zimislecel in type 1 diabetes.",
       "drugs": "Zimislecel (Vertex Pharmaceuticals), allogeneic stem-cell-derived islet therapy for type 1 diabetes; potential first functional cure in T1D.",
       "impact": "Durable insulin independence would be a landmark — a potential functional cure reshaping the large type 1 diabetes market. It diversifies Vertex beyond cystic fibrosis and pain into cell therapy. Manufacturing scale and immunosuppression needs remain key commercial hurdles.",
-      "date": "2026-04-10"
+      "date": "2026-04-10",
+      "id": 96
     },
     {
-      "id": 95,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1047,10 +1068,10 @@
       "details": "After a weak 2025, neuroscience biotech sentiment and financing rebounded in spring 2026 on a stronger pipeline and renewed investor interest.",
       "drugs": "CNS-focused biotechs across neurodegeneration, psychiatry and pain; 2026 neuroscience catalysts.",
       "impact": "Renewed investor appetite reopens capital markets for high-risk CNS developers. It signals confidence that 2026 readouts and approvals can deliver where 2025 disappointed. Positive sentiment supports valuations and dealmaking in the space.",
-      "date": "2026-04-08"
+      "date": "2026-04-08",
+      "id": 97
     },
     {
-      "id": 96,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1058,10 +1079,10 @@
       "details": "Gilead agreed to acquire German ADC specialist Tubulis for $3.15bn upfront (up to $5bn with milestones) — its third major 2026 deal after Arcellx ($7.8bn) and Ouro Medicines ($2.2bn).",
       "drugs": "Tubulis (TUB-040 NaPi2b ADC, TUB-030 5T4 ADC, Tubutecan linker platform); Gilead's expanding oncology/ADC portfolio.",
       "impact": "A best-in-class ADC platform deepens Gilead's oncology push beyond Trodelvy and cell therapy. A third 2026 acquisition signals aggressive, sustained capital deployment to diversify from HIV. It intensifies competition for next-generation ADC assets.",
-      "date": "2026-04-07"
+      "date": "2026-04-07",
+      "id": 98
     },
     {
-      "id": 97,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1069,10 +1090,10 @@
       "details": "A regulatory performance tracker found March's FDA decisions were dominated by repeat review cycles and standard reviews rather than breakthrough first-time approvals.",
       "drugs": "Novel candidates in crowded areas (hemophilia, heart disease, urinary tract infections) plus first potential therapies for a rare eye disease and hyperphagia.",
       "impact": "A 'mild' month of standard reviews signals cautious early-2026 approval momentum and fewer near-term blockbuster launches. Repeat cycles raise development costs and delay revenue for affected sponsors. Investors should recalibrate catalyst timing toward later in the year.",
-      "date": "2026-04-03"
+      "date": "2026-04-03",
+      "id": 99
     },
     {
-      "id": 98,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1080,10 +1101,10 @@
       "details": "The FDA approved Eli Lilly's oral GLP-1 orforglipron (Foundayo) for obesity, with shipping starting in early April 2026 and direct competition against Novo Nordisk's oral semaglutide.",
       "drugs": "Orforglipron / Foundayo (Eli Lilly), oral GLP-1; competing with Novo Nordisk's Wegovy/oral semaglutide and Lilly's own injectable Zepbound; the multibillion-dollar obesity market.",
       "impact": "As the first convenient once-daily oral GLP-1 pill, Foundayo could dramatically expand the obesity market beyond injectables and pressure Novo Nordisk's franchise. Lilly's manufacturing scale for a small-molecule oral gives it a cost and access edge over peptide rivals. Pricing, supply and payer coverage will determine how fast it converts the large treatment-naive population.",
-      "date": "2026-04-01"
+      "date": "2026-04-01",
+      "id": 100
     },
     {
-      "id": 99,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1091,10 +1112,10 @@
       "details": "A late-March run of multibillion-dollar bids lifted Q1 2026 biopharma M&A to roughly $54bn across about 41 deals, among the highest recent quarterly totals.",
       "drugs": "Sector-wide; large-cap acquirers targeting de-risked, revenue-generating and late-stage assets amid patent cliffs.",
       "impact": "A March surge confirms accelerating dealmaking momentum and large-cap urgency to backfill patent cliffs. Concentrated activity lifts valuations for likely targets. It supports a constructive biotech financing and sentiment backdrop.",
-      "date": "2026-03-31"
+      "date": "2026-03-31",
+      "id": 101
     },
     {
-      "id": 100,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1102,10 +1123,10 @@
       "details": "A late-stage snapshot logged thirteen approvals and an unusually heavy eighteen Phase III readouts across multiple therapy areas.",
       "drugs": "Broad late-stage set spanning oncology, immunology, cardiometabolic and rare disease; large-cap and biotech sponsors.",
       "impact": "A dense readout week concentrates catalyst risk and can drive sharp single-stock moves on data outcomes. Eighteen Phase III reads materially update sector pipeline probabilities. Commercial teams watch which positive reads open new competitive fronts.",
-      "date": "2026-03-30"
+      "date": "2026-03-30",
+      "id": 102
     },
     {
-      "id": 101,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1113,10 +1134,10 @@
       "details": "The FDA's April user-fee calendar featured label-expansion bids testing 'pipeline-in-a-product' strategies across multiple sponsors.",
       "drugs": "Established products seeking new indications; sponsors pursuing lifecycle/label-expansion strategies.",
       "impact": "Label expansions are a capital-efficient growth lever, and April's slate tests how far the FDA will support them. Successful expansions extend franchise revenue without new molecules. Outcomes guide lifecycle-management strategy sector-wide.",
-      "date": "2026-03-30"
+      "date": "2026-03-30",
+      "id": 103
     },
     {
-      "id": 102,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1124,10 +1145,10 @@
       "details": "The EMA scheduled oral-explanation hearings for new spinal muscular atrophy (Scholar Rock's apitegromab) and multiple sclerosis (Sanofi) medicines, with CHMP opinions expected around mid-2026.",
       "drugs": "Apitegromab (Scholar Rock), myostatin inhibitor for SMA; Sanofi's MS candidate (tolebrutinib); EU neurology markets.",
       "impact": "Oral explanations are pivotal gates that can make or break EU approval timelines for both programs. A positive apitegromab opinion would open a new SMA add-on market for Scholar Rock. Outcomes materially affect both companies' European launch plans.",
-      "date": "2026-03-30"
+      "date": "2026-03-30",
+      "id": 104
     },
     {
-      "id": 103,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1135,10 +1156,10 @@
       "details": "The CHMP recommended five medicines for EU approval in March 2026, including orphan therapies for lung cancer and a rare immunodeficiency disorder.",
       "drugs": "Five newly recommended EU medicines including orphan oncology and rare immunodeficiency therapies.",
       "impact": "Positive opinions clear new EU launches and expand sponsors' European revenue runways. Orphan recommendations open premium-priced niche markets. Reimbursement negotiations across member states will pace uptake.",
-      "date": "2026-03-27"
+      "date": "2026-03-27",
+      "id": 105
     },
     {
-      "id": 104,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1146,10 +1167,10 @@
       "details": "A wave of Chinese biopharma out-licensing was characterized as a rational maturation stage, but also shaped by domestic policy and a funding downturn.",
       "drugs": "Chinese biotech assets across oncology, immunology and ADCs licensed to multinationals; cross-border deal flow.",
       "impact": "Sustained Chinese out-licensing gives Western firms cost-effective access to late-preclinical and clinical assets. Policy and funding pressures keep deal supply high and terms attractive to buyers. The trend reshapes global pipeline sourcing and competitive dynamics.",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "id": 106
     },
     {
-      "id": 105,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1157,10 +1178,10 @@
       "details": "The FDA approved Denali Therapeutics' Avlayah (tividenofusp alfa) on March 25, 2026 for Hunter syndrome (MPS II) — the first enzyme replacement therapy leveraging the transferrin receptor to cross the blood-brain barrier.",
       "drugs": "Avlayah / tividenofusp alfa (Denali Therapeutics) for MPS II (Hunter syndrome); competing with Takeda's Elaprase; brain-penetrant ERT platform.",
       "impact": "The first brain-penetrant ERT addresses the neurological deficits legacy enzyme therapies miss, redefining the Hunter syndrome standard. It validates Denali's transferrin-receptor transport platform across CNS rare diseases. Premium pricing and a clear clinical edge support strong uptake versus Elaprase.",
-      "date": "2026-03-25"
+      "date": "2026-03-25",
+      "id": 107
     },
     {
-      "id": 106,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1168,10 +1189,10 @@
       "details": "Ten new EU marketing applications were filed, including Lerodalcibep (a PCSK9 inhibitor) and the first generic palbociclib.",
       "drugs": "Lerodalcibep (LIB Therapeutics), PCSK9 inhibitor in dyslipidemia; first generic palbociclib referencing Pfizer's Ibrance; cardiovascular and oncology markets.",
       "impact": "A PCSK9 filing adds competition to the cholesterol-lowering market dominated by Repatha and Praluent. The first generic palbociclib signals looming erosion of Pfizer's Ibrance franchise in Europe. Both filings foreshadow intensifying price competition.",
-      "date": "2026-03-23"
+      "date": "2026-03-23",
+      "id": 108
     },
     {
-      "id": 107,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1179,10 +1200,10 @@
       "details": "An analysis broke down the newly released CRLs by application type and the deficiencies cited, from clinical to manufacturing issues.",
       "drugs": "Cross-class sponsors; programs with clinical, CMC or human-factors deficiencies.",
       "impact": "Aggregated CRL data reveals where applications most often fail, informing smarter filing strategy across the industry. It helps investors benchmark regulatory risk by deficiency type. Sponsors can preempt common pitfalls before submission.",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "id": 109
     },
     {
-      "id": 108,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1190,10 +1211,10 @@
       "details": "Roche licensed Hansoh's CDH17-targeting ADC HS-20110 ($80m upfront, up to ~$1.45bn) on a day of multiple Chinese out-licensing deals.",
       "drugs": "HS-20110 (Hansoh/Roche), CDH17-targeting ADC in colorectal cancer and solid tumors; the ADC and China-licensing competitive landscape.",
       "impact": "The deal underscores Western pharma's appetite for Chinese-originated ADCs to refill oncology pipelines. A single-day licensing spree signals how central China has become to global dealmaking. It validates CDH17 as an emerging ADC target.",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "id": 110
     },
     {
-      "id": 109,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1201,10 +1222,10 @@
       "details": "A late-March Pipeline Watch (week of Mar 20) recorded seven approvals and eight Phase III readouts.",
       "drugs": "Broad late-stage set across oncology, immunology and cardiometabolic disease; conference and company disclosures.",
       "impact": "A balanced, busy week reflects strong end-of-quarter pipeline activity. Eight readouts keep clinical catalysts in focus. Approvals expand near-term commercial competition across categories.",
-      "date": "2026-03-20"
+      "date": "2026-03-20",
+      "id": 111
     },
     {
-      "id": 110,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1212,10 +1233,10 @@
       "details": "At BIOCHINA, multinationals including Pfizer and Roche signaled a shift toward deeper partnerships with Chinese developers beyond straightforward licensing.",
       "drugs": "Chinese developer pipelines; Pfizer, Roche and other multinationals pursuing partnerships, JVs and equity stakes.",
       "impact": "A move beyond simple licensing toward equity and co-development deepens multinationals' access to Chinese innovation. It signals confidence in the quality of China-originated assets. Structures are evolving to share both upside and development risk.",
-      "date": "2026-03-18"
+      "date": "2026-03-18",
+      "id": 112
     },
     {
-      "id": 111,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1223,10 +1244,10 @@
       "details": "A spring snapshot recorded a busy nine approvals and fifteen Phase III readouts.",
       "drugs": "Broad late-stage set spanning oncology, immunology, cardiometabolic and CNS; large-cap and biotech sponsors.",
       "impact": "A dense readout week concentrates catalyst risk and drives single-stock volatility. Fifteen reads materially update sector pipeline assumptions. Nine approvals simultaneously expand near-term launch competition.",
-      "date": "2026-03-16"
+      "date": "2026-03-16",
+      "id": 113
     },
     {
-      "id": 112,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1234,10 +1255,10 @@
       "details": "The FDA published 89 historical complete response letters for unapproved products, a major transparency step, with a promise to release future letters more promptly.",
       "drugs": "Sponsors across all therapeutic areas with previously confidential CRLs; transparency-sensitive development programs.",
       "impact": "Mass CRL disclosure reshapes competitive intelligence, investor risk assessment and regulatory strategy industry-wide. Rivals gain insight into common deficiencies and FDA expectations. It pressures sponsors toward higher data quality and clearer filings.",
-      "date": "2026-03-15"
+      "date": "2026-03-15",
+      "id": 114
     },
     {
-      "id": 113,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1245,10 +1266,10 @@
       "details": "The FDA approved Corcept's relacorilant (Lifyorli) in combination with nab-paclitaxel for platinum-resistant ovarian cancer in March 2026 — a first-in-class cortisol modulator in oncology.",
       "drugs": "Relacorilant / Lifyorli (Corcept Therapeutics) + nab-paclitaxel for platinum-resistant ovarian cancer; competing chemotherapy and ADC regimens.",
       "impact": "A first-in-class cortisol-modulator approval validates Corcept's platform beyond Cushing's and opens a new oncology franchise. It addresses a high-unmet-need, poor-prognosis ovarian cancer setting. Uptake depends on the survival benefit and competition from emerging ADCs.",
-      "date": "2026-03-15"
+      "date": "2026-03-15",
+      "id": 115
     },
     {
-      "id": 114,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1256,10 +1277,10 @@
       "details": "At AAM's Access! 2026, a biosimilars panel debated US market challenges and opportunities, predicting consolidation among players and calling for biosimilar-first policies.",
       "drugs": "US biosimilar developers across immunology, oncology and ophthalmology; reference-biologic franchises.",
       "impact": "Consolidation warnings reflect thin margins and intense competition in the maturing US biosimilar market. Biosimilar-first policy calls aim to boost adoption and savings. Survivors will be scaled players with efficient cost structures.",
-      "date": "2026-03-12"
+      "date": "2026-03-12",
+      "id": 116
     },
     {
-      "id": 115,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1267,10 +1288,10 @@
       "details": "Gilead acquired T-cell engager specialist Ouro Medicines for $2.2bn in March 2026, adding to its immunology and oncology pipeline.",
       "drugs": "Ouro Medicines' T-cell engager platform; applications across oncology and autoimmune disease; Gilead's expanding biologics pipeline.",
       "impact": "Adding a T-cell engager platform broadens Gilead's modality mix into bispecific immunotherapy. It continues the company's 2026 buying spree to refill its pipeline. The deal positions Gilead in the competitive TCE space alongside Amgen and Roche.",
-      "date": "2026-03-12"
+      "date": "2026-03-12",
+      "id": 117
     },
     {
-      "id": 116,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1278,10 +1299,10 @@
       "details": "Celltrion reached a settlement with Regeneron clearing its Eydenzelt aflibercept biosimilar for a US launch from December 31, 2026.",
       "drugs": "Eydenzelt (aflibercept biosimilar; Celltrion) referencing Regeneron's Eylea; wet AMD and retinal-disease market.",
       "impact": "A dated entry adds another aflibercept biosimilar to an increasingly crowded field pressuring Regeneron's Eylea franchise. Defined timing aids payer negotiations and share modeling for 2027. Regeneron leans on Eylea HD and lifecycle defenses to protect the retinal market.",
-      "date": "2026-03-10"
+      "date": "2026-03-10",
+      "id": 118
     },
     {
-      "id": 117,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1289,10 +1310,10 @@
       "details": "Roche integrated its scanners with PathAI's AISight Dx digital-pathology system, whose FDA-cleared PCCP allows validated component updates without new clearance.",
       "drugs": "Roche digital pathology scanners + PathAI AISight Dx; AI-enabled diagnostics market.",
       "impact": "A predetermined-change-control pathway lets AI diagnostics update faster without repeat FDA review, a model for the field. It strengthens Roche's digital-pathology position. It signals regulatory maturation for adaptive AI devices.",
-      "date": "2026-03-10"
+      "date": "2026-03-10",
+      "id": 119
     },
     {
-      "id": 118,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1300,10 +1321,10 @@
       "details": "In the first oral head-to-head study, Lilly's orforglipron outperformed Novo Nordisk's oral semaglutide on weight loss.",
       "drugs": "Orforglipron (Eli Lilly) vs oral semaglutide / Rybelsus-Wegovy pill (Novo Nordisk); oral obesity and type 2 diabetes markets.",
       "impact": "A head-to-head win strengthens Lilly's positioning as the leading oral GLP-1 and pressures Novo's pill franchise. Superior data supports premium pricing and formulary preference. It raises the bar for all oral incretin entrants.",
-      "date": "2026-03-09"
+      "date": "2026-03-09",
+      "id": 120
     },
     {
-      "id": 119,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -1311,10 +1332,10 @@
       "details": "The FDA cited Huntington's disease precedent in demanding a randomized controlled trial for uniQure's gene therapy, raising debate over the evidence bar.",
       "drugs": "uniQure's AMT-130 gene therapy for Huntington's disease; rare-disease gene-therapy developers facing trial-design demands.",
       "impact": "A randomized-trial requirement lengthens and complicates the path for a hard-to-study fatal disease, pressuring uniQure's timeline and cash. The precedent matters for the whole rare-disease gene-therapy field. It reignites debate over accelerated pathways for ultra-rare conditions.",
-      "date": "2026-03-06"
+      "date": "2026-03-06",
+      "id": 121
     },
     {
-      "id": 120,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1322,10 +1343,10 @@
       "details": "The Padcev/Keytruda combination succeeded in chemotherapy-ineligible muscle-invasive bladder cancer, its first major win in that setting.",
       "drugs": "Padcev / enfortumab vedotin (Pfizer/Astellas) + Keytruda / pembrolizumab (Merck); muscle-invasive bladder cancer; competing with chemo and other regimens.",
       "impact": "Moving the ADC/IO combination into earlier muscle-invasive disease materially expands Padcev's addressable population and sales trajectory. It deepens Pfizer/Astellas's bladder-cancer leadership and Merck's Keytruda lifecycle. Competitors face a higher efficacy bar in the indication.",
-      "date": "2026-03-05"
+      "date": "2026-03-05",
+      "id": 122
     },
     {
-      "id": 121,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1333,10 +1354,10 @@
       "details": "February featured nine $1bn+ alliances, led by Innovent Biologics' potential $8.85bn oncology and immunology collaboration with Eli Lilly.",
       "drugs": "Innovent antibody programs licensed to Eli Lilly (ex-China); oncology and immunology pipelines; the China-to-global licensing trend.",
       "impact": "The mega-collaboration underscores Lilly's pipeline expansion beyond obesity into oncology and immunology. It further cements China as a major source of licensed innovation for Western pharma. The deal's scale pressures peers to secure comparable assets.",
-      "date": "2026-03-05"
+      "date": "2026-03-05",
+      "id": 123
     },
     {
-      "id": 122,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1344,10 +1365,10 @@
       "details": "March's user-fee calendar featured nearly 20 goal dates, with many novel candidates targeting already-crowded therapeutic areas alongside a few rare-disease firsts.",
       "drugs": "Candidates across hemophilia, cardiovascular disease and urinary tract infections; rare-disease first-in-class hopefuls in ophthalmology and hyperphagia.",
       "impact": "A cluster of entrants into established markets intensifies competition and pricing pressure for incumbents. First-in-class rare-disease approvals, by contrast, could open premium-priced new categories. The mix favors differentiated assets over me-too entrants.",
-      "date": "2026-03-02"
+      "date": "2026-03-02",
+      "id": 124
     },
     {
-      "id": 123,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1355,10 +1376,10 @@
       "details": "An early-March Pipeline Watch (week of Mar 2) tallied eight approvals and three Phase III readouts.",
       "drugs": "Late-stage assets across oncology, immunology and rare disease; large-cap and biotech sponsors.",
       "impact": "A solid approval count sustains the 2026 launch cadence into spring. A thinner readout slate shifts catalyst focus forward. Each approval adds competition within its therapeutic category.",
-      "date": "2026-03-02"
+      "date": "2026-03-02",
+      "id": 125
     },
     {
-      "id": 124,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1366,10 +1387,10 @@
       "details": "The CHMP backed six new products including Kygevvi and Kayshild, while Tavneos faced data-integrity scrutiny, in early-2026 EU decisions.",
       "drugs": "Kygevvi, Kayshild and four other newly recommended EU medicines; Tavneos / avacopan (data-integrity review).",
       "impact": "Six positive opinions clear multiple EU launches and expand sponsors' European revenue runways. The Tavneos data-integrity scrutiny is a reminder that post-approval issues can threaten established products. Investors weigh launch upside against compliance risk.",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "id": 126
     },
     {
-      "id": 125,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1377,10 +1398,10 @@
       "details": "Junshi Biosciences notched a Phase III win for a subcutaneous anti-PD-1, advancing toward approval.",
       "drugs": "Junshi's subcutaneous anti-PD-1 (toripalimab SC); competing with IV checkpoint inhibitors and subcutaneous reformulations from Merck and BMS.",
       "impact": "A subcutaneous PD-1 could improve convenience and defend share as IV checkpoint inhibitors face biosimilars and SC rivals. It strengthens Junshi's oncology franchise and global ambitions. The win adds to the China-innovation competitive narrative.",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "id": 127
     },
     {
-      "id": 126,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1388,10 +1409,10 @@
       "details": "DualityBio and BioNTech's B7H3-targeting ADC (DB-1311) posted strong results, advancing into Phase III in metastatic castration-resistant prostate cancer.",
       "drugs": "DB-1311 / BNT324 (DualityBio/BioNTech), B7H3 ADC in mCRPC; the ADC competitive landscape and prostate-cancer market.",
       "impact": "Progression into Phase III validates the B7H3 ADC approach and BioNTech's oncology diversification beyond mRNA. Success would open a large prostate-cancer opportunity. It reinforces the China-origin ADC licensing trend.",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "id": 128
     },
     {
-      "id": 127,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1399,10 +1420,10 @@
       "details": "Innovent Biologics entered a potential $8.85bn collaboration with Eli Lilly — its seventh alliance with the company — to advance oncology and immunology medicines.",
       "drugs": "Innovent oncology and immunology antibody programs licensed to Eli Lilly (ex-China); China-to-global licensing trend.",
       "impact": "The mega-collaboration cements Lilly's expansion beyond obesity into oncology and immunology. A seventh alliance underscores the depth of Innovent's pipeline and the China-innovation pipeline for Western pharma. The scale pressures peers to secure comparable assets.",
-      "date": "2026-02-26"
+      "date": "2026-02-26",
+      "id": 129
     },
     {
-      "id": 128,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1410,10 +1431,10 @@
       "details": "AstraZeneca's tozorakimab posted a third positive Phase III (MIRANDA), strengthening its case in COPD.",
       "drugs": "Tozorakimab (AstraZeneca), anti-IL-33 antibody in COPD; competing with Dupixent and other biologics in respiratory disease.",
       "impact": "Consistent Phase III wins position tozorakimab as a competitive COPD biologic in a large, growing market. It bolsters AstraZeneca's respiratory franchise against Sanofi/Regeneron's Dupixent. Breadth of data supports a strong label and payer case.",
-      "date": "2026-02-25"
+      "date": "2026-02-25",
+      "id": 130
     },
     {
-      "id": 129,
       "category": "Industry / R&D",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1421,10 +1442,10 @@
       "details": "Viridian readied its first commercial launch in thyroid eye disease, with a fast-follower asset and multiple 2026 readouts expected.",
       "drugs": "Viridian's anti-IGF-1R candidate (veligrotug) in thyroid eye disease; competing with Amgen's Tepezza; a subcutaneous fast-follower.",
       "impact": "A credible TED challenger threatens Amgen's Tepezza monopoly and could compress pricing in the indication. A subcutaneous fast-follower would further differentiate on convenience. Launch execution and payer access will determine share capture.",
-      "date": "2026-02-24"
+      "date": "2026-02-24",
+      "id": 131
     },
     {
-      "id": 130,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1432,10 +1453,10 @@
       "details": "A late-February snapshot logged four approvals and four Phase III readouts.",
       "drugs": "Late-stage candidates across multiple indications disclosed at conferences and in company releases.",
       "impact": "An even split of approvals and readouts reflects a steady late-winter cadence. Each approval opens commercial competition in its category. Data reads keep catalyst risk elevated for affected developers.",
-      "date": "2026-02-23"
+      "date": "2026-02-23",
+      "id": 132
     },
     {
-      "id": 131,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1443,10 +1464,10 @@
       "details": "The FDA signaled a move away from requiring two adequate and well-controlled trials, accepting modern evidence approaches for substantial-evidence standards.",
       "drugs": "Sponsors across therapeutic areas able to leverage single-trial, real-world or modern statistical evidence.",
       "impact": "Relaxing the two-trial expectation could cut development cost and time for well-designed single-trial programs. It raises the importance of robust trial design and confirmatory evidence. The shift may accelerate some approvals while inviting scrutiny of evidence quality.",
-      "date": "2026-02-20"
+      "date": "2026-02-20",
+      "id": 133
     },
     {
-      "id": 132,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1454,10 +1475,10 @@
       "details": "Immunome's varegacestat (a gamma-secretase inhibitor) showed best-in-class potential in Phase III for desmoid tumors.",
       "drugs": "Varegacestat / AL102 (Immunome) for desmoid tumors; competing with SpringWorks' Ogsiveo (nirogacestat).",
       "impact": "Strong data set up a competitive challenge to SpringWorks' Ogsiveo in the niche desmoid-tumor market. A best-in-class profile could capture share and support premium pricing. It validates Immunome's oncology pipeline and commercial ambitions.",
-      "date": "2026-02-20"
+      "date": "2026-02-20",
+      "id": 134
     },
     {
-      "id": 133,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1465,10 +1486,10 @@
       "details": "Roivant's brepocitinib posted positive data positioning the company for a commercial return in immunology.",
       "drugs": "Brepocitinib (Roivant/Priovant), TYK2/JAK1 inhibitor in dermatomyositis and other immune conditions; immunology market.",
       "impact": "Positive data revive Roivant's path back to commercial-stage status in a competitive immunology field. A differentiated dual-inhibitor profile could carve out niche indications. Success supports Roivant's vant-model valuation and pipeline credibility.",
-      "date": "2026-02-19"
+      "date": "2026-02-19",
+      "id": 135
     },
     {
-      "id": 134,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -1476,10 +1497,10 @@
       "details": "A newly public CRL detailed additional hurdles Sanofi must clear for its BTK inhibitor tolebrutinib in multiple sclerosis.",
       "drugs": "Tolebrutinib (Sanofi), BTK inhibitor in multiple sclerosis; competing with established MS disease-modifying therapies.",
       "impact": "The CRL delays a potential new MS mechanism and extends Sanofi's path to market, benefiting incumbent DMT franchises. Disclosed barriers raise development cost and timeline risk. It signals continued FDA caution on novel CNS safety profiles.",
-      "date": "2026-02-18"
+      "date": "2026-02-18",
+      "id": 136
     },
     {
-      "id": 135,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1487,10 +1508,10 @@
       "details": "A slowdown in FDA advisory committee meetings raised concerns that fewer public airings could lead to delayed or more controversial approval decisions.",
       "drugs": "Sponsors with contentious or first-in-class applications that would typically warrant an advisory committee.",
       "impact": "Fewer adcomms reduce public visibility into FDA-sponsor disagreements, raising uncertainty around controversial decisions. It can compress the runway for sponsors to address concerns publicly. Investors lose a traditional signal for binary regulatory events.",
-      "date": "2026-02-18"
+      "date": "2026-02-18",
+      "id": 137
     },
     {
-      "id": 136,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1498,10 +1519,10 @@
       "details": "Compass Pathways reported a second positive Phase III for its psilocybin therapy COMP360 in treatment-resistant depression, consolidating its efficacy profile.",
       "drugs": "COMP360 (Compass Pathways), psilocybin for treatment-resistant depression; emerging psychedelic-therapy and CNS markets.",
       "impact": "A second positive Phase III de-risks the first psychedelic therapy toward approval and a potential new TRD market. Success would validate the psychedelic-medicine category for investors. Commercialization will hinge on REMS, reimbursement and delivery logistics.",
-      "date": "2026-02-17"
+      "date": "2026-02-17",
+      "id": 138
     },
     {
-      "id": 137,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1509,10 +1530,10 @@
       "details": "Continued attrition and workforce cuts saw the FDA lose hundreds more staff in early 2026 on top of thousands in 2025, raising concerns over user-fee performance and inspection capacity.",
       "drugs": "Industry-wide; sponsors dependent on timely reviews, inspections and user-fee program performance.",
       "impact": "Sustained staff losses threaten review timelines, inspection coverage and user-fee commitments across the industry. Degraded capacity raises approval-timing risk for 2026–2027 catalysts. It strengthens the case for the looming user-fee reauthorization debate.",
-      "date": "2026-02-16"
+      "date": "2026-02-16",
+      "id": 139
     },
     {
-      "id": 138,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1520,10 +1541,10 @@
       "details": "Roche secured a CE mark and targeted a 2026 FDA decision for its Elecsys pTau181 blood test (developed with Lilly) to help rule out Alzheimer's in primary care.",
       "drugs": "Elecsys pTau181 blood test (Roche/Eli Lilly); Alzheimer's diagnostics; complements anti-amyloid therapies like Leqembi and Kisunla.",
       "impact": "A simple blood-based rule-out test could dramatically expand Alzheimer's diagnosis in primary care and feed demand for anti-amyloid drugs. It strengthens Roche's diagnostics franchise and its Lilly partnership. Broader, earlier diagnosis reshapes the treatment funnel and market size.",
-      "date": "2026-02-15"
+      "date": "2026-02-15",
+      "id": 140
     },
     {
-      "id": 139,
       "category": "Industry / R&D",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1531,10 +1552,10 @@
       "details": "Vertex discontinued its encapsulated (immune-evasive) type 1 diabetes cell therapy to concentrate on another candidate it hopes to file in 2026.",
       "drugs": "Vertex's discontinued encapsulated islet program vs its lead T1D cell therapy zimislecel; type 1 diabetes market.",
       "impact": "Refocusing resources on the lead program sharpens Vertex's T1D strategy but narrows its shots on goal. Ending the encapsulated approach signals the difficulty of avoiding immunosuppression. A 2026 filing would still mark major pipeline progress.",
-      "date": "2026-02-13"
+      "date": "2026-02-13",
+      "id": 141
     },
     {
-      "id": 140,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1542,10 +1563,10 @@
       "details": "Orforglipron posted strong weight-loss and glycemic results in patients with both obesity and type 2 diabetes.",
       "drugs": "Orforglipron (Eli Lilly) oral GLP-1; overlapping obesity and type 2 diabetes markets; competing GLP-1s from Novo Nordisk.",
       "impact": "Strong diabetic-obesity data broadens orforglipron's commercial opportunity across two large overlapping markets. It reinforces oral GLP-1 viability versus injectables for earlier-line use. Payers will weigh oral convenience against cost in formulary decisions.",
-      "date": "2026-02-12"
+      "date": "2026-02-12",
+      "id": 142
     },
     {
-      "id": 141,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1553,10 +1574,10 @@
       "details": "Despite widespread staff departures, brand and generic drug approval volume remained resilient through early 2026, industry analysis found.",
       "drugs": "Cross-class novel agents and generics; sponsors with 2026 PDUFA and GDUFA goal dates.",
       "impact": "Stable throughput reassures investors that approval timelines are holding despite agency turmoil, supporting launch valuations. But sustained attrition raises medium-term risk of slower reviews and inconsistent decisions. Sponsors should build timeline buffers into 2026–2027 planning.",
-      "date": "2026-02-10"
+      "date": "2026-02-10",
+      "id": 143
     },
     {
-      "id": 142,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1564,10 +1585,10 @@
       "details": "Eli Lilly's triple-agonist retatrutide delivered category-leading weight loss in its first Phase III readout.",
       "drugs": "Retatrutide (Eli Lilly), GGG triple agonist for obesity; competing with Lilly's own Zepbound and Novo's CagriSema/Wegovy.",
       "impact": "Best-in-class weight loss positions retatrutide as the next obesity flagship and extends Lilly's franchise leadership. It raises the efficacy bar for all incretin competitors. Lilly's multi-asset obesity portfolio deepens its market dominance.",
-      "date": "2026-02-10"
+      "date": "2026-02-10",
+      "id": 144
     },
     {
-      "id": 143,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1575,10 +1596,10 @@
       "details": "Gilead acquired immunotherapy developer Arcellx for $7.8bn in February 2026, expanding its cell-therapy franchise.",
       "drugs": "Arcellx's anito-cel (anitocabtagene autoleucel) BCMA CAR-T in multiple myeloma; competing with J&J/Legend Carvykti and BMS Abecma.",
       "impact": "The deal scales Gilead/Kite's cell-therapy position with a competitive myeloma CAR-T. It diversifies Gilead's oncology beyond Trodelvy and supports long-term growth. Anito-cel intensifies the BCMA CAR-T battle against Carvykti and Abecma.",
-      "date": "2026-02-09"
+      "date": "2026-02-09",
+      "id": 145
     },
     {
-      "id": 144,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1586,10 +1607,10 @@
       "details": "Vertex's first-in-class non-opioid Journavx (suzetrigine) surpassed 1 million prescriptions since its 2025 launch, secured coverage with all three national PBMs from Jan 1, 2026, and guided to more than triple prescriptions in 2026.",
       "drugs": "Journavx / suzetrigine (Vertex), selective NaV1.8 inhibitor for moderate-to-severe acute pain; competing with opioids and NSAIDs.",
       "impact": "Broad PBM coverage and rapid prescription growth validate the first new acute-pain mechanism in decades and a major non-opioid market. It diversifies Vertex's revenue beyond cystic fibrosis. Uptake supports the broader policy push toward opioid alternatives.",
-      "date": "2026-02-09"
+      "date": "2026-02-09",
+      "id": 146
     },
     {
-      "id": 145,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1597,10 +1618,10 @@
       "details": "An early-February snapshot tallied six approvals and four Phase III readouts.",
       "drugs": "Late-stage assets across oncology, immunology and rare disease; large-cap and biotech sponsors.",
       "impact": "A balanced approval/readout week supports steady launch momentum into 2026. Approvals convert pipeline to near-term revenue while readouts update longer-term value. Investors weigh label breadth and competitive overlap.",
-      "date": "2026-02-08"
+      "date": "2026-02-08",
+      "id": 147
     },
     {
-      "id": 146,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1608,10 +1629,10 @@
       "details": "January saw nine alliances exceeding $1bn, topped by AbbVie's licensing of RemeGen's PD-1/VEGF bispecific RC148 (about $650m upfront, up to ~$4.95bn in milestones).",
       "drugs": "RC148 (RemeGen/AbbVie), PD-1/VEGF bispecific in advanced solid tumors including NSCLC; bispecific I-O competitive landscape.",
       "impact": "A wave of billion-dollar alliances signals aggressive large-cap appetite for external oncology innovation. The AbbVie/RemeGen deal validates Chinese-originated bispecifics and the PD-1/VEGF class. Upfront and milestone scale resets benchmarks for I-O licensing.",
-      "date": "2026-02-05"
+      "date": "2026-02-05",
+      "id": 148
     },
     {
-      "id": 147,
       "category": "Accelerated Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1619,10 +1640,10 @@
       "details": "Stealth BioTherapeutics' Forzinity (elamipretide) — the first therapy for Barth syndrome — must begin its confirmatory trial by March 2026, a rare case of accelerated approval before the postmarketing study was underway.",
       "drugs": "Forzinity / elamipretide (Stealth BioTherapeutics) for Barth syndrome; first mitochondria-targeted therapeutic; ultra-rare disease market.",
       "impact": "The flexibility on confirmatory-trial timing signals FDA willingness to support ultra-rare first-in-disease therapies. It eases the path for tiny patient-population programs. Continued approval still hinges on confirmatory benefit, leaving residual risk.",
-      "date": "2026-02-05"
+      "date": "2026-02-05",
+      "id": 149
     },
     {
-      "id": 148,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1630,10 +1651,10 @@
       "details": "Danaher indicated appetite and capacity for further M&A in 2026 even as it began integrating its $9.9bn Masimo acquisition.",
       "drugs": "Danaher's diagnostics and life-sciences-tools portfolio; Masimo patient-monitoring assets; future M&A targets.",
       "impact": "Signaling continued deal capacity positions Danaher as an active consolidator in diagnostics and tools. The Masimo integration expands its patient-monitoring footprint. Sustained M&A appetite supports sector dealmaking momentum.",
-      "date": "2026-02-05"
+      "date": "2026-02-05",
+      "id": 150
     },
     {
-      "id": 149,
       "category": "Accelerated Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1641,10 +1662,10 @@
       "details": "Accelerated approvals of novel products rebounded in 2025 as developers adapted to FDORA reforms, with pending applications suggesting a bigger 2026 impact beyond oncology.",
       "drugs": "Surrogate-endpoint programs in oncology and, increasingly, rare disease, neurology and other non-oncology areas.",
       "impact": "A rebound reopens a faster route to market and improves NPV for eligible programs. The spread beyond oncology widens the pathway's strategic relevance. It also raises confirmatory-trial obligations under tightened post-FDORA rules.",
-      "date": "2026-02-02"
+      "date": "2026-02-02",
+      "id": 151
     },
     {
-      "id": 150,
       "category": "Complete Response Letter",
       "catClass": "cat-crl",
       "borderClass": "border-crl",
@@ -1652,10 +1673,10 @@
       "details": "The FDA issued a complete response letter for Aquestive's Anaphylm sublingual epinephrine film, citing human-factors validation and a supportive PK study; the company targets a Q3 2026 resubmission.",
       "drugs": "Anaphylm / dibutepinephrine sublingual film (Aquestive) for Type I allergic reactions/anaphylaxis; competes with EpiPen and needle-free rival neffy (ARS Pharma).",
       "impact": "A narrowly scoped CRL delays but does not derail the first sublingual epinephrine film, pushing launch into 2026+. The delay benefits incumbent autoinjectors and intranasal neffy in capturing the needle-free anaphylaxis market. A clear resubmission path limits the long-term competitive damage.",
-      "date": "2026-01-30"
+      "date": "2026-01-30",
+      "id": 152
     },
     {
-      "id": 151,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1663,10 +1684,10 @@
       "details": "The CHMP recommended 16 medicines for EU approval, including Vertex's once-daily CFTR modulator Alyftrek and five orphan drugs.",
       "drugs": "Alyftrek / deutivacaftor-tezacaftor-vanzacaftor (Vertex) for cystic fibrosis; five orphan therapies; EU rare-disease markets.",
       "impact": "A broad slate of positive opinions clears multiple EU launches, led by Vertex's next-generation once-daily CF therapy. Alyftrek strengthens Vertex's CF franchise defense against future competition. Orphan recommendations open premium-priced European niches.",
-      "date": "2026-01-30"
+      "date": "2026-01-30",
+      "id": 153
     },
     {
-      "id": 152,
       "category": "EU Regulatory",
       "catClass": "cat-eu",
       "borderClass": "border-eu",
@@ -1674,10 +1695,10 @@
       "details": "The CHMP recommended 14 medicines for EU approval — including Gilead's Yeytuo — while rejecting three.",
       "drugs": "Yeytuo (Gilead) and 13 other newly recommended EU medicines; three rejected applications across therapy areas.",
       "impact": "A broad positive slate clears numerous EU launches and revenue runways, led by Gilead's Yeytuo. The three rejections are a reminder of Europe's selective benefit-risk bar. Reimbursement talks across member states will pace uptake.",
-      "date": "2026-01-30"
+      "date": "2026-01-30",
+      "id": 154
     },
     {
-      "id": 153,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1685,10 +1706,10 @@
       "details": "A Senate HELP Committee report set out an FDA reform agenda heading into the upcoming user-fee (PDUFA/GDUFA/BsUFA) reauthorization cycle.",
       "drugs": "Industry-wide; affects review timelines and fees across drugs, generics and biosimilars.",
       "impact": "User-fee reauthorization shapes review capacity, timelines and costs for the entire industry through the next cycle. Reform proposals could alter accelerated-approval and biosimilar pathways. Sponsors and investors should track provisions affecting review predictability.",
-      "date": "2026-01-28"
+      "date": "2026-01-28",
+      "id": 155
     },
     {
-      "id": 154,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1696,10 +1717,10 @@
       "details": "The FDA's literature-based approval of leucovorin for a rare indication was seen as a potential template for low-cost, evidence-based rare-disease approvals.",
       "drugs": "Leucovorin (cerebral folate deficiency / related rare indications); repurposed and literature-supported rare-disease therapies.",
       "impact": "A literature-based pathway could open low-cost approvals for repurposed drugs in rare diseases, expanding patient access. It offers a model for sponsors lacking resources for large trials. Reimbursement for low-cost generics in rare indications remains a challenge.",
-      "date": "2026-01-26"
+      "date": "2026-01-26",
+      "id": 156
     },
     {
-      "id": 155,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1707,10 +1728,10 @@
       "details": "A late-January snapshot recorded one approval and five Phase III readouts, a quieter post-JPM week.",
       "drugs": "Late-stage candidates across oncology and metabolic disease; sponsors disclosing in company updates.",
       "impact": "A lighter week shifts attention to upcoming catalysts and guidance. Five readouts still offer discrete event risk for affected names. Commercial teams track which reads open new competitive fronts.",
-      "date": "2026-01-23"
+      "date": "2026-01-23",
+      "id": 157
     },
     {
-      "id": 156,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1718,10 +1739,10 @@
       "details": "An analysis argued that the FDA's chief 2026 challenge with 55 novel agents under review is consistency of decision-making, not approval volume.",
       "drugs": "The 2026 cohort of 55 novel agents across oncology, immunology, CNS and rare disease.",
       "impact": "Inconsistent reviews amid staff turnover create timeline and outcome uncertainty that markets struggle to price. Sponsors face unpredictable evidentiary bars across divisions. Consistency, not throughput, becomes the key risk factor for 2026 catalysts.",
-      "date": "2026-01-23"
+      "date": "2026-01-23",
+      "id": 158
     },
     {
-      "id": 157,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1729,10 +1750,10 @@
       "details": "Novel neuroscience approvals fell sharply in 2025, while a stronger slate of CNS candidates lines up for 2026 decisions.",
       "drugs": "CNS pipeline across neurodegeneration, psychiatry and pain; sponsors with 2026 neuroscience PDUFA dates.",
       "impact": "A 2026 rebound in CNS candidates could reopen a historically high-risk, high-reward category for investors. Success would validate renewed R&D bets in neurodegeneration and psychiatry. Approval outcomes will significantly move specialized neuroscience-focused biotechs.",
-      "date": "2026-01-22"
+      "date": "2026-01-22",
+      "id": 159
     },
     {
-      "id": 158,
       "category": "FDA Drug Approval",
       "catClass": "cat-approval",
       "borderClass": "border-approval",
@@ -1740,10 +1761,10 @@
       "details": "The FDA endorsed minimal residual disease (MRD) as an endpoint supporting accelerated approval in multiple myeloma, a long-awaited shift.",
       "drugs": "Multiple myeloma therapies from sponsors including J&J, BMS, Pfizer and others; MRD-driven development programs.",
       "impact": "Accepting MRD as a surrogate could substantially shorten and de-risk myeloma drug development, accelerating approvals and launches. It rewards sponsors with strong MRD-negativity data. The precedent may extend to other hematologic malignancies.",
-      "date": "2026-01-21"
+      "date": "2026-01-21",
+      "id": 160
     },
     {
-      "id": 159,
       "category": "Generics / Value-Added",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1751,10 +1772,10 @@
       "details": "Glaukos won FDA approval for Epioxa, an epithelium-on (non-invasive) corneal cross-linking therapy for keratoconus under the 505(b)(2) pathway, set to launch in early 2026.",
       "drugs": "Epioxa (riboflavin 5'-phosphate; Glaukos) for progressive keratoconus; succeeds the more invasive epi-off Photrexa franchise; ophthalmology / corneal disease market.",
       "impact": "A less-invasive epi-on procedure lowers the treatment barrier and could expand the addressable keratoconus population and procedure volumes. It strengthens Glaukos' corneal-health franchise and lifecycle position against legacy cross-linking. Launch access programs and ophthalmologist adoption will pace uptake.",
-      "date": "2026-01-20"
+      "date": "2026-01-20",
+      "id": 161
     },
     {
-      "id": 160,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1762,10 +1783,10 @@
       "details": "AbbVie's acquisition of a CAR-T player signaled renewed large-cap interest in cell therapy heading into 2026.",
       "drugs": "CAR-T cell therapy assets; AbbVie's expansion into cell therapy; competing CAR-T developers in oncology and autoimmune disease.",
       "impact": "A large-cap move into CAR-T validates renewed confidence in cell therapy beyond early oncology, including autoimmune uses. It pressures peers to secure cell-therapy capabilities. The deal could re-rate other CAR-T developers as targets.",
-      "date": "2026-01-16"
+      "date": "2026-01-16",
+      "id": 162
     },
     {
-      "id": 161,
       "category": "Industry / R&D",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1773,10 +1794,10 @@
       "details": "Lilly pursued a fast FDA approval for its oral GLP-1 orforglipron as Novo Nordisk submitted its injectable amylin/GLP-1 combination CagriSema for obesity.",
       "drugs": "Orforglipron (Eli Lilly) oral GLP-1; CagriSema (cagrilintide + semaglutide; Novo Nordisk); the multibillion-dollar obesity market.",
       "impact": "The dual filings frame the next phase of the Lilly–Novo obesity duopoly across oral and next-gen injectable mechanisms. Lilly's oral could expand access while CagriSema targets deeper weight loss. Approval timing and trial profiles will decide share in a market headed toward $100bn+.",
-      "date": "2026-01-15"
+      "date": "2026-01-15",
+      "id": 163
     },
     {
-      "id": 162,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1784,10 +1805,10 @@
       "details": "IQVIA projected biosimilars would deliver roughly $215bn in healthcare savings through 2026, driven by losses of exclusivity for Humira, Stelara and others.",
       "drugs": "Biosimilar portfolios across immunology, oncology and ophthalmology; reference biologics losing exclusivity.",
       "impact": "Massive projected savings underscore biosimilars' growing role in controlling drug spend. It validates payer and policy momentum toward biosimilar adoption. Originators face accelerating erosion across major franchises.",
-      "date": "2026-01-15"
+      "date": "2026-01-15",
+      "id": 164
     },
     {
-      "id": 163,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1795,10 +1816,10 @@
       "details": "A mid-January late-stage snapshot logged three approvals and ten Phase III readouts across multiple therapy areas.",
       "drugs": "Late-stage assets across oncology, immunology, cardiometabolic and rare disease; large-cap and biotech sponsors.",
       "impact": "A readout-heavy week early in the year front-loads clinical catalysts and pipeline re-rating. Ten Phase III reads materially shift sector probability-of-success assumptions. Positive surprises can sharply move small/mid-cap valuations.",
-      "date": "2026-01-14"
+      "date": "2026-01-14",
+      "id": 165
     },
     {
-      "id": 164,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1806,10 +1827,10 @@
       "details": "At J.P. Morgan, Amneal identified biosimilar vertical integration as a top 2026 strategic priority.",
       "drugs": "Amneal's biosimilar portfolio across immunology and oncology; reference-biologic franchises.",
       "impact": "Vertical integration could lower Amneal's biosimilar costs and improve margins in a price-competitive market. It positions the company among scaled survivors as consolidation looms. Execution on manufacturing and launches will determine the payoff.",
-      "date": "2026-01-14"
+      "date": "2026-01-14",
+      "id": 166
     },
     {
-      "id": 165,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1817,10 +1838,10 @@
       "details": "At J.P. Morgan, Revolution Medicines awaited a pivotal pancreatic cancer readout amid reports Merck might acquire its RAS franchise for $28bn or more.",
       "drugs": "Daraxonrasib and the RAS(ON) portfolio (Revolution Medicines); Merck & Co. as rumored acquirer seeking post-Keytruda oncology growth.",
       "impact": "Takeover speculation reflects large-cap urgency to backfill the looming Keytruda patent cliff with novel oncology. A positive readout would sharply raise Revolution's standalone value and any deal price. The episode underscores RAS as a strategic battleground.",
-      "date": "2026-01-13"
+      "date": "2026-01-13",
+      "id": 167
     },
     {
-      "id": 166,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1828,10 +1849,10 @@
       "details": "The J.P. Morgan Healthcare Conference 2026 was marked by broad market tension and a lack of big-ticket acquisitions, with drug-pricing pressure weighing on stocks.",
       "drugs": "Sector-wide large-cap and biotech equities; investor sentiment ahead of the 2026 catalyst calendar.",
       "impact": "A muted JPM with few mega-deals signals cautious capital allocation despite optimism about pipelines. Pricing-policy overhang tempers valuations early in the year. Investors await clearer catalysts before re-rating the sector.",
-      "date": "2026-01-13"
+      "date": "2026-01-13",
+      "id": 168
     },
     {
-      "id": 167,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1839,10 +1860,10 @@
       "details": "At J.P. Morgan, weight-loss leaders Novo Nordisk and Eli Lilly sparred over the emerging oral GLP-1 opportunity, with Novo shares rallying as Lilly advanced its pill.",
       "drugs": "Oral GLP-1 candidates — Lilly's orforglipron and Novo's oral semaglutide; the obesity and type 2 diabetes markets.",
       "impact": "The oral GLP-1 race is the sector's defining commercial battleground, with convenience potentially unlocking a vastly larger market. Each company's pill timing and data shape share expectations. Investor sentiment swings sharply on incremental obesity updates.",
-      "date": "2026-01-13"
+      "date": "2026-01-13",
+      "id": 169
     },
     {
-      "id": 168,
       "category": "Biosimilar",
       "catClass": "cat-biosimilar",
       "borderClass": "border-biosimilar",
@@ -1850,10 +1871,10 @@
       "details": "At J.P. Morgan, Samsung Bioepis unveiled six additional biosimilar candidates, expanding its late-stage pipeline.",
       "drugs": "Six new Samsung Bioepis biosimilar candidates across immunology, oncology and ophthalmology; reference-biologic franchises.",
       "impact": "An expanded biosimilar pipeline strengthens Samsung Bioepis's position as a scaled, low-cost developer amid expected market consolidation. More candidates mean broader future price competition for originators. Partnerships and launch timing will determine commercial impact.",
-      "date": "2026-01-13"
+      "date": "2026-01-13",
+      "id": 170
     },
     {
-      "id": 169,
       "category": "M&A / Deals",
       "catClass": "cat-deals",
       "borderClass": "border-deals",
@@ -1861,10 +1882,10 @@
       "details": "At J.P. Morgan, Novartis confirmed new China licensing pacts and signaled continued appetite for 'value-creating bolt-on' acquisitions in 2026.",
       "drugs": "Novartis pipeline and bolt-on targets; China-originated licensed assets; Kisqali positioned as a top growth driver.",
       "impact": "Novartis's bolt-on strategy and China sourcing signal disciplined, growth-focused capital deployment. Continued dealmaking supports its post-patent-cliff pipeline. The China pacts reinforce the cross-border licensing megatrend.",
-      "date": "2026-01-13"
+      "date": "2026-01-13",
+      "id": 171
     },
     {
-      "id": 170,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1872,10 +1893,10 @@
       "details": "At J.P. Morgan, Pfizer signaled readiness to address vaccine-policy questions amid a shifting US regulatory and political environment.",
       "drugs": "Pfizer's vaccine franchise (Comirnaty, Prevnar, RSV); the broader vaccine sector facing policy uncertainty.",
       "impact": "Vaccine-policy uncertainty under a new administration is a sector-wide overhang affecting demand and recommendations. Pfizer's preparedness signals active risk management of its vaccine revenue. Policy shifts could reshape ACIP recommendations and uptake.",
-      "date": "2026-01-13"
+      "date": "2026-01-13",
+      "id": 172
     },
     {
-      "id": 171,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1883,10 +1904,10 @@
       "details": "At J.P. Morgan, AstraZeneca outlined how its precision-oncology philosophy guides both pipeline and dealmaking choices in 2026.",
       "drugs": "AstraZeneca's oncology portfolio (Enhertu, Tagrisso, Datroway, Imfinzi); ADC and precision-medicine deal targets.",
       "impact": "A disciplined precision-oncology lens shapes where AstraZeneca invests and acquires, favoring biomarker-defined assets. It reinforces its leadership in ADCs and targeted therapy. The strategy guides selective, high-conviction dealmaking.",
-      "date": "2026-01-13"
+      "date": "2026-01-13",
+      "id": 173
     },
     {
-      "id": 172,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1894,10 +1915,10 @@
       "details": "Analysis found dealmaking confidence rebounding for 2026, but with more selective capital favoring proven assets, novel biology and innovative financing.",
       "drugs": "Cross-sector; executives from Novo Nordisk, Ipsen, Astellas, Acadia and Flagship Pioneering cited.",
       "impact": "A more selective deal environment rewards companies with differentiated, de-risked assets and penalizes speculative early-stage stories. Patent cliffs push large caps toward bolt-on and platform acquisitions. Financing innovation widens options for cash-constrained biotechs.",
-      "date": "2026-01-12"
+      "date": "2026-01-12",
+      "id": 174
     },
     {
-      "id": 173,
       "category": "FDA Regulatory",
       "catClass": "cat-regulatory",
       "borderClass": "border-regulatory",
@@ -1905,10 +1926,10 @@
       "details": "A review found 2025 FDA approvals were strong overall, but flagged warning signs — staffing, consistency and pipeline gaps — heading into 2026.",
       "drugs": "Cross-class 2025 approval cohort; 2026 candidates facing a more uncertain agency.",
       "impact": "A strong baseline supports near-term launch valuations, but flagged risks temper the 2026 outlook. Staffing and consistency concerns could slow future reviews. Investors should monitor agency capacity as a sector-wide variable.",
-      "date": "2026-01-10"
+      "date": "2026-01-10",
+      "id": 175
     },
     {
-      "id": 174,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1916,10 +1937,10 @@
       "details": "Investment bankers projected robust biopharma M&A through 2026, driven by patent-cliff urgency and large-cap firepower.",
       "drugs": "Sector-wide; large-cap acquirers facing late-decade loss of exclusivity on major franchises.",
       "impact": "Sustained deal flow supports biotech valuations and IPO/financing windows into 2026. Loss-of-exclusivity pressure makes revenue-generating and near-commercial assets the prime targets. Investors position around likely takeout candidates in oncology and immunology.",
-      "date": "2026-01-08"
+      "date": "2026-01-08",
+      "id": 176
     },
     {
-      "id": 175,
       "category": "Medtech / Diagnostics",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1927,10 +1948,10 @@
       "details": "An industry medtech outlook found AI integration accelerating across the sector in 2026, with selective M&A favoring high-value, clinically-proven assets.",
       "drugs": "Imaging, robotics and clinical-decision AI from Siemens Healthineers, GE HealthCare, Philips; medtech M&A targets.",
       "impact": "AI is becoming central to medtech competitiveness, but monetization and clinical validation are the key tests. Selective dealmaking rewards proven assets and pressures weaker players. Tariffs and reimbursement lag add execution risk.",
-      "date": "2026-01-08"
+      "date": "2026-01-08",
+      "id": 177
     },
     {
-      "id": 176,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1938,10 +1959,10 @@
       "details": "Industry leaders forecast accelerating 2026 M&A driven by patent-cliff urgency, but with more selective capital favoring proven assets and novel biology.",
       "drugs": "Sector-wide; large-cap acquirers and late-stage biotech targets across oncology and immunology.",
       "impact": "Patent-cliff pressure plus large-cap cash supports a strong deal environment into 2026. Selectivity concentrates premiums on de-risked, revenue-generating assets. Smaller platform and clinical-stage firms become prime targets.",
-      "date": "2026-01-06"
+      "date": "2026-01-06",
+      "id": 178
     },
     {
-      "id": 177,
       "category": "Phase III Clinical Trial",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1949,10 +1970,10 @@
       "details": "Alkermes' oral orexin-2 agonist alixorexton hit its endpoints in narcolepsy type 2, adding to earlier NT1 success; the drug also won FDA Breakthrough Therapy designation and entered Phase III in early 2026.",
       "drugs": "Alixorexton (Alkermes), oral orexin-2 receptor agonist for narcolepsy types 1 and 2 and idiopathic hypersomnia; competing with Takeda's orexin agonists and Jazz's Xywav/Wakix.",
       "impact": "Back-to-back positive narcolepsy data position alixorexton as a potential best-in-class oral orexin agonist in a fast-emerging category. Breakthrough designation and Phase III entry accelerate its path. It intensifies competition with Takeda's orexin programs and incumbent wake-promoting agents.",
-      "date": "2026-01-06"
+      "date": "2026-01-06",
+      "id": 179
     },
     {
-      "id": 178,
       "category": "Industry Outlook",
       "catClass": "cat-outlook",
       "borderClass": "border-outlook",
@@ -1960,10 +1981,10 @@
       "details": "A wave of biotech acquisitions was driving sector momentum and investor sentiment heading into 2026.",
       "drugs": "Public biotech sector; M&A-sensitive small- and mid-cap names.",
       "impact": "Acquisition momentum lifts the broader biotech tape and re-rates potential targets. It signals renewed large-cap appetite for external innovation amid thin internal pipelines. Sentiment gains can reopen capital markets for earlier-stage developers.",
-      "date": "2026-01-05"
+      "date": "2026-01-05",
+      "id": 180
     },
     {
-      "id": 179,
       "category": "Phase III / Approvals",
       "catClass": "cat-phase3",
       "borderClass": "border-phase3",
@@ -1971,7 +1992,8 @@
       "details": "The first Pipeline Watch of 2026 (week ending Jan 5) logged four approvals and six Phase III readouts across multiple therapy areas.",
       "drugs": "Late-stage assets across oncology, immunology and metabolic disease; large-cap and biotech sponsors.",
       "impact": "An active opening week sets a productive tone for 2026 launches and data flow. Six readouts seed early-year catalyst risk and pipeline re-rating. Investors track which approvals open new categories versus add competition.",
-      "date": "2026-01-05"
+      "date": "2026-01-05",
+      "id": 181
     }
   ]
 }
